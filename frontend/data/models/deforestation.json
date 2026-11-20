@@ -1,0 +1,662 @@
+{
+  "West Bengal": {
+    "state": "West Bengal",
+    "code": "WB",
+    "model_type": "Linear Regression",
+    "slope": 38.734,
+    "intercept": -75607.939,
+    "mae_held_out": 73.5,
+    "std_err": 115.9,
+    "history": [
+      {
+        "year": 2001,
+        "tree_cover_loss_ha": 1938.1
+      },
+      {
+        "year": 2002,
+        "tree_cover_loss_ha": 1872.8
+      },
+      {
+        "year": 2003,
+        "tree_cover_loss_ha": 1943.3
+      },
+      {
+        "year": 2004,
+        "tree_cover_loss_ha": 1931.7
+      },
+      {
+        "year": 2005,
+        "tree_cover_loss_ha": 1930.8
+      },
+      {
+        "year": 2006,
+        "tree_cover_loss_ha": 2073.8
+      },
+      {
+        "year": 2007,
+        "tree_cover_loss_ha": 2019.1
+      },
+      {
+        "year": 2008,
+        "tree_cover_loss_ha": 2219.1
+      },
+      {
+        "year": 2009,
+        "tree_cover_loss_ha": 2333.7
+      },
+      {
+        "year": 2010,
+        "tree_cover_loss_ha": 2489.6
+      },
+      {
+        "year": 2011,
+        "tree_cover_loss_ha": 2358.7
+      },
+      {
+        "year": 2012,
+        "tree_cover_loss_ha": 2316.6
+      },
+      {
+        "year": 2013,
+        "tree_cover_loss_ha": 2318.7
+      },
+      {
+        "year": 2014,
+        "tree_cover_loss_ha": 2352.1
+      },
+      {
+        "year": 2015,
+        "tree_cover_loss_ha": 2560.4
+      },
+      {
+        "year": 2016,
+        "tree_cover_loss_ha": 2651.0
+      },
+      {
+        "year": 2017,
+        "tree_cover_loss_ha": 2546.7
+      },
+      {
+        "year": 2018,
+        "tree_cover_loss_ha": 2548.0
+      },
+      {
+        "year": 2019,
+        "tree_cover_loss_ha": 2678.6
+      },
+      {
+        "year": 2020,
+        "tree_cover_loss_ha": 2317.7
+      },
+      {
+        "year": 2021,
+        "tree_cover_loss_ha": 2514.8
+      },
+      {
+        "year": 2022,
+        "tree_cover_loss_ha": 2765.0
+      },
+      {
+        "year": 2023,
+        "tree_cover_loss_ha": 2777.6
+      }
+    ],
+    "forecast": [
+      {
+        "year": 2024,
+        "predicted_loss_ha": 2789.1,
+        "lower_ha": 2562.0,
+        "upper_ha": 3016.2
+      },
+      {
+        "year": 2025,
+        "predicted_loss_ha": 2827.8,
+        "lower_ha": 2600.7,
+        "upper_ha": 3054.9
+      },
+      {
+        "year": 2026,
+        "predicted_loss_ha": 2866.5,
+        "lower_ha": 2639.4,
+        "upper_ha": 3093.6
+      },
+      {
+        "year": 2027,
+        "predicted_loss_ha": 2905.3,
+        "lower_ha": 2678.2,
+        "upper_ha": 3132.4
+      },
+      {
+        "year": 2028,
+        "predicted_loss_ha": 2944.0,
+        "lower_ha": 2716.9,
+        "upper_ha": 3171.1
+      },
+      {
+        "year": 2029,
+        "predicted_loss_ha": 2982.7,
+        "lower_ha": 2755.6,
+        "upper_ha": 3209.8
+      },
+      {
+        "year": 2030,
+        "predicted_loss_ha": 3021.5,
+        "lower_ha": 2794.4,
+        "upper_ha": 3248.6
+      },
+      {
+        "year": 2031,
+        "predicted_loss_ha": 3060.2,
+        "lower_ha": 2833.1,
+        "upper_ha": 3287.3
+      },
+      {
+        "year": 2032,
+        "predicted_loss_ha": 3098.9,
+        "lower_ha": 2871.8,
+        "upper_ha": 3326.0
+      },
+      {
+        "year": 2033,
+        "predicted_loss_ha": 3137.7,
+        "lower_ha": 2910.6,
+        "upper_ha": 3364.8
+      }
+    ]
+  },
+  "Assam": {
+    "state": "Assam",
+    "code": "AS",
+    "model_type": "Linear Regression",
+    "slope": 158.425,
+    "intercept": -309320.938,
+    "mae_held_out": 248.3,
+    "std_err": 498.2,
+    "history": [
+      {
+        "year": 2001,
+        "tree_cover_loss_ha": 7318.7
+      },
+      {
+        "year": 2002,
+        "tree_cover_loss_ha": 8338.0
+      },
+      {
+        "year": 2003,
+        "tree_cover_loss_ha": 7982.0
+      },
+      {
+        "year": 2004,
+        "tree_cover_loss_ha": 8011.2
+      },
+      {
+        "year": 2005,
+        "tree_cover_loss_ha": 8166.0
+      },
+      {
+        "year": 2006,
+        "tree_cover_loss_ha": 9251.1
+      },
+      {
+        "year": 2007,
+        "tree_cover_loss_ha": 8169.5
+      },
+      {
+        "year": 2008,
+        "tree_cover_loss_ha": 8719.4
+      },
+      {
+        "year": 2009,
+        "tree_cover_loss_ha": 9146.9
+      },
+      {
+        "year": 2010,
+        "tree_cover_loss_ha": 9170.2
+      },
+      {
+        "year": 2011,
+        "tree_cover_loss_ha": 9339.3
+      },
+      {
+        "year": 2012,
+        "tree_cover_loss_ha": 9330.2
+      },
+      {
+        "year": 2013,
+        "tree_cover_loss_ha": 8250.5
+      },
+      {
+        "year": 2014,
+        "tree_cover_loss_ha": 9791.9
+      },
+      {
+        "year": 2015,
+        "tree_cover_loss_ha": 9793.8
+      },
+      {
+        "year": 2016,
+        "tree_cover_loss_ha": 10699.5
+      },
+      {
+        "year": 2017,
+        "tree_cover_loss_ha": 10938.1
+      },
+      {
+        "year": 2018,
+        "tree_cover_loss_ha": 11184.9
+      },
+      {
+        "year": 2019,
+        "tree_cover_loss_ha": 10793.2
+      },
+      {
+        "year": 2020,
+        "tree_cover_loss_ha": 9827.2
+      },
+      {
+        "year": 2021,
+        "tree_cover_loss_ha": 10423.7
+      },
+      {
+        "year": 2022,
+        "tree_cover_loss_ha": 10926.3
+      },
+      {
+        "year": 2023,
+        "tree_cover_loss_ha": 11326.7
+      }
+    ],
+    "forecast": [
+      {
+        "year": 2024,
+        "predicted_loss_ha": 11331.5,
+        "lower_ha": 10354.9,
+        "upper_ha": 12308.0
+      },
+      {
+        "year": 2025,
+        "predicted_loss_ha": 11489.9,
+        "lower_ha": 10513.3,
+        "upper_ha": 12466.4
+      },
+      {
+        "year": 2026,
+        "predicted_loss_ha": 11648.3,
+        "lower_ha": 10671.8,
+        "upper_ha": 12624.9
+      },
+      {
+        "year": 2027,
+        "predicted_loss_ha": 11806.7,
+        "lower_ha": 10830.2,
+        "upper_ha": 12783.3
+      },
+      {
+        "year": 2028,
+        "predicted_loss_ha": 11965.2,
+        "lower_ha": 10988.6,
+        "upper_ha": 12941.7
+      },
+      {
+        "year": 2029,
+        "predicted_loss_ha": 12123.6,
+        "lower_ha": 11147.0,
+        "upper_ha": 13100.1
+      },
+      {
+        "year": 2030,
+        "predicted_loss_ha": 12282.0,
+        "lower_ha": 11305.5,
+        "upper_ha": 13258.6
+      },
+      {
+        "year": 2031,
+        "predicted_loss_ha": 12440.4,
+        "lower_ha": 11463.9,
+        "upper_ha": 13417.0
+      },
+      {
+        "year": 2032,
+        "predicted_loss_ha": 12598.9,
+        "lower_ha": 11622.3,
+        "upper_ha": 13575.4
+      },
+      {
+        "year": 2033,
+        "predicted_loss_ha": 12757.3,
+        "lower_ha": 11780.7,
+        "upper_ha": 13733.8
+      }
+    ]
+  },
+  "Odisha": {
+    "state": "Odisha",
+    "code": "OD",
+    "model_type": "Linear Regression",
+    "slope": 116.077,
+    "intercept": -227005.57,
+    "mae_held_out": 469.7,
+    "std_err": 413.4,
+    "history": [
+      {
+        "year": 2001,
+        "tree_cover_loss_ha": 5134.5
+      },
+      {
+        "year": 2002,
+        "tree_cover_loss_ha": 5468.0
+      },
+      {
+        "year": 2003,
+        "tree_cover_loss_ha": 5643.7
+      },
+      {
+        "year": 2004,
+        "tree_cover_loss_ha": 5817.7
+      },
+      {
+        "year": 2005,
+        "tree_cover_loss_ha": 5376.5
+      },
+      {
+        "year": 2006,
+        "tree_cover_loss_ha": 5320.6
+      },
+      {
+        "year": 2007,
+        "tree_cover_loss_ha": 5694.5
+      },
+      {
+        "year": 2008,
+        "tree_cover_loss_ha": 6399.7
+      },
+      {
+        "year": 2009,
+        "tree_cover_loss_ha": 6252.0
+      },
+      {
+        "year": 2010,
+        "tree_cover_loss_ha": 6968.2
+      },
+      {
+        "year": 2011,
+        "tree_cover_loss_ha": 6665.1
+      },
+      {
+        "year": 2012,
+        "tree_cover_loss_ha": 6146.0
+      },
+      {
+        "year": 2013,
+        "tree_cover_loss_ha": 6303.8
+      },
+      {
+        "year": 2014,
+        "tree_cover_loss_ha": 7327.5
+      },
+      {
+        "year": 2015,
+        "tree_cover_loss_ha": 7124.6
+      },
+      {
+        "year": 2016,
+        "tree_cover_loss_ha": 7370.5
+      },
+      {
+        "year": 2017,
+        "tree_cover_loss_ha": 7128.6
+      },
+      {
+        "year": 2018,
+        "tree_cover_loss_ha": 6735.2
+      },
+      {
+        "year": 2019,
+        "tree_cover_loss_ha": 7653.0
+      },
+      {
+        "year": 2020,
+        "tree_cover_loss_ha": 6417.5
+      },
+      {
+        "year": 2021,
+        "tree_cover_loss_ha": 7149.8
+      },
+      {
+        "year": 2022,
+        "tree_cover_loss_ha": 8159.8
+      },
+      {
+        "year": 2023,
+        "tree_cover_loss_ha": 8202.4
+      }
+    ],
+    "forecast": [
+      {
+        "year": 2024,
+        "predicted_loss_ha": 7934.6,
+        "lower_ha": 7124.3,
+        "upper_ha": 8745.0
+      },
+      {
+        "year": 2025,
+        "predicted_loss_ha": 8050.7,
+        "lower_ha": 7240.4,
+        "upper_ha": 8861.0
+      },
+      {
+        "year": 2026,
+        "predicted_loss_ha": 8166.8,
+        "lower_ha": 7356.5,
+        "upper_ha": 8977.1
+      },
+      {
+        "year": 2027,
+        "predicted_loss_ha": 8282.9,
+        "lower_ha": 7472.5,
+        "upper_ha": 9093.2
+      },
+      {
+        "year": 2028,
+        "predicted_loss_ha": 8398.9,
+        "lower_ha": 7588.6,
+        "upper_ha": 9209.3
+      },
+      {
+        "year": 2029,
+        "predicted_loss_ha": 8515.0,
+        "lower_ha": 7704.7,
+        "upper_ha": 9325.4
+      },
+      {
+        "year": 2030,
+        "predicted_loss_ha": 8631.1,
+        "lower_ha": 7820.8,
+        "upper_ha": 9441.4
+      },
+      {
+        "year": 2031,
+        "predicted_loss_ha": 8747.2,
+        "lower_ha": 7936.8,
+        "upper_ha": 9557.5
+      },
+      {
+        "year": 2032,
+        "predicted_loss_ha": 8863.2,
+        "lower_ha": 8052.9,
+        "upper_ha": 9673.6
+      },
+      {
+        "year": 2033,
+        "predicted_loss_ha": 8979.3,
+        "lower_ha": 8169.0,
+        "upper_ha": 9789.7
+      }
+    ]
+  },
+  "Kerala": {
+    "state": "Kerala",
+    "code": "KL",
+    "model_type": "Linear Regression",
+    "slope": 24.932,
+    "intercept": -48454.133,
+    "mae_held_out": 112.8,
+    "std_err": 97.9,
+    "history": [
+      {
+        "year": 2001,
+        "tree_cover_loss_ha": 1546.3
+      },
+      {
+        "year": 2002,
+        "tree_cover_loss_ha": 1432.2
+      },
+      {
+        "year": 2003,
+        "tree_cover_loss_ha": 1389.6
+      },
+      {
+        "year": 2004,
+        "tree_cover_loss_ha": 1524.4
+      },
+      {
+        "year": 2005,
+        "tree_cover_loss_ha": 1523.1
+      },
+      {
+        "year": 2006,
+        "tree_cover_loss_ha": 1472.6
+      },
+      {
+        "year": 2007,
+        "tree_cover_loss_ha": 1430.4
+      },
+      {
+        "year": 2008,
+        "tree_cover_loss_ha": 1583.6
+      },
+      {
+        "year": 2009,
+        "tree_cover_loss_ha": 1743.5
+      },
+      {
+        "year": 2010,
+        "tree_cover_loss_ha": 1794.6
+      },
+      {
+        "year": 2011,
+        "tree_cover_loss_ha": 1769.6
+      },
+      {
+        "year": 2012,
+        "tree_cover_loss_ha": 1687.4
+      },
+      {
+        "year": 2013,
+        "tree_cover_loss_ha": 1724.7
+      },
+      {
+        "year": 2014,
+        "tree_cover_loss_ha": 1691.1
+      },
+      {
+        "year": 2015,
+        "tree_cover_loss_ha": 1686.0
+      },
+      {
+        "year": 2016,
+        "tree_cover_loss_ha": 1887.4
+      },
+      {
+        "year": 2017,
+        "tree_cover_loss_ha": 2011.9
+      },
+      {
+        "year": 2018,
+        "tree_cover_loss_ha": 2050.9
+      },
+      {
+        "year": 2019,
+        "tree_cover_loss_ha": 1822.8
+      },
+      {
+        "year": 2020,
+        "tree_cover_loss_ha": 1875.6
+      },
+      {
+        "year": 2021,
+        "tree_cover_loss_ha": 1835.1
+      },
+      {
+        "year": 2022,
+        "tree_cover_loss_ha": 1810.6
+      },
+      {
+        "year": 2023,
+        "tree_cover_loss_ha": 2033.8
+      }
+    ],
+    "forecast": [
+      {
+        "year": 2024,
+        "predicted_loss_ha": 2009.1,
+        "lower_ha": 1817.2,
+        "upper_ha": 2201.0
+      },
+      {
+        "year": 2025,
+        "predicted_loss_ha": 2034.0,
+        "lower_ha": 1842.1,
+        "upper_ha": 2225.9
+      },
+      {
+        "year": 2026,
+        "predicted_loss_ha": 2058.9,
+        "lower_ha": 1867.0,
+        "upper_ha": 2250.8
+      },
+      {
+        "year": 2027,
+        "predicted_loss_ha": 2083.9,
+        "lower_ha": 1891.9,
+        "upper_ha": 2275.8
+      },
+      {
+        "year": 2028,
+        "predicted_loss_ha": 2108.8,
+        "lower_ha": 1916.9,
+        "upper_ha": 2300.7
+      },
+      {
+        "year": 2029,
+        "predicted_loss_ha": 2133.7,
+        "lower_ha": 1941.8,
+        "upper_ha": 2325.6
+      },
+      {
+        "year": 2030,
+        "predicted_loss_ha": 2158.7,
+        "lower_ha": 1966.7,
+        "upper_ha": 2350.6
+      },
+      {
+        "year": 2031,
+        "predicted_loss_ha": 2183.6,
+        "lower_ha": 1991.7,
+        "upper_ha": 2375.5
+      },
+      {
+        "year": 2032,
+        "predicted_loss_ha": 2208.5,
+        "lower_ha": 2016.6,
+        "upper_ha": 2400.4
+      },
+      {
+        "year": 2033,
+        "predicted_loss_ha": 2233.5,
+        "lower_ha": 2041.5,
+        "upper_ha": 2425.4
+      }
+    ]
+  }
+}

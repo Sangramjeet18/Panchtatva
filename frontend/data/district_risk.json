@@ -1,0 +1,254 @@
+[
+  {
+    "state": "West Bengal",
+    "district": "Alipurduar",
+    "district_code": "WB_ALI",
+    "risk_score": 0.711,
+    "risk_level": "high",
+    "avg_recent_loss_ha": 527.7,
+    "avg_annual_fires": 135
+  },
+  {
+    "state": "West Bengal",
+    "district": "Bankura",
+    "district_code": "WB_BAN",
+    "risk_score": 0.245,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 180.5,
+    "avg_annual_fires": 47
+  },
+  {
+    "state": "West Bengal",
+    "district": "Darjeeling",
+    "district_code": "WB_DAR",
+    "risk_score": 1.0,
+    "risk_level": "high",
+    "avg_recent_loss_ha": 718.3,
+    "avg_annual_fires": 202
+  },
+  {
+    "state": "West Bengal",
+    "district": "Jalpaiguri",
+    "district_code": "WB_JAL",
+    "risk_score": 0.835,
+    "risk_level": "high",
+    "avg_recent_loss_ha": 633.8,
+    "avg_annual_fires": 151
+  },
+  {
+    "state": "West Bengal",
+    "district": "Paschim Medinipur",
+    "district_code": "WB_PWM",
+    "risk_score": 0.431,
+    "risk_level": "medium",
+    "avg_recent_loss_ha": 280.8,
+    "avg_annual_fires": 102
+  },
+  {
+    "state": "West Bengal",
+    "district": "Purulia",
+    "district_code": "WB_PUR",
+    "risk_score": 0.252,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 164.1,
+    "avg_annual_fires": 60
+  },
+  {
+    "state": "West Bengal",
+    "district": "South 24 Parganas",
+    "district_code": "WB_S24",
+    "risk_score": 0.165,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 105.5,
+    "avg_annual_fires": 40
+  },
+  {
+    "state": "Assam",
+    "district": "Cachar",
+    "district_code": "AS_CAC",
+    "risk_score": 0.184,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 630.5,
+    "avg_annual_fires": 94
+  },
+  {
+    "state": "Assam",
+    "district": "Dibrugarh",
+    "district_code": "AS_DIB",
+    "risk_score": 0.123,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 425.0,
+    "avg_annual_fires": 62
+  },
+  {
+    "state": "Assam",
+    "district": "Dima Hasao",
+    "district_code": "AS_DIM",
+    "risk_score": 0.789,
+    "risk_level": "high",
+    "avg_recent_loss_ha": 2684.2,
+    "avg_annual_fires": 407
+  },
+  {
+    "state": "Assam",
+    "district": "Karbi Anglong",
+    "district_code": "AS_KAR",
+    "risk_score": 1.0,
+    "risk_level": "high",
+    "avg_recent_loss_ha": 3325.3,
+    "avg_annual_fires": 538
+  },
+  {
+    "state": "Assam",
+    "district": "Kokrajhar",
+    "district_code": "AS_KOK",
+    "risk_score": 0.348,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 1208.9,
+    "avg_annual_fires": 172
+  },
+  {
+    "state": "Assam",
+    "district": "Sonitpur",
+    "district_code": "AS_SON",
+    "risk_score": 0.442,
+    "risk_level": "medium",
+    "avg_recent_loss_ha": 1505.2,
+    "avg_annual_fires": 227
+  },
+  {
+    "state": "Assam",
+    "district": "Tinsukia",
+    "district_code": "AS_TIN",
+    "risk_score": 0.256,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 880.3,
+    "avg_annual_fires": 129
+  },
+  {
+    "state": "Odisha",
+    "district": "Kandhamal",
+    "district_code": "OD_KAN",
+    "risk_score": 0.862,
+    "risk_level": "high",
+    "avg_recent_loss_ha": 1665.7,
+    "avg_annual_fires": 492
+  },
+  {
+    "state": "Odisha",
+    "district": "Keonjhar",
+    "district_code": "OD_KEO",
+    "risk_score": 0.245,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 440.9,
+    "avg_annual_fires": 158
+  },
+  {
+    "state": "Odisha",
+    "district": "Koraput",
+    "district_code": "OD_KOR",
+    "risk_score": 0.55,
+    "risk_level": "medium",
+    "avg_recent_loss_ha": 1078.7,
+    "avg_annual_fires": 305
+  },
+  {
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "district_code": "OD_MAY",
+    "risk_score": 1.0,
+    "risk_level": "high",
+    "avg_recent_loss_ha": 1913.3,
+    "avg_annual_fires": 582
+  },
+  {
+    "state": "Odisha",
+    "district": "Rayagada",
+    "district_code": "OD_RAY",
+    "risk_score": 0.353,
+    "risk_level": "medium",
+    "avg_recent_loss_ha": 666.6,
+    "avg_annual_fires": 210
+  },
+  {
+    "state": "Odisha",
+    "district": "Sambalpur",
+    "district_code": "OD_SAM",
+    "risk_score": 0.196,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 366.8,
+    "avg_annual_fires": 119
+  },
+  {
+    "state": "Odisha",
+    "district": "Sundargarh",
+    "district_code": "OD_SUN",
+    "risk_score": 0.709,
+    "risk_level": "high",
+    "avg_recent_loss_ha": 1384.6,
+    "avg_annual_fires": 397
+  },
+  {
+    "state": "Kerala",
+    "district": "Ernakulam",
+    "district_code": "KL_ERN",
+    "risk_score": 0.151,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 97.8,
+    "avg_annual_fires": 23
+  },
+  {
+    "state": "Kerala",
+    "district": "Idukki",
+    "district_code": "KL_IDU",
+    "risk_score": 1.0,
+    "risk_level": "high",
+    "avg_recent_loss_ha": 650.2,
+    "avg_annual_fires": 151
+  },
+  {
+    "state": "Kerala",
+    "district": "Kasaragod",
+    "district_code": "KL_KAS",
+    "risk_score": 0.112,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 55.6,
+    "avg_annual_fires": 24
+  },
+  {
+    "state": "Kerala",
+    "district": "Malappuram",
+    "district_code": "KL_MAL",
+    "risk_score": 0.16,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 92.3,
+    "avg_annual_fires": 29
+  },
+  {
+    "state": "Kerala",
+    "district": "Palakkad",
+    "district_code": "KL_PAL",
+    "risk_score": 0.455,
+    "risk_level": "medium",
+    "avg_recent_loss_ha": 271.0,
+    "avg_annual_fires": 80
+  },
+  {
+    "state": "Kerala",
+    "district": "Pathanamthitta",
+    "district_code": "KL_PAT",
+    "risk_score": 0.285,
+    "risk_level": "low",
+    "avg_recent_loss_ha": 190.3,
+    "avg_annual_fires": 41
+  },
+  {
+    "state": "Kerala",
+    "district": "Wayanad",
+    "district_code": "KL_WAY",
+    "risk_score": 0.804,
+    "risk_level": "high",
+    "avg_recent_loss_ha": 518.3,
+    "avg_annual_fires": 123
+  }
+]

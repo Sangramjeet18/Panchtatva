@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "West Bengal",
+    "code": "WB",
+    "level": "state",
+    "districts": [
+      { "id": 101, "name": "Darjeeling", "code": "WB_DAR" },
+      { "id": 102, "name": "Jalpaiguri", "code": "WB_JAL" },
+      { "id": 103, "name": "Alipurduar", "code": "WB_ALI" },
+      { "id": 104, "name": "Bankura", "code": "WB_BAN" },
+      { "id": 105, "name": "Purulia", "code": "WB_PUR" },
+      { "id": 106, "name": "South 24 Parganas", "code": "WB_S24" },
+      { "id": 107, "name": "Paschim Medinipur", "code": "WB_PWM" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Assam",
+    "code": "AS",
+    "level": "state",
+    "districts": [
+      { "id": 201, "name": "Karbi Anglong", "code": "AS_KAR" },
+      { "id": 202, "name": "Dima Hasao", "code": "AS_DIM" },
+      { "id": 203, "name": "Sonitpur", "code": "AS_SON" },
+      { "id": 204, "name": "Tinsukia", "code": "AS_TIN" },
+      { "id": 205, "name": "Dibrugarh", "code": "AS_DIB" },
+      { "id": 206, "name": "Cachar", "code": "AS_CAC" },
+      { "id": 207, "name": "Kokrajhar", "code": "AS_KOK" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Odisha",
+    "code": "OD",
+    "level": "state",
+    "districts": [
+      { "id": 301, "name": "Mayurbhanj", "code": "OD_MAY" },
+      { "id": 302, "name": "Kandhamal", "code": "OD_KAN" },
+      { "id": 303, "name": "Sundargarh", "code": "OD_SUN" },
+      { "id": 304, "name": "Koraput", "code": "OD_KOR" },
+      { "id": 305, "name": "Rayagada", "code": "OD_RAY" },
+      { "id": 306, "name": "Sambalpur", "code": "OD_SAM" },
+      { "id": 307, "name": "Keonjhar", "code": "OD_KEO" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Kerala",
+    "code": "KL",
+    "level": "state",
+    "districts": [
+      { "id": 401, "name": "Idukki", "code": "KL_IDU" },
+      { "id": 402, "name": "Wayanad", "code": "KL_WAY" },
+      { "id": 403, "name": "Palakkad", "code": "KL_PAL" },
+      { "id": 404, "name": "Pathanamthitta", "code": "KL_PAT" },
+      { "id": 405, "name": "Ernakulam", "code": "KL_ERN" },
+      { "id": 406, "name": "Malappuram", "code": "KL_MAL" },
+      { "id": 407, "name": "Kasaragod", "code": "KL_KAS" }
+    ]
+  }
+]

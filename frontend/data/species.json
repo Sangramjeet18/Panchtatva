@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "common_name": "Sal",
+    "scientific_name": "Shorea robusta",
+    "region": "West Bengal, Odisha, Assam",
+    "rainfall_band": "Medium (1000-2000 mm)",
+    "co2_kg_per_year": 24,
+    "notes": "Dominant deciduous tree with deep root systems and high carbon sequestration."
+  },
+  {
+    "id": 2,
+    "common_name": "Teak",
+    "scientific_name": "Tectona grandis",
+    "region": "Kerala, Odisha",
+    "rainfall_band": "Medium (1000-2000 mm)",
+    "co2_kg_per_year": 22,
+    "notes": "Valuable timber species suited to tropical moist deciduous forests."
+  },
+  {
+    "id": 3,
+    "common_name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "region": "West Bengal, Odisha",
+    "rainfall_band": "Low (<1000 mm)",
+    "co2_kg_per_year": 20,
+    "notes": "Hardy drought-tolerant species that improves soil structure."
+  },
+  {
+    "id": 4,
+    "common_name": "Banyan",
+    "scientific_name": "Ficus benghalensis",
+    "region": "All Regions",
+    "rainfall_band": "Medium (1000-2000 mm)",
+    "co2_kg_per_year": 30,
+    "notes": "Large canopy keystone species supporting biodiversity and soil moisture retention."
+  },
+  {
+    "id": 5,
+    "common_name": "Peepal",
+    "scientific_name": "Ficus religiosa",
+    "region": "All Regions",
+    "rainfall_band": "Medium (1000-2000 mm)",
+    "co2_kg_per_year": 28,
+    "notes": "Fast-growing sacred fig with continuous oxygen release and broad foliage."
+  },
+  {
+    "id": 6,
+    "common_name": "Arjun",
+    "scientific_name": "Terminalia arjuna",
+    "region": "West Bengal, Odisha",
+    "rainfall_band": "Medium (1000-2000 mm)",
+    "co2_kg_per_year": 23,
+    "notes": "Riverbank riparian tree that prevents riverbed soil erosion."
+  },
+  {
+    "id": 7,
+    "common_name": "Mahua",
+    "scientific_name": "Madhuca longifolia",
+    "region": "Odisha, West Bengal",
+    "rainfall_band": "Low (<1000 mm)",
+    "co2_kg_per_year": 21,
+    "notes": "Culturally central indigenous tree supporting non-timber forest produce."
+  },
+  {
+    "id": 8,
+    "common_name": "Assam Bamboo",
+    "scientific_name": "Bambusa tulda",
+    "region": "Assam",
+    "rainfall_band": "High (>2000 mm)",
+    "co2_kg_per_year": 19,
+    "notes": "Extremely fast-growing woody grass for slope stabilization and carbon accumulation."
+  },
+  {
+    "id": 9,
+    "common_name": "Indian Rosewood",
+    "scientific_name": "Dalbergia latifolia",
+    "region": "Kerala, Odisha",
+    "rainfall_band": "High (>2000 mm)",
+    "co2_kg_per_year": 25,
+    "notes": "Native legume tree that enriches soil nitrogen in moist evergreen tracts."
+  },
+  {
+    "id": 10,
+    "common_name": "Jamun",
+    "scientific_name": "Syzygium cumini",
+    "region": "All Regions",
+    "rainfall_band": "Medium (1000-2000 mm)",
+    "co2_kg_per_year": 22,
+    "notes": "Water-tolerant fruit-bearing tree suited for wetland perimeters."
+  },
+  {
+    "id": 11,
+    "common_name": "Amla",
+    "scientific_name": "Phyllanthus emblica",
+    "region": "West Bengal, Odisha",
+    "rainfall_band": "Low (<1000 mm)",
+    "co2_kg_per_year": 18,
+    "notes": "Deciduous fruit tree well adapted to degraded soils and hillsides."
+  },
+  {
+    "id": 12,
+    "common_name": "Sundari",
+    "scientific_name": "Heritiera fomes",
+    "region": "West Bengal",
+    "rainfall_band": "High (>2000 mm)",
+    "co2_kg_per_year": 26,
+    "notes": "Coastal mangrove tree essential for tidal surge protection in the Sundarbans."
+  },
+  {
+    "id": 13,
+    "common_name": "Jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "region": "Kerala, Assam",
+    "rainfall_band": "High (>2000 mm)",
+    "co2_kg_per_year": 24,
+    "notes": "State fruit tree of Kerala suited to high-rainfall tropical agroforestry."
+  },
+  {
+    "id": 14,
+    "common_name": "Karanj",
+    "scientific_name": "Millettia pinnata",
+    "region": "All Regions",
+    "rainfall_band": "Low (<1000 mm)",
+    "co2_kg_per_year": 20,
+    "notes": "Nitrogen-fixing tree highly tolerant of salinity and moisture stress."
+  }
+]

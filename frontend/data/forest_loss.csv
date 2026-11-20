@@ -1,0 +1,645 @@
+state,district,district_code,year,tree_cover_loss_ha,forest_cover_ha,fire_alerts,is_simulated,source
+West Bengal,Darjeeling,WB_DAR,2001,531.0,471181.3,149,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2001,493.2,403869.7,106,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2001,377.5,336558.1,118,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2001,218.1,185106.9,57,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2001,137.3,117795.3,33,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2001,111.9,100967.4,38,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2001,69.1,67311.6,0,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2002,506.2,470648.1,147,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2002,436.3,403412.7,91,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2002,408.8,336177.2,93,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2002,210.2,184897.5,44,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2002,129.7,117662.0,42,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2002,107.7,100853.2,41,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2002,73.9,67235.4,16,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2003,600.0,470099.0,145,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2003,445.8,402942.0,126,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2003,368.3,335785.0,101,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2003,194.6,184681.7,47,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2003,138.6,117524.7,52,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2003,118.7,100735.5,34,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2003,77.3,67157.0,0,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2004,529.0,469557.5,164,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2004,472.1,402477.8,90,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2004,393.0,335398.2,94,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2004,205.5,184469.0,78,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2004,142.3,117389.4,56,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2004,111.2,100619.5,32,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2004,78.6,67079.6,35,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2005,531.6,469020.9,134,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2005,432.4,402017.9,130,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2005,409.2,335015.0,101,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2005,221.4,184258.2,75,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2005,129.8,117255.2,48,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2005,123.8,100504.5,37,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2005,82.6,67003.0,0,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2006,579.1,468444.4,149,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2006,496.5,401523.7,91,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2006,407.3,334603.1,109,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2006,243.2,184031.7,63,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2006,138.3,117111.1,36,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2006,129.2,100380.9,43,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2006,80.2,66920.6,29,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2007,597.1,467874.9,146,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2007,480.1,401035.6,117,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2007,377.0,334196.3,110,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2007,226.6,183808.0,72,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2007,140.7,116968.7,23,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2007,119.5,100258.9,34,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2007,78.1,66839.3,19,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2008,671.8,467261.0,162,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2008,533.0,400509.4,124,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2008,396.4,333757.8,107,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2008,241.9,183566.8,111,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2008,152.0,116815.2,50,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2008,131.3,100127.4,22,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2008,92.7,66751.6,34,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2009,630.9,466600.0,183,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2009,526.8,399942.8,136,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2009,523.8,333285.7,95,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2009,252.3,183307.1,76,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2009,161.1,116650.0,23,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2009,142.1,99985.7,24,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2009,96.7,66657.1,9,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2010,676.2,465896.2,160,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2010,627.8,399339.6,111,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2010,508.4,332783.0,131,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2010,254.3,183030.7,79,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2010,178.2,116474.1,58,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2010,141.5,99834.9,21,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2010,103.2,66556.6,28,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2011,667.8,465239.8,157,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2011,569.2,398777.0,136,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2011,452.1,332314.2,141,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2011,264.0,182772.8,60,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2011,169.5,116310.0,33,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2011,146.2,99694.2,59,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2011,89.9,66462.8,38,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2012,675.5,464591.0,199,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2012,549.3,398220.8,122,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2012,442.8,331850.7,103,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2012,253.9,182517.9,84,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2012,164.5,116147.7,61,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2012,139.1,99555.2,64,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2012,91.5,66370.1,65,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2013,624.3,463938.7,157,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2013,572.6,397661.7,133,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2013,482.6,331384.8,124,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2013,255.3,182261.6,67,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2013,150.7,115984.7,42,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2013,145.8,99415.4,46,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2013,87.4,66277.0,27,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2014,632.3,463277.2,178,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2014,568.6,397094.7,121,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2014,481.0,330912.3,128,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2014,273.9,182001.8,97,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2014,154.0,115819.3,36,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2014,145.4,99273.7,51,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2014,96.9,66182.5,82,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2015,741.7,462575.4,193,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2015,621.2,396493.2,136,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2015,520.3,330411.0,110,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2015,272.5,181726.0,75,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2015,176.2,115643.8,85,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2015,136.3,99123.3,55,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2015,92.2,66082.2,18,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2016,755.7,461822.0,165,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2016,622.6,395847.5,153,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2016,518.4,329872.9,126,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2016,296.6,181430.1,74,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2016,208.5,115455.5,61,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2016,145.1,98961.9,48,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2016,104.1,65974.6,38,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2017,703.3,461114.7,192,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2017,632.6,395241.1,127,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2017,496.8,329367.6,118,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2017,268.8,181152.2,112,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2017,180.4,115278.7,33,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2017,158.5,98810.3,78,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2017,106.3,65873.5,3,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2018,759.3,460400.6,176,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2018,625.6,394629.1,159,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2018,486.4,328857.6,126,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2018,235.1,180871.7,71,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2018,176.3,115100.2,34,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2018,165.5,98657.3,25,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2018,99.8,65771.5,28,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2019,710.7,459634.9,207,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2019,656.7,393972.8,134,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2019,559.6,328310.7,132,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2019,291.8,180570.9,89,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2019,187.7,114908.7,56,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2019,169.5,98493.2,71,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2019,102.6,65662.1,59,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2020,643.1,458986.9,202,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2020,563.2,393417.3,142,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2020,458.0,327847.8,123,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2020,247.1,180316.3,102,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2020,164.9,114746.7,44,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2020,145.1,98354.3,52,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2020,96.3,65569.6,37,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2021,683.3,458283.9,207,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2021,621.0,392814.8,153,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2021,505.1,327345.6,152,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2021,268.0,180040.1,99,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2021,174.0,114571.0,52,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2021,158.9,98203.7,61,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2021,104.5,65469.1,47,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2022,791.8,457518.2,194,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2022,666.9,392158.5,154,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2022,549.6,326798.7,143,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2022,288.5,179739.3,123,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2022,181.8,114379.6,38,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2022,173.6,98039.6,61,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2022,112.8,65359.7,37,True,Global Forest Watch sample data
+West Bengal,Darjeeling,WB_DAR,2023,762.8,456719.6,202,True,Global Forest Watch sample data
+West Bengal,Jalpaiguri,WB_JAL,2023,661.4,391473.9,173,True,Global Forest Watch sample data
+West Bengal,Alipurduar,WB_ALI,2023,566.3,326228.3,124,True,Global Forest Watch sample data
+West Bengal,Paschim Medinipur,WB_PWM,2023,308.7,179425.6,99,True,Global Forest Watch sample data
+West Bengal,Bankura,WB_BAN,2023,194.0,114179.9,45,True,Global Forest Watch sample data
+West Bengal,Purulia,WB_PUR,2023,173.2,97868.5,54,True,Global Forest Watch sample data
+West Bengal,South 24 Parganas,WB_S24,2023,111.2,65245.7,21,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2001,2227.5,903582.6,358,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2001,1808.7,705923.9,286,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2001,1067.0,395317.4,182,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2001,860.9,310606.5,127,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2001,599.8,225895.6,74,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2001,449.8,169421.7,65,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2001,305.0,112947.8,32,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2002,2796.8,900984.9,385,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2002,2070.2,703894.5,306,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2002,1113.7,394180.9,166,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2002,893.5,309713.6,134,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2002,624.3,225246.2,92,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2002,499.2,168934.7,93,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2002,340.3,112623.1,78,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2003,2604.1,898489.7,397,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2003,2162.8,701945.1,289,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2003,1045.8,393089.2,157,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2003,766.6,308855.8,127,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2003,600.1,224622.4,95,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2003,475.9,168466.8,100,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2003,326.7,112311.2,38,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2004,2530.1,896020.3,382,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2004,2105.8,700015.9,325,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2004,1055.0,392008.9,143,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2004,906.3,308007.0,136,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2004,655.5,224005.1,71,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2004,449.1,168003.8,74,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2004,309.4,112002.5,40,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2005,2500.4,893379.0,408,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2005,2076.0,697952.3,320,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2005,1196.7,390853.3,155,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2005,838.3,307099.0,159,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2005,671.3,223344.7,85,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2005,533.7,167508.6,77,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2005,349.6,111672.4,49,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2006,3090.8,890537.5,414,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2006,2327.7,695732.4,328,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2006,1328.2,389610.2,161,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2006,1010.2,306122.3,158,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2006,647.9,222634.4,81,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2006,478.4,166975.8,72,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2006,367.9,111317.2,72,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2007,2853.0,887899.4,404,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2007,1885.5,693671.4,323,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2007,1176.4,388456.0,178,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2007,813.1,305215.4,144,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2007,616.5,221974.8,110,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2007,503.7,166481.1,64,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2007,321.3,110987.4,34,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2008,2905.8,885126.0,418,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2008,2221.3,691504.7,322,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2008,1165.2,387242.6,180,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2008,904.0,304262.1,139,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2008,651.8,221281.5,132,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2008,520.9,165961.1,69,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2008,350.4,110640.7,49,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2009,2994.7,882220.5,452,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2009,2209.7,689234.8,327,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2009,1253.7,385971.5,151,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2009,923.1,303263.3,171,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2009,786.1,220555.1,100,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2009,560.5,165416.3,85,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2009,419.1,110277.6,68,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2010,2858.3,879218.8,424,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2010,2368.9,686889.7,330,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2010,1219.9,384658.2,179,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2010,976.0,302231.5,178,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2010,783.5,219804.7,106,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2010,604.5,164853.5,83,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2010,359.1,109902.3,75,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2011,2930.4,876128.1,453,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2011,2308.9,684475.1,327,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2011,1414.8,383306.0,220,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2011,988.1,301169.0,164,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2011,747.5,219032.0,100,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2011,562.3,164274.0,71,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2011,387.3,109516.0,41,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2012,2997.5,873123.1,460,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2012,2241.2,682127.4,345,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2012,1364.4,381991.3,202,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2012,982.5,300136.0,160,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2012,779.5,218280.8,84,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2012,578.8,163710.6,75,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2012,386.3,109140.4,43,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2013,2479.5,870423.9,471,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2013,2136.1,680018.7,346,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2013,1218.6,380810.4,173,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2013,924.8,299208.2,143,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2013,652.8,217606.0,112,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2013,484.3,163204.5,81,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2013,354.4,108803.0,47,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2014,2983.6,867261.6,486,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2014,2648.6,677548.2,328,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2014,1328.4,379427.0,210,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2014,1076.0,298121.2,169,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2014,766.7,216815.4,114,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2014,588.3,162611.6,105,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2014,400.3,108407.7,61,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2015,3061.0,864124.2,479,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2015,2499.5,675097.0,364,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2015,1392.5,378054.3,235,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2015,1125.5,297042.7,161,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2015,831.5,216031.0,109,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2015,528.3,162023.3,74,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2015,355.5,108015.5,52,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2016,3635.5,860769.8,498,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2016,2591.9,672476.4,389,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2016,1305.3,376586.8,211,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2016,1197.5,295889.6,146,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2016,886.5,215192.5,122,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2016,615.9,161394.3,100,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2016,466.9,107596.2,61,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2017,3390.6,857299.5,488,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2017,2823.7,669765.3,369,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2017,1523.7,375068.5,204,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2017,1221.5,294696.7,176,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2017,912.6,214324.9,111,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2017,641.9,160743.7,77,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2017,424.1,107162.4,65,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2018,3373.5,853763.0,522,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2018,2950.2,667002.4,394,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2018,1692.4,373521.3,202,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2018,1140.0,293481.0,147,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2018,950.3,213440.8,130,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2018,661.3,160080.6,97,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2018,417.2,106720.4,96,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2019,3417.7,850363.9,527,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2019,2719.4,664346.8,397,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2019,1428.3,372034.2,224,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2019,1278.4,292312.6,196,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2019,917.5,212591.0,114,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2019,605.8,159443.2,93,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2019,426.1,106295.5,77,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2020,3369.1,847234.2,522,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2020,2392.9,661901.7,385,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2020,1256.0,370664.9,233,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2020,1079.8,291236.7,160,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2020,731.8,211808.5,119,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2020,635.8,158856.4,92,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2020,361.8,105904.3,58,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2021,2956.3,843817.1,531,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2021,2638.7,659232.1,416,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2021,1633.2,369170.0,240,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2021,1158.8,290062.1,165,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2021,964.2,210954.3,126,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2021,641.1,158215.7,97,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2021,431.4,105477.1,60,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2022,3432.1,840288.5,539,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2022,2681.8,656475.4,401,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2022,1552.0,367626.2,223,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2022,1304.2,288849.2,144,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2022,930.3,210072.1,146,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2022,593.0,157554.1,94,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2022,432.9,105036.1,42,True,Global Forest Watch sample data
+Assam,Karbi Anglong,AS_KAR,2023,3451.2,836634.4,573,True,Global Forest Watch sample data
+Assam,Dima Hasao,AS_DIM,2023,2988.3,653620.7,436,True,Global Forest Watch sample data
+Assam,Sonitpur,AS_SON,2023,1656.4,366027.6,213,True,Global Forest Watch sample data
+Assam,Kokrajhar,AS_KOK,2023,1223.2,287593.1,194,True,Global Forest Watch sample data
+Assam,Tinsukia,AS_TIN,2023,857.7,209158.6,140,True,Global Forest Watch sample data
+Assam,Cachar,AS_CAC,2023,676.9,156869.0,95,True,Global Forest Watch sample data
+Assam,Dibrugarh,AS_DIB,2023,473.0,104579.3,71,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2001,1399.6,1354733.1,403,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2001,1153.9,1146312.6,358,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2001,901.7,937892.1,284,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2001,667.8,729471.7,233,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2001,453.7,468946.1,142,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2001,321.3,312630.7,99,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2001,236.5,260525.6,61,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2002,1389.3,1353248.8,454,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2002,1125.2,1145056.7,382,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2002,1038.4,936864.5,284,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2002,777.5,728672.4,230,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2002,512.8,468432.3,169,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2002,344.5,312288.2,114,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2002,280.3,260240.2,85,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2003,1374.8,1351745.4,416,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2003,1319.4,1143784.6,366,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2003,1031.2,935823.7,291,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2003,823.6,727862.9,220,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2003,500.2,467911.9,158,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2003,330.0,311941.2,120,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2003,264.5,259951.0,103,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2004,1528.8,1350235.9,459,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2004,1383.6,1142507.3,386,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2004,948.9,934778.7,277,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2004,787.4,727050.1,233,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2004,536.0,467389.3,148,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2004,351.6,311592.9,105,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2004,281.4,259660.7,69,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2005,1275.0,1348868.4,438,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2005,1218.0,1141350.2,363,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2005,1071.3,933832.0,309,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2005,743.1,726313.8,224,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2005,489.9,466916.0,153,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2005,317.5,311277.3,157,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2005,261.7,259397.8,109,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2006,1375.6,1347490.4,488,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2006,1129.5,1140184.2,412,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2006,987.8,932878.0,299,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2006,765.5,725571.7,256,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2006,491.8,466439.0,141,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2006,306.4,310959.3,117,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2006,264.0,259132.8,102,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2007,1392.5,1345998.2,476,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2007,1301.1,1138921.6,400,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2007,1088.9,931844.9,326,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2007,821.9,724768.3,245,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2007,473.6,465922.5,174,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2007,347.9,310615.0,127,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2007,268.6,258845.8,78,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2008,1642.9,1344352.0,489,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2008,1394.9,1137528.6,399,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2008,1193.1,930705.3,311,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2008,890.7,723881.9,243,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2008,557.5,465352.6,166,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2008,384.1,310235.1,118,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2008,336.5,258529.2,83,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2009,1593.9,1342722.3,508,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2009,1392.5,1136149.7,421,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2009,1044.5,929577.0,328,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2009,916.6,723004.3,256,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2009,594.2,464788.5,166,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2009,402.6,309859.0,162,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2009,307.7,258215.8,91,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2010,1947.6,1340917.3,487,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2010,1495.2,1134622.3,408,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2010,1165.6,928327.4,316,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2010,923.1,722032.4,248,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2010,623.7,464163.7,180,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2010,448.8,309442.5,114,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2010,364.2,257868.7,97,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2011,1733.3,1339240.6,487,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2011,1445.9,1133203.5,422,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2011,1189.4,927166.5,340,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2011,1013.7,721129.5,254,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2011,565.0,463583.3,170,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2011,376.2,309055.5,122,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2011,341.6,257546.3,123,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2012,1538.4,1337635.4,519,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2012,1320.7,1131845.3,436,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2012,1122.5,926055.3,318,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2012,931.2,720265.2,295,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2012,538.6,463027.6,177,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2012,375.7,308685.1,139,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2012,318.9,257237.6,133,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2013,1564.7,1336005.6,500,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2013,1328.6,1130466.3,433,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2013,1229.5,924927.0,339,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2013,887.4,719387.7,272,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2013,597.7,462463.5,223,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2013,366.1,308309.0,129,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2013,329.8,256924.2,115,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2014,1889.6,1334169.7,523,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2014,1599.4,1128912.8,457,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2014,1323.2,923655.9,360,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2014,1041.3,718399.0,294,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2014,679.5,461828.0,198,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2014,420.1,307885.3,140,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2014,374.4,256571.1,94,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2015,1764.9,1332369.3,538,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2015,1620.7,1127389.4,450,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2015,1249.3,922409.5,338,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2015,1005.6,717429.6,291,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2015,690.6,461204.8,187,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2015,420.0,307469.8,144,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2015,373.5,256224.9,107,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2016,1933.6,1330492.8,548,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2016,1552.4,1125801.6,457,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2016,1368.9,921110.4,348,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2016,1017.2,716419.2,275,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2016,688.4,460555.2,172,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2016,420.9,307036.8,148,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2016,389.1,255864.0,109,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2017,2026.7,1328640.3,532,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2017,1395.1,1124234.1,468,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2017,1250.3,919827.9,354,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2017,1032.8,715421.7,294,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2017,623.1,459914.0,178,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2017,446.1,306609.3,154,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2017,354.5,255507.8,139,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2018,1666.2,1326836.6,552,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2018,1522.8,1122707.9,472,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2018,1233.7,918579.2,380,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2018,910.5,714450.5,316,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2018,621.8,459289.6,217,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2018,423.4,306193.1,154,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2018,356.8,255160.9,120,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2019,2039.4,1324924.3,574,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2019,1675.4,1121089.8,474,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2019,1419.2,917255.3,370,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2019,1122.4,713420.8,298,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2019,614.6,458627.6,205,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2019,426.3,305751.8,162,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2019,355.7,254793.1,108,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2020,1662.5,1323223.3,543,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2020,1325.3,1119650.5,494,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2020,1223.9,916077.7,392,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2020,871.6,712504.8,302,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2020,588.7,458038.8,189,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2020,422.0,305359.2,164,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2020,323.5,254466.0,117,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2021,1717.9,1321310.0,584,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2021,1563.7,1118031.6,474,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2021,1305.9,914753.1,418,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2021,1063.2,711474.6,299,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2021,681.2,457376.6,230,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2021,461.9,304917.7,154,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2021,356.0,254098.1,129,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2022,2101.7,1319298.4,605,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2022,1791.5,1116329.4,488,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2022,1484.4,913360.5,400,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2022,1195.6,710391.5,302,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2022,756.8,456680.2,215,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2022,449.1,304453.5,148,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2022,380.7,253711.2,127,True,Global Forest Watch sample data
+Odisha,Mayurbhanj,OD_MAY,2023,2045.1,1317192.9,604,True,Global Forest Watch sample data
+Odisha,Kandhamal,OD_KAN,2023,1972.4,1114547.9,529,True,Global Forest Watch sample data
+Odisha,Sundargarh,OD_SUN,2023,1489.5,911902.8,403,True,Global Forest Watch sample data
+Odisha,Koraput,OD_KOR,2023,1140.5,709257.7,326,True,Global Forest Watch sample data
+Odisha,Rayagada,OD_RAY,2023,691.6,455951.4,212,True,Global Forest Watch sample data
+Odisha,Keonjhar,OD_KEO,2023,445.3,303967.6,164,True,Global Forest Watch sample data
+Odisha,Sambalpur,OD_SAM,2023,418.0,253306.3,115,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2001,506.5,743315.4,88,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2001,420.9,573414.8,105,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2001,250.7,318563.8,48,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2001,162.5,212375.8,34,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2001,76.4,106187.9,33,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2001,79.6,106187.9,0,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2001,49.7,63712.8,32,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2002,510.9,742814.4,119,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2002,391.5,573028.2,83,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2002,207.5,318349.0,55,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2002,151.5,212232.7,43,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2002,70.2,106116.3,31,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2002,61.4,106116.3,35,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2002,39.2,63669.8,6,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2003,468.0,742314.0,131,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2003,377.0,572642.2,98,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2003,214.0,318134.6,64,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2003,143.5,212089.7,17,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2003,75.1,106044.9,13,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2003,65.9,106044.9,12,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2003,46.1,63626.9,25,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2004,511.0,741793.9,111,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2004,442.8,572241.0,101,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2004,227.7,317911.7,73,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2004,150.4,211941.1,33,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2004,73.6,105970.6,20,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2004,74.2,105970.6,29,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2004,44.7,63582.3,23,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2005,517.1,741278.9,88,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2005,415.5,571843.7,102,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2005,231.7,317690.9,15,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2005,162.5,211794.0,35,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2005,77.7,105897.0,6,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2005,75.8,105897.0,3,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2005,42.8,63538.2,41,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2006,512.4,740772.0,134,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2006,400.7,571452.7,101,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2006,221.2,317473.7,96,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2006,144.4,211649.1,41,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2006,76.2,105824.6,38,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2006,76.7,105824.6,29,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2006,41.0,63494.7,37,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2007,499.2,740280.2,111,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2007,378.1,571073.3,105,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2007,214.1,317263.0,67,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2007,151.8,211508.6,46,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2007,69.4,105754.3,36,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2007,74.4,105754.3,1,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2007,43.4,63452.6,23,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2008,587.0,739731.0,123,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2008,426.3,570649.6,100,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2008,235.6,317027.6,46,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2008,145.6,211351.7,63,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2008,75.1,105675.9,7,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2008,70.0,105675.9,10,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2008,44.0,63405.5,38,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2009,599.8,739109.9,161,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2009,502.7,570170.5,99,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2009,232.9,316761.4,98,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2009,165.1,211174.2,15,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2009,93.3,105587.1,59,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2009,94.9,105587.1,29,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2009,54.8,63352.3,26,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2010,637.0,738481.7,131,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2010,483.1,569685.8,94,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2010,265.5,316492.1,39,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2010,178.6,210994.8,26,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2010,84.8,105497.4,26,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2010,96.0,105497.4,35,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2010,49.6,63298.4,0,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2011,598.3,737852.4,128,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2011,498.8,569200.4,93,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2011,271.1,316222.5,45,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2011,174.4,210815.0,46,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2011,82.7,105407.5,30,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2011,89.8,105407.5,29,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2011,54.5,63244.5,34,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2012,577.5,737262.3,136,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2012,467.6,568745.2,110,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2012,253.4,315969.5,56,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2012,163.0,210646.4,21,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2012,91.7,105323.2,5,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2012,81.4,105323.2,11,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2012,52.8,63193.9,10,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2013,599.9,736641.5,140,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2013,458.9,568266.3,143,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2013,250.3,315703.5,72,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2013,183.0,210469.0,49,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2013,87.9,105234.5,22,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2013,88.9,105234.5,20,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2013,55.8,63140.7,48,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2014,539.3,736062.6,137,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2014,504.2,567819.7,101,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2014,268.4,315455.4,94,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2014,160.8,210303.6,52,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2014,89.4,105151.8,19,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2014,81.9,105151.8,13,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2014,47.1,63091.1,5,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2015,589.6,735473.9,129,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2015,459.4,567365.6,91,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2015,256.5,315203.1,82,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2015,151.4,210135.4,50,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2015,89.3,105067.7,7,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2015,91.1,105067.7,29,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2015,48.7,63040.6,14,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2016,678.1,734798.4,151,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2016,497.1,566844.5,119,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2016,269.0,314913.6,69,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2016,184.3,209942.4,34,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2016,102.5,104971.2,42,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2016,99.4,104971.2,7,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2016,57.0,62982.7,33,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2017,755.9,734121.0,151,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2017,527.6,566321.9,114,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2017,292.2,314623.3,70,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2017,200.4,209748.9,60,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2017,93.0,104874.4,6,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2017,87.9,104874.4,31,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2017,54.9,62924.7,0,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2018,765.3,733440.6,147,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2018,546.9,565797.0,121,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2018,290.2,314331.7,87,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2018,191.6,209554.5,50,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2018,98.8,104777.2,16,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2018,102.0,104777.2,21,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2018,56.1,62866.3,24,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2019,627.4,732814.1,149,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2019,509.5,565313.7,129,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2019,268.2,314063.2,87,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2019,191.4,209375.5,55,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2019,89.5,104687.7,7,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2019,84.7,104687.7,19,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2019,52.1,62812.6,13,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2020,669.1,732162.2,150,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2020,515.1,564810.9,125,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2020,251.8,313783.8,61,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2020,184.9,209189.2,30,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2020,95.9,104594.6,50,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2020,98.8,104594.6,21,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2020,60.0,62756.8,18,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2021,634.4,731507.8,149,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2021,495.1,564306.0,128,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2021,282.7,313503.3,77,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2021,191.1,209002.2,66,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2021,97.9,104501.1,5,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2021,81.6,104501.1,39,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2021,52.3,62700.7,13,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2022,599.6,730848.8,164,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2022,527.6,563797.7,119,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2022,245.8,313220.9,69,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2022,192.0,208814.0,27,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2022,95.0,104407.0,28,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2022,96.9,104407.0,27,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2022,53.7,62644.2,34,True,Global Forest Watch sample data
+Kerala,Idukki,KL_IDU,2023,720.6,730127.3,144,True,Global Forest Watch sample data
+Kerala,Wayanad,KL_WAY,2023,544.3,563241.1,116,True,Global Forest Watch sample data
+Kerala,Palakkad,KL_PAL,2023,306.6,312911.7,104,True,Global Forest Watch sample data
+Kerala,Pathanamthitta,KL_PAT,2023,192.0,208607.8,26,True,Global Forest Watch sample data
+Kerala,Ernakulam,KL_ERN,2023,110.7,104303.9,25,True,Global Forest Watch sample data
+Kerala,Malappuram,KL_MAL,2023,99.6,104303.9,41,True,Global Forest Watch sample data
+Kerala,Kasaragod,KL_KAS,2023,60.0,62582.3,44,True,Global Forest Watch sample data

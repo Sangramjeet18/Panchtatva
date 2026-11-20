@@ -1,31 +1,32 @@
+import { PhotoBand } from '@/components/ui/PhotoBand';
 import { Section } from '@/components/ui/Section';
-import { Skeleton } from '@/components/ui/Skeleton';
+import { ReforestationClient } from '@/components/reforestation/ReforestationClient';
 
 export const metadata = {
   title: 'Reforestation Planner: EcoSense',
+  description: 'Targeted native species selection, CO2 absorption calculation and priority planting zones for Indian states.',
 };
 
 export default function ReforestationPage() {
   return (
-    <Section>
-      <div style={{ maxWidth: '840px' }}>
-        <div style={{ fontSize: '13px', color: 'var(--muted)', textTransform: 'uppercase', marginBottom: '8px' }}>
-          Module 02
-        </div>
-        <h1 style={{ fontSize: '42px', marginBottom: '16px' }}>Reforestation Planner</h1>
-        <p style={{ color: 'var(--muted)', marginBottom: '32px' }}>
-          Targeted species selection and CO2 offset calculations matched with regional rainfall bands.
-        </p>
-
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-          <Skeleton height={48} width="300px" />
-          <Skeleton height={280} />
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
-            <Skeleton height={140} />
-            <Skeleton height={140} />
+    <div>
+      <PhotoBand src="/images/reforestation.jpg" alt="Saplings in forest nursery bags" height={340}>
+        <div style={{ maxWidth: '780px', color: '#EDE7D9' }}>
+          <div style={{ fontSize: '13px', color: '#7FB08F', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '8px' }}>
+            Module 02
           </div>
+          <h1 style={{ color: '#EDE7D9', fontSize: '44px', lineHeight: 1.1, marginBottom: '12px' }}>
+            Reforestation Planner
+          </h1>
+          <p style={{ fontSize: '17px', color: '#D9DDD9', margin: 0 }}>
+            Plan native tree planting targets, calculate total annual CO2 absorption, and deploy saplings to high-risk deforestation corridors.
+          </p>
         </div>
-      </div>
-    </Section>
+      </PhotoBand>
+
+      <Section>
+        <ReforestationClient />
+      </Section>
+    </div>
   );
 }

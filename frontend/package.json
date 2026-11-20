@@ -6,12 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "vitest run",
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/leaflet": "^1.9.22",
+    "@types/plotly.js-dist-min": "^2.3.4",
+    "leaflet": "^1.9.4",
     "next": "14.2.24",
+    "plotly.js-dist-min": "^4.3.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-plotly.js": "^4.1.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",
@@ -19,6 +26,8 @@
     "@types/react-dom": "^18.3.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.24",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
   }
 }
