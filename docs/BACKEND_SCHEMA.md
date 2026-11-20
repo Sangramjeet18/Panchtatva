@@ -1,6 +1,6 @@
 # EcoSense Backend Schema
 
-Database: PostgreSQL (Supabase). File to create: `frontend/db/schema.sql`. When no database is configured, the same shapes are served from `frontend/data/*.json`.
+Database: PostgreSQL (Supabase) served by the FastAPI backend. File to create: `backend/db/schema.sql`. When no database is configured, the same shapes are served from `backend/data/*.json`.
 
 ## Entity overview
 regions (states and districts) -> forest_loss_yearly, forecasts, district_risk
@@ -173,9 +173,9 @@ create table waterlog_predictions (
 ```
 
 ## Row level security
-Enable RLS on all tables. Public read on every table except `sensor_devices.api_key_hash` (never selected by the client). Writes only through server route handlers with the service key. `footprint_calculations` stores no personal data and no IP address.
+Enable RLS on all tables. Public read on every table except `sensor_devices.api_key_hash` (never selected by the client). Writes only through backend API route handlers with the service key. `footprint_calculations` stores no personal data and no IP address.
 
-## Seed files (frontend/data)
+## Seed files (backend/data)
 `regions.json`, `forest_loss.csv`, `forecasts.json`, `district_risk.json`, `species.json`, `emission_factors.json`, `wards.json`, `ward_features.csv`. Every file has a `source` and `simulated` field.
 
 ## Response envelope
