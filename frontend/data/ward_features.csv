@@ -1,0 +1,17 @@
+ward_id,ward_no,name,zone,elevation_m,drainage_score,past_flood_events,impervious_pct,lat,lon
+1,Ward 45,BBD Bagh / Burrabazar,Central,8.5,5.2,7,91,22.5744,88.3497
+2,Ward 63,Park Street / Camac St,Central,7.8,6.8,5,86,22.5511,88.3533
+3,Ward 65,Ballygunge / Bondel,South,6.4,5.0,9,82,22.5283,88.3667
+4,Ward 70,Bhowanipore / Elgin,South,7.1,6.1,6,84,22.5342,88.3475
+5,Ward 71,Kalighat / Rashbehari,South,6.2,4.8,10,88,22.5189,88.3456
+6,Ward 85,Southern Avenue / Lake,South,5.8,6.9,5,72,22.5117,88.3583
+7,Ward 86,Gariahat / Dover Terr,South,6.1,5.5,8,87,22.5194,88.3694
+8,Ward 88,Chetla / Alipore Bank,South,5.3,4.2,11,85,22.5167,88.3361
+9,Ward 89,Tollygunge / Charu Mkt,South,4.9,3.8,13,89,22.5028,88.3444
+10,Ward 101,Jadavpur / Baghajatin,South East,4.6,4.1,12,83,22.4875,88.3722
+11,Ward 107,Kasba / Ruby Bypass,East,4.1,3.4,14,86,22.5122,88.3972
+12,Ward 115,Behala Chowrasta / Sil Para,South West,3.8,3.1,15,88,22.4917,88.3139
+13,Ward 122,Barisha / Sakher Bazar,South West,3.6,2.9,16,85,22.4789,88.3094
+14,Ward 133,Garden Reach / Circular Garden,West Port,5.9,4.6,9,81,22.5417,88.3056
+15,Ward 140,Metiabruz / Akra Road,West,5.4,3.9,11,79,22.5278,88.2750
+16,Ward 6,Shyambazar / Hatibagan,North,8.9,6.3,6,92,22.5989,88.3711
