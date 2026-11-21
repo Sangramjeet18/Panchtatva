@@ -63,8 +63,14 @@ class TestDataCollector(unittest.TestCase):
         mock_resp.json.return_value = [
             {"page": 1, "pages": 1},
             [
-                {"date": "2021", "value": 724200.0},
-                {"date": "2020", "value": 721600.0}
+                {"date": "2022", "value": 724810.0},
+                {"date": "2021", "value": 723950.0},
+                {"date": "2020", "value": 723090.0},
+                {"date": "2019", "value": 720128.0},
+                {"date": "2018", "value": 717166.0},
+                {"date": "2017", "value": 714204.0},
+                {"date": "2016", "value": 711242.0},
+                {"date": "2015", "value": 708280.0},
             ]
         ]
         mock_get.return_value = mock_resp

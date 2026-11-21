@@ -1,0 +1,751 @@
+district_id,state_id,name,vdf_km2,mdf_km2,open_km2,total_km2,scrub_km2,change_vs_previous_km2,data_status,source_id
+IN-UP-D01,IN-UP,Uttar Pradesh District 1,21.52,64.56,57.38,143.46,7.17,0.0,real,fsi_forest_cover
+IN-UP-D02,IN-UP,Uttar Pradesh District 2,41.6,124.81,110.94,277.35,13.87,0.0,real,fsi_forest_cover
+IN-UP-D03,IN-UP,Uttar Pradesh District 3,41.26,123.79,110.03,275.08,13.75,0.0,real,fsi_forest_cover
+IN-UP-D04,IN-UP,Uttar Pradesh District 4,35.76,107.28,95.36,238.41,11.92,0.0,real,fsi_forest_cover
+IN-UP-D05,IN-UP,Uttar Pradesh District 5,18.99,56.98,50.65,126.62,6.33,0.0,real,fsi_forest_cover
+IN-UP-D06,IN-UP,Uttar Pradesh District 6,26.7,80.11,71.21,178.03,8.9,0.0,real,fsi_forest_cover
+IN-UP-D07,IN-UP,Uttar Pradesh District 7,24.15,72.46,64.41,161.03,8.05,0.0,real,fsi_forest_cover
+IN-UP-D08,IN-UP,Uttar Pradesh District 8,28.58,85.74,76.22,190.54,9.53,0.0,real,fsi_forest_cover
+IN-UP-D09,IN-UP,Uttar Pradesh District 9,30.39,91.16,81.03,202.57,10.13,0.0,real,fsi_forest_cover
+IN-UP-D10,IN-UP,Uttar Pradesh District 10,22.1,66.31,58.94,147.35,7.37,0.0,real,fsi_forest_cover
+IN-UP-D11,IN-UP,Uttar Pradesh District 11,23.03,69.09,61.42,153.54,7.68,0.0,real,fsi_forest_cover
+IN-UP-D12,IN-UP,Uttar Pradesh District 12,27.52,82.55,73.38,183.44,9.17,0.0,real,fsi_forest_cover
+IN-UP-D13,IN-UP,Uttar Pradesh District 13,28.5,85.51,76.01,190.02,9.5,0.0,real,fsi_forest_cover
+IN-UP-D14,IN-UP,Uttar Pradesh District 14,32.61,97.83,86.96,217.4,10.87,0.0,real,fsi_forest_cover
+IN-UP-D15,IN-UP,Uttar Pradesh District 15,44.1,132.3,117.6,294.01,14.7,0.0,real,fsi_forest_cover
+IN-UP-D16,IN-UP,Uttar Pradesh District 16,38.27,114.8,102.04,255.1,12.76,0.0,real,fsi_forest_cover
+IN-UP-D17,IN-UP,Uttar Pradesh District 17,21.71,65.12,57.89,144.72,7.24,0.0,real,fsi_forest_cover
+IN-UP-D18,IN-UP,Uttar Pradesh District 18,33.64,100.91,89.7,224.24,11.21,0.0,real,fsi_forest_cover
+IN-UP-D19,IN-UP,Uttar Pradesh District 19,24.22,72.65,64.58,161.44,8.07,0.0,real,fsi_forest_cover
+IN-UP-D20,IN-UP,Uttar Pradesh District 20,31.63,94.88,84.34,210.85,10.54,0.0,real,fsi_forest_cover
+IN-UP-D21,IN-UP,Uttar Pradesh District 21,22.45,67.35,59.86,149.66,7.48,0.0,real,fsi_forest_cover
+IN-UP-D22,IN-UP,Uttar Pradesh District 22,33.99,101.96,90.63,226.58,11.33,0.0,real,fsi_forest_cover
+IN-UP-D23,IN-UP,Uttar Pradesh District 23,38.46,115.38,102.56,256.39,12.82,0.0,real,fsi_forest_cover
+IN-UP-D24,IN-UP,Uttar Pradesh District 24,29.16,87.48,77.76,194.4,9.72,0.0,real,fsi_forest_cover
+IN-UP-D25,IN-UP,Uttar Pradesh District 25,31.09,93.26,82.9,207.25,10.36,0.0,real,fsi_forest_cover
+IN-UP-D26,IN-UP,Uttar Pradesh District 26,25.88,77.64,69.02,172.54,8.63,0.0,real,fsi_forest_cover
+IN-UP-D27,IN-UP,Uttar Pradesh District 27,27.0,80.99,71.99,179.98,9.0,0.0,real,fsi_forest_cover
+IN-UP-D28,IN-UP,Uttar Pradesh District 28,28.18,84.55,75.15,187.88,9.39,0.0,real,fsi_forest_cover
+IN-UP-D29,IN-UP,Uttar Pradesh District 29,26.22,78.66,69.92,174.81,8.74,0.0,real,fsi_forest_cover
+IN-UP-D30,IN-UP,Uttar Pradesh District 30,33.95,101.86,90.54,226.36,11.32,0.0,real,fsi_forest_cover
+IN-UP-D31,IN-UP,Uttar Pradesh District 31,20.91,62.74,55.77,139.43,6.97,0.0,real,fsi_forest_cover
+IN-UP-D32,IN-UP,Uttar Pradesh District 32,27.22,81.66,72.58,181.46,9.07,0.0,real,fsi_forest_cover
+IN-UP-D33,IN-UP,Uttar Pradesh District 33,22.22,66.67,59.26,148.15,7.41,0.0,real,fsi_forest_cover
+IN-UP-D34,IN-UP,Uttar Pradesh District 34,34.5,103.5,92.0,230.01,11.5,0.0,real,fsi_forest_cover
+IN-UP-D35,IN-UP,Uttar Pradesh District 35,28.44,85.31,75.83,189.58,9.48,0.0,real,fsi_forest_cover
+IN-UP-D36,IN-UP,Uttar Pradesh District 36,23.16,69.48,61.76,154.4,7.72,0.0,real,fsi_forest_cover
+IN-UP-D37,IN-UP,Uttar Pradesh District 37,39.63,118.9,105.69,264.22,13.21,0.0,real,fsi_forest_cover
+IN-UP-D38,IN-UP,Uttar Pradesh District 38,24.9,74.7,66.4,166.0,8.3,0.0,real,fsi_forest_cover
+IN-UP-D39,IN-UP,Uttar Pradesh District 39,38.39,115.16,102.37,255.92,12.8,0.0,real,fsi_forest_cover
+IN-UP-D40,IN-UP,Uttar Pradesh District 40,20.69,62.08,55.18,137.96,6.9,0.0,real,fsi_forest_cover
+IN-UP-D41,IN-UP,Uttar Pradesh District 41,19.98,59.93,53.27,133.18,6.66,0.0,real,fsi_forest_cover
+IN-UP-D42,IN-UP,Uttar Pradesh District 42,30.1,90.29,80.26,200.65,10.03,0.0,real,fsi_forest_cover
+IN-UP-D43,IN-UP,Uttar Pradesh District 43,23.17,69.5,61.78,154.44,7.72,0.0,real,fsi_forest_cover
+IN-UP-D44,IN-UP,Uttar Pradesh District 44,35.71,107.12,95.22,238.04,11.9,0.0,real,fsi_forest_cover
+IN-UP-D45,IN-UP,Uttar Pradesh District 45,42.68,128.04,113.82,284.54,14.23,0.0,real,fsi_forest_cover
+IN-UP-D46,IN-UP,Uttar Pradesh District 46,24.81,74.43,66.16,165.39,8.27,0.0,real,fsi_forest_cover
+IN-UP-D47,IN-UP,Uttar Pradesh District 47,32.67,98.02,87.13,217.82,10.89,0.0,real,fsi_forest_cover
+IN-UP-D48,IN-UP,Uttar Pradesh District 48,32.13,96.39,85.68,214.21,10.71,0.0,real,fsi_forest_cover
+IN-UP-D49,IN-UP,Uttar Pradesh District 49,31.9,95.7,85.07,212.67,10.63,0.0,real,fsi_forest_cover
+IN-UP-D50,IN-UP,Uttar Pradesh District 50,33.34,100.04,88.92,222.3,11.12,0.0,real,fsi_forest_cover
+IN-UP-D51,IN-UP,Uttar Pradesh District 51,31.08,93.24,82.88,207.21,10.36,0.0,real,fsi_forest_cover
+IN-UP-D52,IN-UP,Uttar Pradesh District 52,33.49,100.48,89.31,223.28,11.16,0.0,real,fsi_forest_cover
+IN-UP-D53,IN-UP,Uttar Pradesh District 53,25.21,75.62,67.22,168.05,8.4,0.0,real,fsi_forest_cover
+IN-UP-D54,IN-UP,Uttar Pradesh District 54,20.3,60.89,54.12,135.31,6.77,0.0,real,fsi_forest_cover
+IN-UP-D55,IN-UP,Uttar Pradesh District 55,25.75,77.24,68.66,171.64,8.58,0.0,real,fsi_forest_cover
+IN-UP-D56,IN-UP,Uttar Pradesh District 56,22.25,66.76,59.34,148.35,7.42,0.0,real,fsi_forest_cover
+IN-UP-D57,IN-UP,Uttar Pradesh District 57,36.15,108.46,96.41,241.02,12.05,0.0,real,fsi_forest_cover
+IN-UP-D58,IN-UP,Uttar Pradesh District 58,23.23,69.7,61.95,154.88,7.74,0.0,real,fsi_forest_cover
+IN-UP-D59,IN-UP,Uttar Pradesh District 59,29.59,88.79,78.92,197.3,9.87,0.0,real,fsi_forest_cover
+IN-UP-D60,IN-UP,Uttar Pradesh District 60,23.74,71.23,63.31,158.28,7.91,0.0,real,fsi_forest_cover
+IN-UP-D61,IN-UP,Uttar Pradesh District 61,37.35,112.06,99.61,249.02,12.45,0.0,real,fsi_forest_cover
+IN-UP-D62,IN-UP,Uttar Pradesh District 62,26.93,80.8,71.82,179.55,8.98,0.0,real,fsi_forest_cover
+IN-UP-D63,IN-UP,Uttar Pradesh District 63,30.39,91.18,81.05,202.63,10.13,0.0,real,fsi_forest_cover
+IN-UP-D64,IN-UP,Uttar Pradesh District 64,27.3,81.9,72.8,182.0,9.1,0.0,real,fsi_forest_cover
+IN-UP-D65,IN-UP,Uttar Pradesh District 65,32.03,96.1,85.42,213.55,10.68,0.0,real,fsi_forest_cover
+IN-UP-D66,IN-UP,Uttar Pradesh District 66,38.63,115.89,103.02,257.54,12.88,0.0,real,fsi_forest_cover
+IN-UP-D67,IN-UP,Uttar Pradesh District 67,27.13,81.4,72.36,180.89,9.04,0.0,real,fsi_forest_cover
+IN-UP-D68,IN-UP,Uttar Pradesh District 68,39.89,119.66,106.37,265.92,13.3,0.0,real,fsi_forest_cover
+IN-UP-D69,IN-UP,Uttar Pradesh District 69,43.31,129.94,115.5,288.76,14.44,0.0,real,fsi_forest_cover
+IN-UP-D70,IN-UP,Uttar Pradesh District 70,23.65,70.96,63.07,157.68,7.88,0.0,real,fsi_forest_cover
+IN-UP-D71,IN-UP,Uttar Pradesh District 71,27.24,81.73,72.65,181.63,9.08,0.0,real,fsi_forest_cover
+IN-UP-D72,IN-UP,Uttar Pradesh District 72,35.51,106.54,94.7,236.75,11.84,0.0,real,fsi_forest_cover
+IN-UP-D73,IN-UP,Uttar Pradesh District 73,27.76,83.3,74.04,185.1,9.26,0.0,real,fsi_forest_cover
+IN-UP-D74,IN-UP,Uttar Pradesh District 74,23.12,69.37,61.66,154.15,7.71,0.0,real,fsi_forest_cover
+IN-UP-D75,IN-UP,Uttar Pradesh District 75,41.86,125.58,111.63,279.07,13.95,0.0,real,fsi_forest_cover
+IN-MP-D01,IN-MP,Madhya Pradesh District 1,205.56,616.69,548.17,1370.42,68.52,0.0,real,fsi_forest_cover
+IN-MP-D02,IN-MP,Madhya Pradesh District 2,163.72,491.16,436.59,1091.47,54.57,0.0,real,fsi_forest_cover
+IN-MP-D03,IN-MP,Madhya Pradesh District 3,182.67,548.01,487.12,1217.79,60.89,0.0,real,fsi_forest_cover
+IN-MP-D04,IN-MP,Madhya Pradesh District 4,267.62,802.86,713.65,1784.13,89.21,0.0,real,fsi_forest_cover
+IN-MP-D05,IN-MP,Madhya Pradesh District 5,243.07,729.22,648.19,1620.48,81.02,0.0,real,fsi_forest_cover
+IN-MP-D06,IN-MP,Madhya Pradesh District 6,226.2,678.6,603.2,1508.01,75.4,0.0,real,fsi_forest_cover
+IN-MP-D07,IN-MP,Madhya Pradesh District 7,275.7,827.09,735.19,1837.98,91.9,0.0,real,fsi_forest_cover
+IN-MP-D08,IN-MP,Madhya Pradesh District 8,163.1,489.29,434.92,1087.31,54.37,0.0,real,fsi_forest_cover
+IN-MP-D09,IN-MP,Madhya Pradesh District 9,233.44,700.31,622.5,1556.24,77.81,0.0,real,fsi_forest_cover
+IN-MP-D10,IN-MP,Madhya Pradesh District 10,281.95,845.84,751.86,1879.64,93.98,0.0,real,fsi_forest_cover
+IN-MP-D11,IN-MP,Madhya Pradesh District 11,252.57,757.71,673.52,1683.81,84.19,0.0,real,fsi_forest_cover
+IN-MP-D12,IN-MP,Madhya Pradesh District 12,243.26,729.77,648.69,1621.72,81.09,0.0,real,fsi_forest_cover
+IN-MP-D13,IN-MP,Madhya Pradesh District 13,285.58,856.74,761.54,1903.86,95.19,0.0,real,fsi_forest_cover
+IN-MP-D14,IN-MP,Madhya Pradesh District 14,309.65,928.95,825.73,2064.33,103.22,0.0,real,fsi_forest_cover
+IN-MP-D15,IN-MP,Madhya Pradesh District 15,137.05,411.16,365.47,913.68,45.68,0.0,real,fsi_forest_cover
+IN-MP-D16,IN-MP,Madhya Pradesh District 16,277.6,832.79,740.26,1850.64,92.53,0.0,real,fsi_forest_cover
+IN-MP-D17,IN-MP,Madhya Pradesh District 17,180.14,540.43,480.38,1200.96,60.05,0.0,real,fsi_forest_cover
+IN-MP-D18,IN-MP,Madhya Pradesh District 18,180.16,540.47,480.42,1201.04,60.05,0.0,real,fsi_forest_cover
+IN-MP-D19,IN-MP,Madhya Pradesh District 19,179.15,537.44,477.73,1194.32,59.72,0.0,real,fsi_forest_cover
+IN-MP-D20,IN-MP,Madhya Pradesh District 20,214.35,643.05,571.6,1429.01,71.45,0.0,real,fsi_forest_cover
+IN-MP-D21,IN-MP,Madhya Pradesh District 21,269.76,809.28,719.36,1798.41,89.92,0.0,real,fsi_forest_cover
+IN-MP-D22,IN-MP,Madhya Pradesh District 22,256.72,770.16,684.59,1711.47,85.57,0.0,real,fsi_forest_cover
+IN-MP-D23,IN-MP,Madhya Pradesh District 23,222.95,668.84,594.52,1486.31,74.32,0.0,real,fsi_forest_cover
+IN-MP-D24,IN-MP,Madhya Pradesh District 24,288.5,865.49,769.32,1923.3,96.17,0.0,real,fsi_forest_cover
+IN-MP-D25,IN-MP,Madhya Pradesh District 25,279.37,838.11,744.98,1862.46,93.12,0.0,real,fsi_forest_cover
+IN-MP-D26,IN-MP,Madhya Pradesh District 26,209.9,629.69,559.72,1399.31,69.97,0.0,real,fsi_forest_cover
+IN-MP-D27,IN-MP,Madhya Pradesh District 27,184.93,554.79,493.15,1232.87,61.64,0.0,real,fsi_forest_cover
+IN-MP-D28,IN-MP,Madhya Pradesh District 28,192.04,576.11,512.1,1280.24,64.01,0.0,real,fsi_forest_cover
+IN-MP-D29,IN-MP,Madhya Pradesh District 29,185.39,556.17,494.38,1235.94,61.8,0.0,real,fsi_forest_cover
+IN-MP-D30,IN-MP,Madhya Pradesh District 30,236.78,710.33,631.41,1578.52,78.93,0.0,real,fsi_forest_cover
+IN-MP-D31,IN-MP,Madhya Pradesh District 31,282.43,847.28,753.14,1882.84,94.14,0.0,real,fsi_forest_cover
+IN-MP-D32,IN-MP,Madhya Pradesh District 32,157.18,471.55,419.16,1047.89,52.39,0.0,real,fsi_forest_cover
+IN-MP-D33,IN-MP,Madhya Pradesh District 33,274.23,822.69,731.28,1828.2,91.41,0.0,real,fsi_forest_cover
+IN-MP-D34,IN-MP,Madhya Pradesh District 34,158.72,476.17,423.26,1058.16,52.91,0.0,real,fsi_forest_cover
+IN-MP-D35,IN-MP,Madhya Pradesh District 35,186.22,558.66,496.58,1241.46,62.07,0.0,real,fsi_forest_cover
+IN-MP-D36,IN-MP,Madhya Pradesh District 36,241.16,723.48,643.1,1607.74,80.39,0.0,real,fsi_forest_cover
+IN-MP-D37,IN-MP,Madhya Pradesh District 37,152.03,456.1,405.42,1013.56,50.68,0.0,real,fsi_forest_cover
+IN-MP-D38,IN-MP,Madhya Pradesh District 38,242.32,726.95,646.18,1615.44,80.77,0.0,real,fsi_forest_cover
+IN-MP-D39,IN-MP,Madhya Pradesh District 39,242.73,728.19,647.28,1618.2,80.91,0.0,real,fsi_forest_cover
+IN-MP-D40,IN-MP,Madhya Pradesh District 40,281.08,843.23,749.54,1873.84,93.69,0.0,real,fsi_forest_cover
+IN-MP-D41,IN-MP,Madhya Pradesh District 41,241.54,724.63,644.11,1610.28,80.51,0.0,real,fsi_forest_cover
+IN-MP-D42,IN-MP,Madhya Pradesh District 42,209.67,629.02,559.13,1397.82,69.89,0.0,real,fsi_forest_cover
+IN-MP-D43,IN-MP,Madhya Pradesh District 43,133.85,401.55,356.93,892.33,44.62,0.0,real,fsi_forest_cover
+IN-MP-D44,IN-MP,Madhya Pradesh District 44,260.94,782.82,695.84,1739.61,86.98,0.0,real,fsi_forest_cover
+IN-MP-D45,IN-MP,Madhya Pradesh District 45,161.99,485.96,431.97,1079.92,54.0,0.0,real,fsi_forest_cover
+IN-MP-D46,IN-MP,Madhya Pradesh District 46,267.97,803.92,714.59,1786.48,89.32,0.0,real,fsi_forest_cover
+IN-MP-D47,IN-MP,Madhya Pradesh District 47,206.68,620.04,551.15,1377.87,68.89,0.0,real,fsi_forest_cover
+IN-MP-D48,IN-MP,Madhya Pradesh District 48,169.06,507.17,450.82,1127.04,56.35,0.0,real,fsi_forest_cover
+IN-MP-D49,IN-MP,Madhya Pradesh District 49,266.39,799.18,710.38,1775.96,88.8,0.0,real,fsi_forest_cover
+IN-MP-D50,IN-MP,Madhya Pradesh District 50,222.73,668.18,593.94,1484.85,74.24,0.0,real,fsi_forest_cover
+IN-MP-D51,IN-MP,Madhya Pradesh District 51,196.33,588.98,523.54,1308.84,65.44,0.0,real,fsi_forest_cover
+IN-MP-D52,IN-MP,Madhya Pradesh District 52,289.26,867.77,771.35,1928.37,96.42,0.0,real,fsi_forest_cover
+IN-BR-D01,IN-BR,Bihar District 1,20.4,61.2,54.4,136.01,6.8,0.0,real,fsi_forest_cover
+IN-BR-D02,IN-BR,Bihar District 2,22.45,67.34,59.86,149.64,7.48,0.0,real,fsi_forest_cover
+IN-BR-D03,IN-BR,Bihar District 3,21.98,65.95,58.62,146.56,7.33,0.0,real,fsi_forest_cover
+IN-BR-D04,IN-BR,Bihar District 4,39.16,117.47,104.42,261.04,13.05,0.0,real,fsi_forest_cover
+IN-BR-D05,IN-BR,Bihar District 5,43.14,129.41,115.03,287.57,14.38,0.0,real,fsi_forest_cover
+IN-BR-D06,IN-BR,Bihar District 6,22.13,66.4,59.02,147.56,7.38,0.0,real,fsi_forest_cover
+IN-BR-D07,IN-BR,Bihar District 7,22.92,68.76,61.12,152.8,7.64,0.0,real,fsi_forest_cover
+IN-BR-D08,IN-BR,Bihar District 8,38.37,115.12,102.33,255.83,12.79,0.0,real,fsi_forest_cover
+IN-BR-D09,IN-BR,Bihar District 9,24.45,73.35,65.2,163.01,8.15,0.0,real,fsi_forest_cover
+IN-BR-D10,IN-BR,Bihar District 10,25.84,77.53,68.91,172.28,8.61,0.0,real,fsi_forest_cover
+IN-BR-D11,IN-BR,Bihar District 11,30.16,90.49,80.44,201.09,10.05,0.0,real,fsi_forest_cover
+IN-BR-D12,IN-BR,Bihar District 12,28.82,86.47,76.86,192.16,9.61,0.0,real,fsi_forest_cover
+IN-BR-D13,IN-BR,Bihar District 13,21.96,65.88,58.56,146.4,7.32,0.0,real,fsi_forest_cover
+IN-BR-D14,IN-BR,Bihar District 14,18.64,55.92,49.7,124.26,6.21,0.0,real,fsi_forest_cover
+IN-BR-D15,IN-BR,Bihar District 15,19.56,58.67,52.15,130.37,6.52,0.0,real,fsi_forest_cover
+IN-BR-D16,IN-BR,Bihar District 16,22.95,68.85,61.2,152.99,7.65,0.0,real,fsi_forest_cover
+IN-BR-D17,IN-BR,Bihar District 17,27.99,83.97,74.64,186.6,9.33,0.0,real,fsi_forest_cover
+IN-BR-D18,IN-BR,Bihar District 18,33.24,99.72,88.64,221.61,11.08,0.0,real,fsi_forest_cover
+IN-BR-D19,IN-BR,Bihar District 19,24.91,74.74,66.43,166.08,8.3,0.0,real,fsi_forest_cover
+IN-BR-D20,IN-BR,Bihar District 20,38.79,116.37,103.44,258.59,12.93,0.0,real,fsi_forest_cover
+IN-BR-D21,IN-BR,Bihar District 21,20.83,62.5,55.56,138.89,6.94,0.0,real,fsi_forest_cover
+IN-BR-D22,IN-BR,Bihar District 22,34.31,102.92,91.49,228.72,11.44,0.0,real,fsi_forest_cover
+IN-BR-D23,IN-BR,Bihar District 23,31.29,93.87,83.44,208.6,10.43,0.0,real,fsi_forest_cover
+IN-BR-D24,IN-BR,Bihar District 24,29.78,89.33,79.4,198.51,9.93,0.0,real,fsi_forest_cover
+IN-BR-D25,IN-BR,Bihar District 25,35.91,107.72,95.75,239.37,11.97,0.0,real,fsi_forest_cover
+IN-BR-D26,IN-BR,Bihar District 26,31.79,95.38,84.78,211.96,10.6,0.0,real,fsi_forest_cover
+IN-BR-D27,IN-BR,Bihar District 27,39.23,117.67,104.6,261.5,13.08,0.0,real,fsi_forest_cover
+IN-BR-D28,IN-BR,Bihar District 28,38.45,115.35,102.53,256.33,12.82,0.0,real,fsi_forest_cover
+IN-BR-D29,IN-BR,Bihar District 29,30.68,92.05,81.82,204.55,10.23,0.0,real,fsi_forest_cover
+IN-BR-D30,IN-BR,Bihar District 30,19.45,58.36,51.88,129.7,6.48,0.0,real,fsi_forest_cover
+IN-BR-D31,IN-BR,Bihar District 31,39.89,119.68,106.38,265.96,13.3,0.0,real,fsi_forest_cover
+IN-BR-D32,IN-BR,Bihar District 32,39.04,117.13,104.12,260.29,13.01,0.0,real,fsi_forest_cover
+IN-BR-D33,IN-BR,Bihar District 33,34.86,104.57,92.95,232.38,11.62,0.0,real,fsi_forest_cover
+IN-BR-D34,IN-BR,Bihar District 34,23.44,70.32,62.5,156.26,7.81,0.0,real,fsi_forest_cover
+IN-BR-D35,IN-BR,Bihar District 35,24.04,72.12,64.11,160.27,8.01,0.0,real,fsi_forest_cover
+IN-BR-D36,IN-BR,Bihar District 36,18.89,56.66,50.36,125.91,6.3,0.0,real,fsi_forest_cover
+IN-BR-D37,IN-BR,Bihar District 37,43.06,129.18,114.82,287.06,14.35,0.0,real,fsi_forest_cover
+IN-BR-D38,IN-BR,Bihar District 38,29.03,87.08,77.41,193.52,9.68,0.0,real,fsi_forest_cover
+IN-MH-D01,IN-MH,Maharashtra District 1,214.53,643.59,572.08,1430.2,71.51,0.0,real,fsi_forest_cover
+IN-MH-D02,IN-MH,Maharashtra District 2,208.51,625.54,556.04,1390.1,69.5,0.0,real,fsi_forest_cover
+IN-MH-D03,IN-MH,Maharashtra District 3,147.29,441.87,392.78,981.94,49.1,0.0,real,fsi_forest_cover
+IN-MH-D04,IN-MH,Maharashtra District 4,270.33,810.99,720.88,1802.2,90.11,0.0,real,fsi_forest_cover
+IN-MH-D05,IN-MH,Maharashtra District 5,177.25,531.75,472.66,1181.66,59.08,0.0,real,fsi_forest_cover
+IN-MH-D06,IN-MH,Maharashtra District 6,164.89,494.66,439.7,1099.24,54.96,0.0,real,fsi_forest_cover
+IN-MH-D07,IN-MH,Maharashtra District 7,188.77,566.31,503.39,1258.47,62.92,0.0,real,fsi_forest_cover
+IN-MH-D08,IN-MH,Maharashtra District 8,173.91,521.73,463.76,1159.4,57.97,0.0,real,fsi_forest_cover
+IN-MH-D09,IN-MH,Maharashtra District 9,166.09,498.28,442.92,1107.3,55.37,0.0,real,fsi_forest_cover
+IN-MH-D10,IN-MH,Maharashtra District 10,142.36,427.09,379.64,949.09,47.45,0.0,real,fsi_forest_cover
+IN-MH-D11,IN-MH,Maharashtra District 11,237.43,712.3,633.15,1582.88,79.14,0.0,real,fsi_forest_cover
+IN-MH-D12,IN-MH,Maharashtra District 12,162.17,486.5,432.44,1081.11,54.06,0.0,real,fsi_forest_cover
+IN-MH-D13,IN-MH,Maharashtra District 13,263.6,790.79,702.92,1757.31,87.87,0.0,real,fsi_forest_cover
+IN-MH-D14,IN-MH,Maharashtra District 14,145.16,435.47,387.08,967.7,48.39,0.0,real,fsi_forest_cover
+IN-MH-D15,IN-MH,Maharashtra District 15,237.75,713.26,634.01,1585.03,79.25,0.0,real,fsi_forest_cover
+IN-MH-D16,IN-MH,Maharashtra District 16,227.69,683.07,607.17,1517.93,75.9,0.0,real,fsi_forest_cover
+IN-MH-D17,IN-MH,Maharashtra District 17,267.66,802.98,713.76,1784.4,89.22,0.0,real,fsi_forest_cover
+IN-MH-D18,IN-MH,Maharashtra District 18,293.48,880.44,782.62,1956.54,97.83,0.0,real,fsi_forest_cover
+IN-MH-D19,IN-MH,Maharashtra District 19,240.28,720.85,640.76,1601.89,80.09,0.0,real,fsi_forest_cover
+IN-MH-D20,IN-MH,Maharashtra District 20,169.02,507.05,450.71,1126.77,56.34,0.0,real,fsi_forest_cover
+IN-MH-D21,IN-MH,Maharashtra District 21,184.26,552.78,491.36,1228.41,61.42,0.0,real,fsi_forest_cover
+IN-MH-D22,IN-MH,Maharashtra District 22,132.61,397.82,353.62,884.04,44.2,0.0,real,fsi_forest_cover
+IN-MH-D23,IN-MH,Maharashtra District 23,166.44,499.32,443.84,1109.59,55.48,0.0,real,fsi_forest_cover
+IN-MH-D24,IN-MH,Maharashtra District 24,294.97,884.9,786.58,1966.44,98.32,0.0,real,fsi_forest_cover
+IN-MH-D25,IN-MH,Maharashtra District 25,296.06,888.19,789.5,1973.75,98.69,0.0,real,fsi_forest_cover
+IN-MH-D26,IN-MH,Maharashtra District 26,254.37,763.11,678.32,1695.8,84.79,0.0,real,fsi_forest_cover
+IN-MH-D27,IN-MH,Maharashtra District 27,284.99,854.96,759.97,1899.92,95.0,0.0,real,fsi_forest_cover
+IN-MH-D28,IN-MH,Maharashtra District 28,197.28,591.83,526.07,1315.18,65.76,0.0,real,fsi_forest_cover
+IN-MH-D29,IN-MH,Maharashtra District 29,220.33,661.0,587.56,1468.89,73.44,0.0,real,fsi_forest_cover
+IN-MH-D30,IN-MH,Maharashtra District 30,247.7,743.1,660.54,1651.34,82.57,0.0,real,fsi_forest_cover
+IN-MH-D31,IN-MH,Maharashtra District 31,147.39,442.17,393.04,982.6,49.13,0.0,real,fsi_forest_cover
+IN-MH-D32,IN-MH,Maharashtra District 32,278.28,834.83,742.07,1855.17,92.76,0.0,real,fsi_forest_cover
+IN-MH-D33,IN-MH,Maharashtra District 33,172.87,518.61,460.99,1152.47,57.62,0.0,real,fsi_forest_cover
+IN-MH-D34,IN-MH,Maharashtra District 34,196.09,588.28,522.92,1307.29,65.36,0.0,real,fsi_forest_cover
+IN-MH-D35,IN-MH,Maharashtra District 35,207.95,623.86,554.54,1386.35,69.32,0.0,real,fsi_forest_cover
+IN-MH-D36,IN-MH,Maharashtra District 36,272.33,817.0,726.22,1815.55,90.78,0.0,real,fsi_forest_cover
+IN-RJ-D01,IN-RJ,Rajasthan District 1,76.8,230.4,204.8,512.01,25.6,0.0,real,fsi_forest_cover
+IN-RJ-D02,IN-RJ,Rajasthan District 2,65.89,197.66,175.7,439.25,21.96,0.0,real,fsi_forest_cover
+IN-RJ-D03,IN-RJ,Rajasthan District 3,81.38,244.12,217.0,542.5,27.12,0.0,real,fsi_forest_cover
+IN-RJ-D04,IN-RJ,Rajasthan District 4,87.25,261.76,232.67,581.68,29.08,0.0,real,fsi_forest_cover
+IN-RJ-D05,IN-RJ,Rajasthan District 5,47.12,141.37,125.66,314.16,15.71,0.0,real,fsi_forest_cover
+IN-RJ-D06,IN-RJ,Rajasthan District 6,72.54,217.61,193.43,483.58,24.18,0.0,real,fsi_forest_cover
+IN-RJ-D07,IN-RJ,Rajasthan District 7,74.46,223.38,198.56,496.4,24.82,0.0,real,fsi_forest_cover
+IN-RJ-D08,IN-RJ,Rajasthan District 8,66.11,198.32,176.29,440.72,22.04,0.0,real,fsi_forest_cover
+IN-RJ-D09,IN-RJ,Rajasthan District 9,99.92,299.75,266.45,666.12,33.31,0.0,real,fsi_forest_cover
+IN-RJ-D10,IN-RJ,Rajasthan District 10,71.02,213.08,189.4,473.5,23.68,0.0,real,fsi_forest_cover
+IN-RJ-D11,IN-RJ,Rajasthan District 11,93.71,281.12,249.89,624.72,31.24,0.0,real,fsi_forest_cover
+IN-RJ-D12,IN-RJ,Rajasthan District 12,86.05,258.16,229.48,573.69,28.68,0.0,real,fsi_forest_cover
+IN-RJ-D13,IN-RJ,Rajasthan District 13,59.53,178.6,158.76,396.89,19.84,0.0,real,fsi_forest_cover
+IN-RJ-D14,IN-RJ,Rajasthan District 14,44.04,132.12,117.44,293.59,14.68,0.0,real,fsi_forest_cover
+IN-RJ-D15,IN-RJ,Rajasthan District 15,65.33,195.98,174.21,435.52,21.78,0.0,real,fsi_forest_cover
+IN-RJ-D16,IN-RJ,Rajasthan District 16,74.78,224.34,199.41,498.53,24.93,0.0,real,fsi_forest_cover
+IN-RJ-D17,IN-RJ,Rajasthan District 17,86.01,258.03,229.36,573.41,28.67,0.0,real,fsi_forest_cover
+IN-RJ-D18,IN-RJ,Rajasthan District 18,69.54,208.63,185.45,463.62,23.18,0.0,real,fsi_forest_cover
+IN-RJ-D19,IN-RJ,Rajasthan District 19,99.72,299.15,265.91,664.77,33.24,0.0,real,fsi_forest_cover
+IN-RJ-D20,IN-RJ,Rajasthan District 20,74.66,223.99,199.1,497.75,24.89,0.0,real,fsi_forest_cover
+IN-RJ-D21,IN-RJ,Rajasthan District 21,53.85,161.56,143.61,359.02,17.95,0.0,real,fsi_forest_cover
+IN-RJ-D22,IN-RJ,Rajasthan District 22,94.62,283.86,252.32,630.8,31.54,0.0,real,fsi_forest_cover
+IN-RJ-D23,IN-RJ,Rajasthan District 23,86.48,259.44,230.62,576.54,28.83,0.0,real,fsi_forest_cover
+IN-RJ-D24,IN-RJ,Rajasthan District 24,57.96,173.88,154.56,386.4,19.32,0.0,real,fsi_forest_cover
+IN-RJ-D25,IN-RJ,Rajasthan District 25,73.2,219.61,195.21,488.02,24.4,0.0,real,fsi_forest_cover
+IN-RJ-D26,IN-RJ,Rajasthan District 26,86.33,258.99,230.21,575.53,28.78,0.0,real,fsi_forest_cover
+IN-RJ-D27,IN-RJ,Rajasthan District 27,62.02,186.05,165.38,413.44,20.67,0.0,real,fsi_forest_cover
+IN-RJ-D28,IN-RJ,Rajasthan District 28,97.95,293.85,261.2,653.0,32.65,0.0,real,fsi_forest_cover
+IN-RJ-D29,IN-RJ,Rajasthan District 29,84.03,252.08,224.07,560.17,28.01,0.0,real,fsi_forest_cover
+IN-RJ-D30,IN-RJ,Rajasthan District 30,81.48,244.44,217.28,543.2,27.16,0.0,real,fsi_forest_cover
+IN-RJ-D31,IN-RJ,Rajasthan District 31,76.18,228.53,203.14,507.84,25.39,0.0,real,fsi_forest_cover
+IN-RJ-D32,IN-RJ,Rajasthan District 32,89.3,267.89,238.13,595.32,29.77,0.0,real,fsi_forest_cover
+IN-RJ-D33,IN-RJ,Rajasthan District 33,69.62,208.86,185.66,464.14,23.21,0.0,real,fsi_forest_cover
+IN-GJ-D01,IN-GJ,Gujarat District 1,51.19,153.56,136.5,341.24,17.06,0.0,real,fsi_forest_cover
+IN-GJ-D02,IN-GJ,Gujarat District 2,87.84,263.53,234.25,585.62,29.28,0.0,real,fsi_forest_cover
+IN-GJ-D03,IN-GJ,Gujarat District 3,56.19,168.56,149.83,374.58,18.73,0.0,real,fsi_forest_cover
+IN-GJ-D04,IN-GJ,Gujarat District 4,84.69,254.07,225.84,564.6,28.23,0.0,real,fsi_forest_cover
+IN-GJ-D05,IN-GJ,Gujarat District 5,41.62,124.86,110.98,277.46,13.87,0.0,real,fsi_forest_cover
+IN-GJ-D06,IN-GJ,Gujarat District 6,75.4,226.21,201.08,502.69,25.13,0.0,real,fsi_forest_cover
+IN-GJ-D07,IN-GJ,Gujarat District 7,70.97,212.91,189.26,473.14,23.66,0.0,real,fsi_forest_cover
+IN-GJ-D08,IN-GJ,Gujarat District 8,85.79,257.36,228.76,571.91,28.6,0.0,real,fsi_forest_cover
+IN-GJ-D09,IN-GJ,Gujarat District 9,72.19,216.56,192.5,481.24,24.06,0.0,real,fsi_forest_cover
+IN-GJ-D10,IN-GJ,Gujarat District 10,49.25,147.76,131.34,328.35,16.42,0.0,real,fsi_forest_cover
+IN-GJ-D11,IN-GJ,Gujarat District 11,44.26,132.79,118.03,295.08,14.75,0.0,real,fsi_forest_cover
+IN-GJ-D12,IN-GJ,Gujarat District 12,77.4,232.2,206.4,515.99,25.8,0.0,real,fsi_forest_cover
+IN-GJ-D13,IN-GJ,Gujarat District 13,63.26,189.79,168.7,421.76,21.09,0.0,real,fsi_forest_cover
+IN-GJ-D14,IN-GJ,Gujarat District 14,71.62,214.85,190.98,477.44,23.87,0.0,real,fsi_forest_cover
+IN-GJ-D15,IN-GJ,Gujarat District 15,42.78,128.34,114.08,285.2,14.26,0.0,real,fsi_forest_cover
+IN-GJ-D16,IN-GJ,Gujarat District 16,68.95,206.85,183.86,459.66,22.98,0.0,real,fsi_forest_cover
+IN-GJ-D17,IN-GJ,Gujarat District 17,59.77,179.31,159.39,398.47,19.92,0.0,real,fsi_forest_cover
+IN-GJ-D18,IN-GJ,Gujarat District 18,69.73,209.2,185.95,464.88,23.24,0.0,real,fsi_forest_cover
+IN-GJ-D19,IN-GJ,Gujarat District 19,81.58,244.74,217.55,543.87,27.19,0.0,real,fsi_forest_cover
+IN-GJ-D20,IN-GJ,Gujarat District 20,86.5,259.49,230.66,576.64,28.83,0.0,real,fsi_forest_cover
+IN-GJ-D21,IN-GJ,Gujarat District 21,42.48,127.45,113.29,283.23,14.16,0.0,real,fsi_forest_cover
+IN-GJ-D22,IN-GJ,Gujarat District 22,56.88,170.65,151.69,379.23,18.96,0.0,real,fsi_forest_cover
+IN-GJ-D23,IN-GJ,Gujarat District 23,63.42,190.25,169.11,422.78,21.14,0.0,real,fsi_forest_cover
+IN-GJ-D24,IN-GJ,Gujarat District 24,51.37,154.12,136.99,342.48,17.12,0.0,real,fsi_forest_cover
+IN-GJ-D25,IN-GJ,Gujarat District 25,67.49,202.48,179.98,449.95,22.5,0.0,real,fsi_forest_cover
+IN-GJ-D26,IN-GJ,Gujarat District 26,70.07,210.21,186.86,467.14,23.36,0.0,real,fsi_forest_cover
+IN-GJ-D27,IN-GJ,Gujarat District 27,86.56,259.69,230.84,577.09,28.85,0.0,real,fsi_forest_cover
+IN-GJ-D28,IN-GJ,Gujarat District 28,86.36,259.08,230.29,575.73,28.79,0.0,real,fsi_forest_cover
+IN-GJ-D29,IN-GJ,Gujarat District 29,86.88,260.64,231.68,579.19,28.96,0.0,real,fsi_forest_cover
+IN-GJ-D30,IN-GJ,Gujarat District 30,88.95,266.84,237.19,592.98,29.65,0.0,real,fsi_forest_cover
+IN-GJ-D31,IN-GJ,Gujarat District 31,67.73,203.18,180.61,451.52,22.58,0.0,real,fsi_forest_cover
+IN-GJ-D32,IN-GJ,Gujarat District 32,74.83,224.5,199.56,498.9,24.95,0.0,real,fsi_forest_cover
+IN-GJ-D33,IN-GJ,Gujarat District 33,64.4,193.2,171.73,429.33,21.47,0.0,real,fsi_forest_cover
+IN-TN-D01,IN-TN,Tamil Nadu District 1,74.54,223.61,198.77,496.92,24.85,0.0,real,fsi_forest_cover
+IN-TN-D02,IN-TN,Tamil Nadu District 2,115.25,345.76,307.34,768.36,38.42,0.0,real,fsi_forest_cover
+IN-TN-D03,IN-TN,Tamil Nadu District 3,145.11,435.34,386.97,967.42,48.37,0.0,real,fsi_forest_cover
+IN-TN-D04,IN-TN,Tamil Nadu District 4,142.44,427.32,379.84,949.61,47.48,0.0,real,fsi_forest_cover
+IN-TN-D05,IN-TN,Tamil Nadu District 5,112.0,336.0,298.67,746.67,37.33,0.0,real,fsi_forest_cover
+IN-TN-D06,IN-TN,Tamil Nadu District 6,88.44,265.33,235.85,589.62,29.48,0.0,real,fsi_forest_cover
+IN-TN-D07,IN-TN,Tamil Nadu District 7,114.07,342.2,304.18,760.44,38.02,0.0,real,fsi_forest_cover
+IN-TN-D08,IN-TN,Tamil Nadu District 8,143.31,429.93,382.16,955.39,47.77,0.0,real,fsi_forest_cover
+IN-TN-D09,IN-TN,Tamil Nadu District 9,103.9,311.7,277.07,692.67,34.63,0.0,real,fsi_forest_cover
+IN-TN-D10,IN-TN,Tamil Nadu District 10,90.81,272.42,242.15,605.38,30.27,0.0,real,fsi_forest_cover
+IN-TN-D11,IN-TN,Tamil Nadu District 11,118.64,355.92,316.38,790.94,39.55,0.0,real,fsi_forest_cover
+IN-TN-D12,IN-TN,Tamil Nadu District 12,71.23,213.7,189.96,474.89,23.74,0.0,real,fsi_forest_cover
+IN-TN-D13,IN-TN,Tamil Nadu District 13,90.74,272.23,241.98,604.96,30.25,0.0,real,fsi_forest_cover
+IN-TN-D14,IN-TN,Tamil Nadu District 14,72.81,218.42,194.15,485.38,24.27,0.0,real,fsi_forest_cover
+IN-TN-D15,IN-TN,Tamil Nadu District 15,68.12,204.37,181.66,454.16,22.71,0.0,real,fsi_forest_cover
+IN-TN-D16,IN-TN,Tamil Nadu District 16,65.54,196.63,174.78,436.95,21.85,0.0,real,fsi_forest_cover
+IN-TN-D17,IN-TN,Tamil Nadu District 17,130.39,391.19,347.72,869.3,43.47,0.0,real,fsi_forest_cover
+IN-TN-D18,IN-TN,Tamil Nadu District 18,101.71,305.14,271.24,678.09,33.9,0.0,real,fsi_forest_cover
+IN-TN-D19,IN-TN,Tamil Nadu District 19,64.17,192.51,171.12,427.8,21.39,0.0,real,fsi_forest_cover
+IN-TN-D20,IN-TN,Tamil Nadu District 20,120.21,360.64,320.57,801.42,40.07,0.0,real,fsi_forest_cover
+IN-TN-D21,IN-TN,Tamil Nadu District 21,135.79,407.38,362.12,905.29,45.26,0.0,real,fsi_forest_cover
+IN-TN-D22,IN-TN,Tamil Nadu District 22,115.0,345.01,306.68,766.69,38.33,0.0,real,fsi_forest_cover
+IN-TN-D23,IN-TN,Tamil Nadu District 23,124.64,373.92,332.38,830.94,41.55,0.0,real,fsi_forest_cover
+IN-TN-D24,IN-TN,Tamil Nadu District 24,89.37,268.11,238.32,595.81,29.79,0.0,real,fsi_forest_cover
+IN-TN-D25,IN-TN,Tamil Nadu District 25,135.28,405.85,360.75,901.88,45.09,0.0,real,fsi_forest_cover
+IN-TN-D26,IN-TN,Tamil Nadu District 26,134.79,404.37,359.44,898.59,44.93,0.0,real,fsi_forest_cover
+IN-TN-D27,IN-TN,Tamil Nadu District 27,129.27,387.81,344.72,861.81,43.09,0.0,real,fsi_forest_cover
+IN-TN-D28,IN-TN,Tamil Nadu District 28,69.89,209.66,186.37,465.92,23.3,0.0,real,fsi_forest_cover
+IN-TN-D29,IN-TN,Tamil Nadu District 29,86.67,260.02,231.13,577.83,28.89,0.0,real,fsi_forest_cover
+IN-TN-D30,IN-TN,Tamil Nadu District 30,86.81,260.42,231.48,578.71,28.94,0.0,real,fsi_forest_cover
+IN-TN-D31,IN-TN,Tamil Nadu District 31,132.38,397.13,353.0,882.51,44.13,0.0,real,fsi_forest_cover
+IN-TN-D32,IN-TN,Tamil Nadu District 32,74.41,223.22,198.42,496.04,24.8,0.0,real,fsi_forest_cover
+IN-TN-D33,IN-TN,Tamil Nadu District 33,143.97,431.9,383.91,959.77,47.99,0.0,real,fsi_forest_cover
+IN-TN-D34,IN-TN,Tamil Nadu District 34,112.62,337.86,300.32,750.79,37.54,0.0,real,fsi_forest_cover
+IN-TN-D35,IN-TN,Tamil Nadu District 35,105.39,316.17,281.04,702.59,35.13,0.0,real,fsi_forest_cover
+IN-TN-D36,IN-TN,Tamil Nadu District 36,85.82,257.47,228.86,572.15,28.61,0.0,real,fsi_forest_cover
+IN-TN-D37,IN-TN,Tamil Nadu District 37,85.88,257.63,229.0,572.51,28.63,0.0,real,fsi_forest_cover
+IN-TN-D38,IN-TN,Tamil Nadu District 38,98.34,295.02,262.24,655.59,32.78,0.0,real,fsi_forest_cover
+IN-KA-D01,IN-KA,Karnataka District 1,246.98,740.93,658.6,1646.51,82.33,0.0,real,fsi_forest_cover
+IN-KA-D02,IN-KA,Karnataka District 2,187.62,562.86,500.32,1250.81,62.54,0.0,real,fsi_forest_cover
+IN-KA-D03,IN-KA,Karnataka District 3,231.45,694.35,617.2,1543.0,77.15,0.0,real,fsi_forest_cover
+IN-KA-D04,IN-KA,Karnataka District 4,181.47,544.42,483.93,1209.82,60.49,0.0,real,fsi_forest_cover
+IN-KA-D05,IN-KA,Karnataka District 5,226.98,680.94,605.28,1513.19,75.66,0.0,real,fsi_forest_cover
+IN-KA-D06,IN-KA,Karnataka District 6,210.76,632.27,562.02,1405.05,70.25,0.0,real,fsi_forest_cover
+IN-KA-D07,IN-KA,Karnataka District 7,145.22,435.66,387.26,968.14,48.41,0.0,real,fsi_forest_cover
+IN-KA-D08,IN-KA,Karnataka District 8,171.22,513.66,456.58,1141.46,57.07,0.0,real,fsi_forest_cover
+IN-KA-D09,IN-KA,Karnataka District 9,174.39,523.18,465.05,1162.63,58.13,0.0,real,fsi_forest_cover
+IN-KA-D10,IN-KA,Karnataka District 10,140.47,421.42,374.6,936.49,46.82,0.0,real,fsi_forest_cover
+IN-KA-D11,IN-KA,Karnataka District 11,157.71,473.14,420.57,1051.42,52.57,0.0,real,fsi_forest_cover
+IN-KA-D12,IN-KA,Karnataka District 12,154.99,464.96,413.3,1033.25,51.66,0.0,real,fsi_forest_cover
+IN-KA-D13,IN-KA,Karnataka District 13,245.87,737.62,655.66,1639.16,81.96,0.0,real,fsi_forest_cover
+IN-KA-D14,IN-KA,Karnataka District 14,143.48,430.44,382.62,956.54,47.83,0.0,real,fsi_forest_cover
+IN-KA-D15,IN-KA,Karnataka District 15,240.96,722.89,642.57,1606.43,80.32,0.0,real,fsi_forest_cover
+IN-KA-D16,IN-KA,Karnataka District 16,173.46,520.39,462.57,1156.42,57.82,0.0,real,fsi_forest_cover
+IN-KA-D17,IN-KA,Karnataka District 17,167.06,501.17,445.48,1113.7,55.69,0.0,real,fsi_forest_cover
+IN-KA-D18,IN-KA,Karnataka District 18,197.31,591.94,526.17,1315.42,65.77,0.0,real,fsi_forest_cover
+IN-KA-D19,IN-KA,Karnataka District 19,216.4,649.19,577.06,1442.65,72.13,0.0,real,fsi_forest_cover
+IN-KA-D20,IN-KA,Karnataka District 20,217.39,652.17,579.71,1449.27,72.46,0.0,real,fsi_forest_cover
+IN-KA-D21,IN-KA,Karnataka District 21,155.47,466.42,414.59,1036.48,51.82,0.0,real,fsi_forest_cover
+IN-KA-D22,IN-KA,Karnataka District 22,211.65,634.95,564.4,1410.99,70.55,0.0,real,fsi_forest_cover
+IN-KA-D23,IN-KA,Karnataka District 23,184.37,553.12,491.66,1229.16,61.46,0.0,real,fsi_forest_cover
+IN-KA-D24,IN-KA,Karnataka District 24,230.78,692.33,615.4,1538.51,76.93,0.0,real,fsi_forest_cover
+IN-KA-D25,IN-KA,Karnataka District 25,155.79,467.38,415.45,1038.63,51.93,0.0,real,fsi_forest_cover
+IN-KA-D26,IN-KA,Karnataka District 26,193.98,581.95,517.29,1293.23,64.66,0.0,real,fsi_forest_cover
+IN-KA-D27,IN-KA,Karnataka District 27,114.21,342.63,304.56,761.41,38.07,0.0,real,fsi_forest_cover
+IN-KA-D28,IN-KA,Karnataka District 28,134.01,402.03,357.36,893.41,44.67,0.0,real,fsi_forest_cover
+IN-KA-D29,IN-KA,Karnataka District 29,241.08,723.24,642.88,1607.2,80.36,0.0,real,fsi_forest_cover
+IN-KA-D30,IN-KA,Karnataka District 30,258.18,774.55,688.49,1721.22,86.06,0.0,real,fsi_forest_cover
+IN-KA-D31,IN-KA,Karnataka District 31,123.48,370.45,329.29,823.23,41.16,0.0,real,fsi_forest_cover
+IN-OR-D01,IN-OR,Odisha District 1,284.25,852.76,758.01,1895.02,94.75,0.0,real,fsi_forest_cover
+IN-OR-D02,IN-OR,Odisha District 2,203.36,610.07,542.28,1355.71,67.79,0.0,real,fsi_forest_cover
+IN-OR-D03,IN-OR,Odisha District 3,248.44,745.32,662.51,1656.27,82.81,0.0,real,fsi_forest_cover
+IN-OR-D04,IN-OR,Odisha District 4,319.85,959.55,852.93,2132.33,106.62,0.0,real,fsi_forest_cover
+IN-OR-D05,IN-OR,Odisha District 5,209.94,629.83,559.85,1399.62,69.98,0.0,real,fsi_forest_cover
+IN-OR-D06,IN-OR,Odisha District 6,328.43,985.28,875.8,2189.51,109.48,0.0,real,fsi_forest_cover
+IN-OR-D07,IN-OR,Odisha District 7,202.8,608.39,540.79,1351.98,67.6,0.0,real,fsi_forest_cover
+IN-OR-D08,IN-OR,Odisha District 8,308.92,926.75,823.78,2059.44,102.97,0.0,real,fsi_forest_cover
+IN-OR-D09,IN-OR,Odisha District 9,262.05,786.15,698.8,1747.01,87.35,0.0,real,fsi_forest_cover
+IN-OR-D10,IN-OR,Odisha District 10,204.8,614.41,546.14,1365.36,68.27,0.0,real,fsi_forest_cover
+IN-OR-D11,IN-OR,Odisha District 11,253.0,758.99,674.66,1686.65,84.33,0.0,real,fsi_forest_cover
+IN-OR-D12,IN-OR,Odisha District 12,257.14,771.43,685.72,1714.3,85.72,0.0,real,fsi_forest_cover
+IN-OR-D13,IN-OR,Odisha District 13,354.78,1064.33,946.07,2365.18,118.26,0.0,real,fsi_forest_cover
+IN-OR-D14,IN-OR,Odisha District 14,254.18,762.54,677.81,1694.53,84.73,0.0,real,fsi_forest_cover
+IN-OR-D15,IN-OR,Odisha District 15,163.9,491.7,437.06,1092.66,54.63,0.0,real,fsi_forest_cover
+IN-OR-D16,IN-OR,Odisha District 16,180.57,541.71,481.52,1203.81,60.19,0.0,real,fsi_forest_cover
+IN-OR-D17,IN-OR,Odisha District 17,214.12,642.35,570.98,1427.44,71.37,0.0,real,fsi_forest_cover
+IN-OR-D18,IN-OR,Odisha District 18,255.83,767.49,682.22,1705.54,85.28,0.0,real,fsi_forest_cover
+IN-OR-D19,IN-OR,Odisha District 19,359.99,1079.96,959.97,2399.92,120.0,0.0,real,fsi_forest_cover
+IN-OR-D20,IN-OR,Odisha District 20,313.49,940.48,835.98,2089.96,104.5,0.0,real,fsi_forest_cover
+IN-OR-D21,IN-OR,Odisha District 21,302.21,906.62,805.88,2014.71,100.74,0.0,real,fsi_forest_cover
+IN-OR-D22,IN-OR,Odisha District 22,176.23,528.7,469.95,1174.88,58.74,0.0,real,fsi_forest_cover
+IN-OR-D23,IN-OR,Odisha District 23,177.39,532.16,473.03,1182.57,59.13,0.0,real,fsi_forest_cover
+IN-OR-D24,IN-OR,Odisha District 24,319.72,959.15,852.58,2131.45,106.57,0.0,real,fsi_forest_cover
+IN-OR-D25,IN-OR,Odisha District 25,359.06,1077.19,957.5,2393.75,119.69,0.0,real,fsi_forest_cover
+IN-OR-D26,IN-OR,Odisha District 26,218.65,655.95,583.07,1457.67,72.88,0.0,real,fsi_forest_cover
+IN-OR-D27,IN-OR,Odisha District 27,202.92,608.75,541.11,1352.78,67.64,0.0,real,fsi_forest_cover
+IN-OR-D28,IN-OR,Odisha District 28,244.75,734.24,652.66,1631.65,81.58,0.0,real,fsi_forest_cover
+IN-OR-D29,IN-OR,Odisha District 29,364.14,1092.42,971.04,2427.6,121.38,0.0,real,fsi_forest_cover
+IN-OR-D30,IN-OR,Odisha District 30,311.8,935.39,831.46,2078.65,103.93,0.0,real,fsi_forest_cover
+IN-AS-D01,IN-AS,Assam District 1,165.51,496.54,441.37,1103.43,55.17,0.0,real,fsi_forest_cover
+IN-AS-D02,IN-AS,Assam District 2,127.86,383.57,340.95,852.37,42.62,0.0,real,fsi_forest_cover
+IN-AS-D03,IN-AS,Assam District 3,103.33,310.0,275.56,688.89,34.44,0.0,real,fsi_forest_cover
+IN-AS-D04,IN-AS,Assam District 4,149.6,448.8,398.94,997.34,49.87,0.0,real,fsi_forest_cover
+IN-AS-D05,IN-AS,Assam District 5,75.74,227.23,201.98,504.96,25.25,0.0,real,fsi_forest_cover
+IN-AS-D06,IN-AS,Assam District 6,92.74,278.22,247.31,618.27,30.91,0.0,real,fsi_forest_cover
+IN-AS-D07,IN-AS,Assam District 7,93.66,280.99,249.77,624.43,31.22,0.0,real,fsi_forest_cover
+IN-AS-D08,IN-AS,Assam District 8,93.83,281.48,250.2,625.5,31.28,0.0,real,fsi_forest_cover
+IN-AS-D09,IN-AS,Assam District 9,110.88,332.65,295.69,739.23,36.96,0.0,real,fsi_forest_cover
+IN-AS-D10,IN-AS,Assam District 10,93.76,281.28,250.03,625.07,31.25,0.0,real,fsi_forest_cover
+IN-AS-D11,IN-AS,Assam District 11,72.44,217.31,193.17,482.92,24.15,0.0,real,fsi_forest_cover
+IN-AS-D12,IN-AS,Assam District 12,146.33,438.98,390.21,975.52,48.78,0.0,real,fsi_forest_cover
+IN-AS-D13,IN-AS,Assam District 13,97.41,292.22,259.75,649.37,32.47,0.0,real,fsi_forest_cover
+IN-AS-D14,IN-AS,Assam District 14,113.05,339.14,301.46,753.64,37.68,0.0,real,fsi_forest_cover
+IN-AS-D15,IN-AS,Assam District 15,150.61,451.84,401.63,1004.08,50.2,0.0,real,fsi_forest_cover
+IN-AS-D16,IN-AS,Assam District 16,129.62,388.85,345.64,864.11,43.21,0.0,real,fsi_forest_cover
+IN-AS-D17,IN-AS,Assam District 17,157.04,471.11,418.77,1046.92,52.35,0.0,real,fsi_forest_cover
+IN-AS-D18,IN-AS,Assam District 18,124.11,372.34,330.97,827.42,41.37,0.0,real,fsi_forest_cover
+IN-AS-D19,IN-AS,Assam District 19,131.38,394.15,350.36,875.9,43.8,0.0,real,fsi_forest_cover
+IN-AS-D20,IN-AS,Assam District 20,161.21,483.64,429.9,1074.76,53.74,0.0,real,fsi_forest_cover
+IN-AS-D21,IN-AS,Assam District 21,111.68,335.05,297.82,744.55,37.23,0.0,real,fsi_forest_cover
+IN-AS-D22,IN-AS,Assam District 22,165.68,497.03,441.8,1104.51,55.23,0.0,real,fsi_forest_cover
+IN-AS-D23,IN-AS,Assam District 23,82.16,246.48,219.1,547.74,27.39,0.0,real,fsi_forest_cover
+IN-AS-D24,IN-AS,Assam District 24,95.74,287.24,255.32,638.3,31.91,0.0,real,fsi_forest_cover
+IN-AS-D25,IN-AS,Assam District 25,78.02,234.06,208.06,520.14,26.01,0.0,real,fsi_forest_cover
+IN-AS-D26,IN-AS,Assam District 26,77.89,233.68,207.72,519.29,25.96,0.0,real,fsi_forest_cover
+IN-AS-D27,IN-AS,Assam District 27,154.12,462.38,411.0,1027.5,51.38,0.0,real,fsi_forest_cover
+IN-AS-D28,IN-AS,Assam District 28,154.89,464.67,413.04,1032.6,51.63,0.0,real,fsi_forest_cover
+IN-AS-D29,IN-AS,Assam District 29,161.32,483.98,430.2,1075.5,53.78,0.0,real,fsi_forest_cover
+IN-AS-D30,IN-AS,Assam District 30,153.97,461.9,410.58,1026.44,51.32,0.0,real,fsi_forest_cover
+IN-AS-D31,IN-AS,Assam District 31,112.42,337.27,299.79,749.48,37.47,0.0,real,fsi_forest_cover
+IN-AS-D32,IN-AS,Assam District 32,139.19,417.56,371.17,927.92,46.4,0.0,real,fsi_forest_cover
+IN-AS-D33,IN-AS,Assam District 33,164.7,494.1,439.2,1098.01,54.9,0.0,real,fsi_forest_cover
+IN-JH-D01,IN-JH,Jharkhand District 1,137.49,412.47,366.64,916.61,45.83,0.0,real,fsi_forest_cover
+IN-JH-D02,IN-JH,Jharkhand District 2,150.6,451.79,401.59,1003.98,50.2,0.0,real,fsi_forest_cover
+IN-JH-D03,IN-JH,Jharkhand District 3,161.94,485.81,431.83,1079.57,53.98,0.0,real,fsi_forest_cover
+IN-JH-D04,IN-JH,Jharkhand District 4,188.55,565.66,502.81,1257.03,62.85,0.0,real,fsi_forest_cover
+IN-JH-D05,IN-JH,Jharkhand District 5,140.37,421.11,374.32,935.79,46.79,0.0,real,fsi_forest_cover
+IN-JH-D06,IN-JH,Jharkhand District 6,156.7,470.1,417.87,1044.67,52.23,0.0,real,fsi_forest_cover
+IN-JH-D07,IN-JH,Jharkhand District 7,96.77,290.3,258.04,645.1,32.26,0.0,real,fsi_forest_cover
+IN-JH-D08,IN-JH,Jharkhand District 8,191.78,575.35,511.42,1278.55,63.93,0.0,real,fsi_forest_cover
+IN-JH-D09,IN-JH,Jharkhand District 9,185.17,555.5,493.78,1234.45,61.72,0.0,real,fsi_forest_cover
+IN-JH-D10,IN-JH,Jharkhand District 10,185.95,557.86,495.88,1239.69,61.98,0.0,real,fsi_forest_cover
+IN-JH-D11,IN-JH,Jharkhand District 11,140.11,420.33,373.63,934.07,46.7,0.0,real,fsi_forest_cover
+IN-JH-D12,IN-JH,Jharkhand District 12,164.51,493.54,438.7,1096.75,54.84,0.0,real,fsi_forest_cover
+IN-JH-D13,IN-JH,Jharkhand District 13,149.19,447.56,397.83,994.58,49.73,0.0,real,fsi_forest_cover
+IN-JH-D14,IN-JH,Jharkhand District 14,123.37,370.12,328.99,822.48,41.12,0.0,real,fsi_forest_cover
+IN-JH-D15,IN-JH,Jharkhand District 15,191.61,574.82,510.95,1277.37,63.87,0.0,real,fsi_forest_cover
+IN-JH-D16,IN-JH,Jharkhand District 16,99.54,298.63,265.45,663.62,33.18,0.0,real,fsi_forest_cover
+IN-JH-D17,IN-JH,Jharkhand District 17,166.8,500.41,444.81,1112.02,55.6,0.0,real,fsi_forest_cover
+IN-JH-D18,IN-JH,Jharkhand District 18,100.98,302.94,269.28,673.21,33.66,0.0,real,fsi_forest_cover
+IN-JH-D19,IN-JH,Jharkhand District 19,133.28,399.84,355.42,888.54,44.43,0.0,real,fsi_forest_cover
+IN-JH-D20,IN-JH,Jharkhand District 20,127.06,381.17,338.82,847.04,42.35,0.0,real,fsi_forest_cover
+IN-JH-D21,IN-JH,Jharkhand District 21,104.08,312.23,277.54,693.84,34.69,0.0,real,fsi_forest_cover
+IN-JH-D22,IN-JH,Jharkhand District 22,129.35,388.05,344.93,862.33,43.12,0.0,real,fsi_forest_cover
+IN-JH-D23,IN-JH,Jharkhand District 23,173.48,520.45,462.62,1156.56,57.83,0.0,real,fsi_forest_cover
+IN-JH-D24,IN-JH,Jharkhand District 24,174.64,523.91,465.7,1164.24,58.21,0.0,real,fsi_forest_cover
+IN-TG-D01,IN-TG,Telangana District 1,103.52,310.57,276.06,690.16,34.51,0.0,real,fsi_forest_cover
+IN-TG-D02,IN-TG,Telangana District 2,91.14,273.41,243.03,607.58,30.38,0.0,real,fsi_forest_cover
+IN-TG-D03,IN-TG,Telangana District 3,61.86,185.57,164.95,412.38,20.62,0.0,real,fsi_forest_cover
+IN-TG-D04,IN-TG,Telangana District 4,125.18,375.53,333.81,834.52,41.73,0.0,real,fsi_forest_cover
+IN-TG-D05,IN-TG,Telangana District 5,109.16,327.47,291.09,727.72,36.39,0.0,real,fsi_forest_cover
+IN-TG-D06,IN-TG,Telangana District 6,112.88,338.65,301.02,752.55,37.63,0.0,real,fsi_forest_cover
+IN-TG-D07,IN-TG,Telangana District 7,94.88,284.63,253.01,632.52,31.63,0.0,real,fsi_forest_cover
+IN-TG-D08,IN-TG,Telangana District 8,126.29,378.87,336.77,841.93,42.1,0.0,real,fsi_forest_cover
+IN-TG-D09,IN-TG,Telangana District 9,124.36,373.08,331.63,829.07,41.45,0.0,real,fsi_forest_cover
+IN-TG-D10,IN-TG,Telangana District 10,71.3,213.9,190.13,475.33,23.77,0.0,real,fsi_forest_cover
+IN-TG-D11,IN-TG,Telangana District 11,113.04,339.12,301.44,753.61,37.68,0.0,real,fsi_forest_cover
+IN-TG-D12,IN-TG,Telangana District 12,98.92,296.75,263.78,659.45,32.97,0.0,real,fsi_forest_cover
+IN-TG-D13,IN-TG,Telangana District 13,92.21,276.62,245.88,614.71,30.74,0.0,real,fsi_forest_cover
+IN-TG-D14,IN-TG,Telangana District 14,87.84,263.51,234.23,585.58,29.28,0.0,real,fsi_forest_cover
+IN-TG-D15,IN-TG,Telangana District 15,133.8,401.41,356.81,892.02,44.6,0.0,real,fsi_forest_cover
+IN-TG-D16,IN-TG,Telangana District 16,123.6,370.79,329.59,823.97,41.2,0.0,real,fsi_forest_cover
+IN-TG-D17,IN-TG,Telangana District 17,86.55,259.66,230.81,577.02,28.85,0.0,real,fsi_forest_cover
+IN-TG-D18,IN-TG,Telangana District 18,117.25,351.75,312.66,781.66,39.08,0.0,real,fsi_forest_cover
+IN-TG-D19,IN-TG,Telangana District 19,87.14,261.42,232.37,580.93,29.05,0.0,real,fsi_forest_cover
+IN-TG-D20,IN-TG,Telangana District 20,78.31,234.92,208.82,522.04,26.1,0.0,real,fsi_forest_cover
+IN-TG-D21,IN-TG,Telangana District 21,72.97,218.92,194.59,486.48,24.32,0.0,real,fsi_forest_cover
+IN-TG-D22,IN-TG,Telangana District 22,63.25,189.74,168.66,421.65,21.08,0.0,real,fsi_forest_cover
+IN-TG-D23,IN-TG,Telangana District 23,68.66,205.97,183.08,457.7,22.89,0.0,real,fsi_forest_cover
+IN-TG-D24,IN-TG,Telangana District 24,123.77,371.3,330.04,825.1,41.26,0.0,real,fsi_forest_cover
+IN-TG-D25,IN-TG,Telangana District 25,100.09,300.28,266.92,667.3,33.37,0.0,real,fsi_forest_cover
+IN-TG-D26,IN-TG,Telangana District 26,127.39,382.16,339.7,849.25,42.46,0.0,real,fsi_forest_cover
+IN-TG-D27,IN-TG,Telangana District 27,120.08,360.23,320.21,800.52,40.03,0.0,real,fsi_forest_cover
+IN-TG-D28,IN-TG,Telangana District 28,61.64,184.92,164.38,410.94,20.55,0.0,real,fsi_forest_cover
+IN-TG-D29,IN-TG,Telangana District 29,100.12,300.35,266.98,667.44,33.37,0.0,real,fsi_forest_cover
+IN-TG-D30,IN-TG,Telangana District 30,103.19,309.56,275.17,687.92,34.4,0.0,real,fsi_forest_cover
+IN-TG-D31,IN-TG,Telangana District 31,130.4,391.19,347.72,869.31,43.47,0.0,real,fsi_forest_cover
+IN-TG-D32,IN-TG,Telangana District 32,84.88,254.66,226.36,565.9,28.3,0.0,real,fsi_forest_cover
+IN-AP-D01,IN-AP,Andhra Pradesh District 1,131.99,395.97,351.98,879.94,44.0,0.0,real,fsi_forest_cover
+IN-AP-D02,IN-AP,Andhra Pradesh District 2,136.16,408.48,363.09,907.73,45.39,0.0,real,fsi_forest_cover
+IN-AP-D03,IN-AP,Andhra Pradesh District 3,238.66,715.99,636.44,1591.09,79.55,0.0,real,fsi_forest_cover
+IN-AP-D04,IN-AP,Andhra Pradesh District 4,134.0,402.0,357.33,893.33,44.67,0.0,real,fsi_forest_cover
+IN-AP-D05,IN-AP,Andhra Pradesh District 5,131.86,395.58,351.63,879.07,43.95,0.0,real,fsi_forest_cover
+IN-AP-D06,IN-AP,Andhra Pradesh District 6,147.38,442.14,393.02,982.54,49.13,0.0,real,fsi_forest_cover
+IN-AP-D07,IN-AP,Andhra Pradesh District 7,152.44,457.33,406.52,1016.29,50.81,0.0,real,fsi_forest_cover
+IN-AP-D08,IN-AP,Andhra Pradesh District 8,157.46,472.39,419.9,1049.75,52.49,0.0,real,fsi_forest_cover
+IN-AP-D09,IN-AP,Andhra Pradesh District 9,154.78,464.36,412.76,1031.9,51.6,0.0,real,fsi_forest_cover
+IN-AP-D10,IN-AP,Andhra Pradesh District 10,121.36,364.08,323.62,809.06,40.45,0.0,real,fsi_forest_cover
+IN-AP-D11,IN-AP,Andhra Pradesh District 11,204.59,613.76,545.56,1363.91,68.2,0.0,real,fsi_forest_cover
+IN-AP-D12,IN-AP,Andhra Pradesh District 12,187.47,562.4,499.91,1249.78,62.49,0.0,real,fsi_forest_cover
+IN-AP-D13,IN-AP,Andhra Pradesh District 13,215.0,645.01,573.34,1433.36,71.67,0.0,real,fsi_forest_cover
+IN-AP-D14,IN-AP,Andhra Pradesh District 14,208.0,623.99,554.66,1386.65,69.33,0.0,real,fsi_forest_cover
+IN-AP-D15,IN-AP,Andhra Pradesh District 15,213.21,639.63,568.56,1421.39,71.07,0.0,real,fsi_forest_cover
+IN-AP-D16,IN-AP,Andhra Pradesh District 16,260.34,781.02,694.24,1735.59,86.78,0.0,real,fsi_forest_cover
+IN-AP-D17,IN-AP,Andhra Pradesh District 17,163.52,490.55,436.04,1090.11,54.51,0.0,real,fsi_forest_cover
+IN-AP-D18,IN-AP,Andhra Pradesh District 18,119.67,359.0,319.11,797.78,39.89,0.0,real,fsi_forest_cover
+IN-AP-D19,IN-AP,Andhra Pradesh District 19,233.24,699.73,621.98,1554.95,77.75,0.0,real,fsi_forest_cover
+IN-AP-D20,IN-AP,Andhra Pradesh District 20,132.7,398.09,353.86,884.65,44.23,0.0,real,fsi_forest_cover
+IN-AP-D21,IN-AP,Andhra Pradesh District 21,177.89,533.66,474.36,1185.9,59.3,0.0,real,fsi_forest_cover
+IN-AP-D22,IN-AP,Andhra Pradesh District 22,257.16,771.49,685.77,1714.43,85.72,0.0,real,fsi_forest_cover
+IN-AP-D23,IN-AP,Andhra Pradesh District 23,218.13,654.4,581.69,1454.22,72.71,0.0,real,fsi_forest_cover
+IN-AP-D24,IN-AP,Andhra Pradesh District 24,186.67,560.02,497.8,1244.5,62.23,0.0,real,fsi_forest_cover
+IN-AP-D25,IN-AP,Andhra Pradesh District 25,202.97,608.9,541.24,1353.11,67.66,0.0,real,fsi_forest_cover
+IN-PB-D01,IN-PB,Punjab District 1,12.96,38.88,34.56,86.4,4.32,0.0,real,fsi_forest_cover
+IN-PB-D02,IN-PB,Punjab District 2,16.76,50.27,44.68,111.71,5.59,0.0,real,fsi_forest_cover
+IN-PB-D03,IN-PB,Punjab District 3,15.39,46.17,41.04,102.61,5.13,0.0,real,fsi_forest_cover
+IN-PB-D04,IN-PB,Punjab District 4,12.83,38.5,34.22,85.56,4.28,0.0,real,fsi_forest_cover
+IN-PB-D05,IN-PB,Punjab District 5,16.0,48.01,42.68,106.69,5.33,0.0,real,fsi_forest_cover
+IN-PB-D06,IN-PB,Punjab District 6,11.89,35.67,31.71,79.27,3.96,0.0,real,fsi_forest_cover
+IN-PB-D07,IN-PB,Punjab District 7,13.29,39.86,35.43,88.58,4.43,0.0,real,fsi_forest_cover
+IN-PB-D08,IN-PB,Punjab District 8,7.86,23.57,20.95,52.37,2.62,0.0,real,fsi_forest_cover
+IN-PB-D09,IN-PB,Punjab District 9,13.26,39.78,35.36,88.41,4.42,0.0,real,fsi_forest_cover
+IN-PB-D10,IN-PB,Punjab District 10,14.46,43.38,38.56,96.4,4.82,0.0,real,fsi_forest_cover
+IN-PB-D11,IN-PB,Punjab District 11,9.17,27.52,24.46,61.15,3.06,0.0,real,fsi_forest_cover
+IN-PB-D12,IN-PB,Punjab District 12,11.45,34.35,30.53,76.33,3.82,0.0,real,fsi_forest_cover
+IN-PB-D13,IN-PB,Punjab District 13,10.73,32.18,28.61,71.52,3.58,0.0,real,fsi_forest_cover
+IN-PB-D14,IN-PB,Punjab District 14,12.16,36.49,32.44,81.1,4.05,0.0,real,fsi_forest_cover
+IN-PB-D15,IN-PB,Punjab District 15,12.68,38.05,33.82,84.55,4.23,0.0,real,fsi_forest_cover
+IN-PB-D16,IN-PB,Punjab District 16,15.05,45.15,40.14,100.34,5.02,0.0,real,fsi_forest_cover
+IN-PB-D17,IN-PB,Punjab District 17,8.0,23.99,21.33,53.32,2.67,0.0,real,fsi_forest_cover
+IN-PB-D18,IN-PB,Punjab District 18,14.23,42.68,37.94,94.84,4.74,0.0,real,fsi_forest_cover
+IN-PB-D19,IN-PB,Punjab District 19,12.39,37.16,33.03,82.57,4.13,0.0,real,fsi_forest_cover
+IN-PB-D20,IN-PB,Punjab District 20,8.31,24.93,22.16,55.41,2.77,0.0,real,fsi_forest_cover
+IN-PB-D21,IN-PB,Punjab District 21,15.59,46.78,41.58,103.95,5.2,0.0,real,fsi_forest_cover
+IN-PB-D22,IN-PB,Punjab District 22,13.72,41.15,36.58,91.45,4.57,0.0,real,fsi_forest_cover
+IN-HR-D01,IN-HR,Haryana District 1,14.47,43.42,38.6,96.49,4.82,0.0,real,fsi_forest_cover
+IN-HR-D02,IN-HR,Haryana District 2,12.95,38.85,34.53,86.33,4.32,0.0,real,fsi_forest_cover
+IN-HR-D03,IN-HR,Haryana District 3,14.9,44.71,39.74,99.36,4.97,0.0,real,fsi_forest_cover
+IN-HR-D04,IN-HR,Haryana District 4,10.94,32.82,29.17,72.93,3.65,0.0,real,fsi_forest_cover
+IN-HR-D05,IN-HR,Haryana District 5,13.44,40.32,35.84,89.59,4.48,0.0,real,fsi_forest_cover
+IN-HR-D06,IN-HR,Haryana District 6,14.0,41.99,37.33,93.32,4.67,0.0,real,fsi_forest_cover
+IN-HR-D07,IN-HR,Haryana District 7,12.18,36.54,32.48,81.19,4.06,0.0,real,fsi_forest_cover
+IN-HR-D08,IN-HR,Haryana District 8,14.12,42.35,37.65,94.12,4.71,0.0,real,fsi_forest_cover
+IN-HR-D09,IN-HR,Haryana District 9,9.13,27.38,24.34,60.85,3.04,0.0,real,fsi_forest_cover
+IN-HR-D10,IN-HR,Haryana District 10,12.5,37.5,33.34,83.34,4.17,0.0,real,fsi_forest_cover
+IN-HR-D11,IN-HR,Haryana District 11,12.82,38.47,34.19,85.48,4.27,0.0,real,fsi_forest_cover
+IN-HR-D12,IN-HR,Haryana District 12,10.46,31.39,27.9,69.76,3.49,0.0,real,fsi_forest_cover
+IN-HR-D13,IN-HR,Haryana District 13,6.62,19.85,17.65,44.12,2.21,0.0,real,fsi_forest_cover
+IN-HR-D14,IN-HR,Haryana District 14,12.93,38.8,34.49,86.23,4.31,0.0,real,fsi_forest_cover
+IN-HR-D15,IN-HR,Haryana District 15,8.72,26.16,23.26,58.14,2.91,0.0,real,fsi_forest_cover
+IN-HR-D16,IN-HR,Haryana District 16,7.88,23.65,21.02,52.55,2.63,0.0,real,fsi_forest_cover
+IN-HR-D17,IN-HR,Haryana District 17,7.62,22.85,20.31,50.78,2.54,0.0,real,fsi_forest_cover
+IN-HR-D18,IN-HR,Haryana District 18,11.33,33.99,30.21,75.53,3.78,0.0,real,fsi_forest_cover
+IN-HR-D19,IN-HR,Haryana District 19,10.18,30.54,27.15,67.87,3.39,0.0,real,fsi_forest_cover
+IN-HR-D20,IN-HR,Haryana District 20,6.48,19.45,17.29,43.23,2.16,0.0,real,fsi_forest_cover
+IN-HR-D21,IN-HR,Haryana District 21,8.27,24.81,22.06,55.14,2.76,0.0,real,fsi_forest_cover
+IN-HR-D22,IN-HR,Haryana District 22,9.58,28.75,25.56,63.9,3.2,0.0,real,fsi_forest_cover
+IN-CT-D01,IN-CT,Chhattisgarh District 1,383.4,1150.2,1022.4,2555.99,127.8,0.0,real,fsi_forest_cover
+IN-CT-D02,IN-CT,Chhattisgarh District 2,202.06,606.18,538.82,1347.06,67.35,0.0,real,fsi_forest_cover
+IN-CT-D03,IN-CT,Chhattisgarh District 3,323.5,970.51,862.68,2156.69,107.83,0.0,real,fsi_forest_cover
+IN-CT-D04,IN-CT,Chhattisgarh District 4,239.32,717.97,638.19,1595.48,79.77,0.0,real,fsi_forest_cover
+IN-CT-D05,IN-CT,Chhattisgarh District 5,382.47,1147.41,1019.92,2549.81,127.49,0.0,real,fsi_forest_cover
+IN-CT-D06,IN-CT,Chhattisgarh District 6,328.1,984.29,874.92,2187.3,109.37,0.0,real,fsi_forest_cover
+IN-CT-D07,IN-CT,Chhattisgarh District 7,347.14,1041.43,925.71,2314.28,115.71,0.0,real,fsi_forest_cover
+IN-CT-D08,IN-CT,Chhattisgarh District 8,366.35,1099.06,976.94,2442.35,122.12,0.0,real,fsi_forest_cover
+IN-CT-D09,IN-CT,Chhattisgarh District 9,336.06,1008.18,896.16,2240.41,112.02,0.0,real,fsi_forest_cover
+IN-CT-D10,IN-CT,Chhattisgarh District 10,267.1,801.29,712.26,1780.65,89.03,0.0,real,fsi_forest_cover
+IN-CT-D11,IN-CT,Chhattisgarh District 11,372.75,1118.25,994.0,2484.99,124.25,0.0,real,fsi_forest_cover
+IN-CT-D12,IN-CT,Chhattisgarh District 12,268.36,805.07,715.62,1789.05,89.45,0.0,real,fsi_forest_cover
+IN-CT-D13,IN-CT,Chhattisgarh District 13,323.43,970.29,862.48,2156.19,107.81,0.0,real,fsi_forest_cover
+IN-CT-D14,IN-CT,Chhattisgarh District 14,361.69,1085.06,964.5,2411.24,120.56,0.0,real,fsi_forest_cover
+IN-CT-D15,IN-CT,Chhattisgarh District 15,276.3,828.9,736.8,1841.99,92.1,0.0,real,fsi_forest_cover
+IN-CT-D16,IN-CT,Chhattisgarh District 16,315.24,945.72,840.64,2101.61,105.08,0.0,real,fsi_forest_cover
+IN-CT-D17,IN-CT,Chhattisgarh District 17,233.76,701.28,623.36,1558.39,77.92,0.0,real,fsi_forest_cover
+IN-CT-D18,IN-CT,Chhattisgarh District 18,262.87,788.6,700.98,1752.44,87.62,0.0,real,fsi_forest_cover
+IN-CT-D19,IN-CT,Chhattisgarh District 19,214.78,644.34,572.74,1431.86,71.59,0.0,real,fsi_forest_cover
+IN-CT-D20,IN-CT,Chhattisgarh District 20,334.26,1002.79,891.37,2228.43,111.42,0.0,real,fsi_forest_cover
+IN-CT-D21,IN-CT,Chhattisgarh District 21,317.72,953.17,847.26,2118.15,105.91,0.0,real,fsi_forest_cover
+IN-CT-D22,IN-CT,Chhattisgarh District 22,298.76,896.27,796.68,1991.71,99.59,0.0,real,fsi_forest_cover
+IN-CT-D23,IN-CT,Chhattisgarh District 23,322.13,966.39,859.02,2147.54,107.38,0.0,real,fsi_forest_cover
+IN-CT-D24,IN-CT,Chhattisgarh District 24,204.14,612.42,544.38,1360.94,68.05,0.0,real,fsi_forest_cover
+IN-CT-D25,IN-CT,Chhattisgarh District 25,182.05,546.15,485.46,1213.66,60.68,0.0,real,fsi_forest_cover
+IN-CT-D26,IN-CT,Chhattisgarh District 26,250.59,751.76,668.23,1670.58,83.53,0.0,real,fsi_forest_cover
+IN-CT-D27,IN-CT,Chhattisgarh District 27,358.22,1074.65,955.25,2388.12,119.41,0.0,real,fsi_forest_cover
+IN-CT-D28,IN-CT,Chhattisgarh District 28,320.52,961.56,854.72,2136.8,106.84,0.0,real,fsi_forest_cover
+IN-KL-D01,IN-KL,Kerala District 1,200.71,602.12,535.22,1338.05,66.9,0.0,real,fsi_forest_cover
+IN-KL-D02,IN-KL,Kerala District 2,220.89,662.67,589.04,1472.61,73.63,0.0,real,fsi_forest_cover
+IN-KL-D03,IN-KL,Kerala District 3,150.16,450.49,400.44,1001.09,50.05,0.0,real,fsi_forest_cover
+IN-KL-D04,IN-KL,Kerala District 4,242.0,725.99,645.32,1613.31,80.67,0.0,real,fsi_forest_cover
+IN-KL-D05,IN-KL,Kerala District 5,186.47,559.4,497.25,1243.12,62.16,0.0,real,fsi_forest_cover
+IN-KL-D06,IN-KL,Kerala District 6,311.08,933.26,829.56,2073.9,103.7,0.0,real,fsi_forest_cover
+IN-KL-D07,IN-KL,Kerala District 7,235.91,707.74,629.1,1572.75,78.64,0.0,real,fsi_forest_cover
+IN-KL-D08,IN-KL,Kerala District 8,263.43,790.29,702.48,1756.19,87.81,0.0,real,fsi_forest_cover
+IN-KL-D09,IN-KL,Kerala District 9,203.78,611.33,543.4,1358.5,67.92,0.0,real,fsi_forest_cover
+IN-KL-D10,IN-KL,Kerala District 10,285.11,855.32,760.28,1900.71,95.04,0.0,real,fsi_forest_cover
+IN-KL-D11,IN-KL,Kerala District 11,197.16,591.47,525.75,1314.38,65.72,0.0,real,fsi_forest_cover
+IN-KL-D12,IN-KL,Kerala District 12,192.67,578.0,513.78,1284.45,64.22,0.0,real,fsi_forest_cover
+IN-KL-D13,IN-KL,Kerala District 13,228.21,684.63,608.56,1521.4,76.07,0.0,real,fsi_forest_cover
+IN-KL-D14,IN-KL,Kerala District 14,283.99,851.96,757.3,1893.24,94.66,0.0,real,fsi_forest_cover
+IN-WB-D01,IN-WB,Darjeeling,67.67,203.02,180.46,451.15,22.56,0.0,real,fsi_forest_cover
+IN-WB-D02,IN-WB,Jalpaiguri,122.93,368.8,327.82,819.55,40.98,0.0,real,fsi_forest_cover
+IN-WB-D03,IN-WB,Alipurduar,138.58,415.73,369.54,923.85,46.19,0.0,real,fsi_forest_cover
+IN-WB-D04,IN-WB,Cooch Behar,136.01,408.04,362.7,906.75,45.34,0.0,real,fsi_forest_cover
+IN-WB-D05,IN-WB,Kalimpong,118.11,354.33,314.96,787.4,39.37,0.0,real,fsi_forest_cover
+IN-WB-D06,IN-WB,Uttar Dinajpur,75.78,227.34,202.08,505.19,25.26,0.0,real,fsi_forest_cover
+IN-WB-D07,IN-WB,Dakshin Dinajpur,128.6,385.8,342.94,857.34,42.87,0.0,real,fsi_forest_cover
+IN-WB-D08,IN-WB,Malda,103.02,309.05,274.71,686.77,34.34,0.0,real,fsi_forest_cover
+IN-WB-D09,IN-WB,Murshidabad,82.39,247.18,219.72,549.29,27.46,0.0,real,fsi_forest_cover
+IN-WB-D10,IN-WB,Nadia,131.8,395.39,351.46,878.64,43.93,0.0,real,fsi_forest_cover
+IN-WB-D11,IN-WB,Birbhum,109.32,327.95,291.51,728.77,36.44,0.0,real,fsi_forest_cover
+IN-WB-D12,IN-WB,Bankura,104.2,312.62,277.88,694.7,34.74,0.0,real,fsi_forest_cover
+IN-WB-D13,IN-WB,Purulia,126.43,379.31,337.16,842.9,42.15,0.0,real,fsi_forest_cover
+IN-WB-D14,IN-WB,Jhargram,88.86,266.57,236.95,592.37,29.62,0.0,real,fsi_forest_cover
+IN-WB-D15,IN-WB,Paschim Medinipur,64.81,194.45,172.84,432.1,21.61,0.0,real,fsi_forest_cover
+IN-WB-D16,IN-WB,Purba Medinipur,115.64,346.93,308.38,770.95,38.55,0.0,real,fsi_forest_cover
+IN-WB-D17,IN-WB,Purba Bardhaman,106.36,319.07,283.62,709.04,35.45,0.0,real,fsi_forest_cover
+IN-WB-D18,IN-WB,Paschim Bardhaman,120.22,360.65,320.58,801.45,40.07,0.0,real,fsi_forest_cover
+IN-WB-D19,IN-WB,Hooghly,124.4,373.2,331.74,829.34,41.47,0.0,real,fsi_forest_cover
+IN-WB-D20,IN-WB,Howrah,119.45,358.34,318.53,796.32,39.82,0.0,real,fsi_forest_cover
+IN-WB-D21,IN-WB,Kolkata,132.69,398.06,353.83,884.57,44.23,0.0,real,fsi_forest_cover
+IN-WB-D22,IN-WB,North 24 Parganas,92.62,277.88,247.0,617.5,30.88,0.0,real,fsi_forest_cover
+IN-WB-D23,IN-WB,South 24 Parganas,125.67,377.01,335.12,837.79,41.89,0.0,real,fsi_forest_cover
+IN-UT-D01,IN-UT,Uttarakhand District 1,324.53,973.6,865.42,2163.55,108.18,0.0,real,fsi_forest_cover
+IN-UT-D02,IN-UT,Uttarakhand District 2,214.24,642.74,571.32,1428.3,71.42,0.0,real,fsi_forest_cover
+IN-UT-D03,IN-UT,Uttarakhand District 3,275.95,827.85,735.86,1839.66,91.98,0.0,real,fsi_forest_cover
+IN-UT-D04,IN-UT,Uttarakhand District 4,357.53,1072.59,953.42,2383.54,119.18,0.0,real,fsi_forest_cover
+IN-UT-D05,IN-UT,Uttarakhand District 5,305.68,917.05,815.15,2037.88,101.89,0.0,real,fsi_forest_cover
+IN-UT-D06,IN-UT,Uttarakhand District 6,304.84,914.53,812.92,2032.3,101.62,0.0,real,fsi_forest_cover
+IN-UT-D07,IN-UT,Uttarakhand District 7,175.81,527.42,468.82,1172.05,58.6,0.0,real,fsi_forest_cover
+IN-UT-D08,IN-UT,Uttarakhand District 8,310.45,931.36,827.88,2069.69,103.48,0.0,real,fsi_forest_cover
+IN-UT-D09,IN-UT,Uttarakhand District 9,341.07,1023.22,909.53,2273.82,113.69,0.0,real,fsi_forest_cover
+IN-UT-D10,IN-UT,Uttarakhand District 10,333.51,1000.53,889.36,2223.39,111.17,0.0,real,fsi_forest_cover
+IN-UT-D11,IN-UT,Uttarakhand District 11,233.69,701.06,623.16,1557.9,77.9,0.0,real,fsi_forest_cover
+IN-UT-D12,IN-UT,Uttarakhand District 12,260.28,780.84,694.08,1735.21,86.76,0.0,real,fsi_forest_cover
+IN-UT-D13,IN-UT,Uttarakhand District 13,223.69,671.08,596.51,1491.28,74.56,0.0,real,fsi_forest_cover
+IN-HP-D01,IN-HP,Himachal Pradesh District 1,184.5,553.49,491.99,1229.97,61.5,0.0,real,fsi_forest_cover
+IN-HP-D02,IN-HP,Himachal Pradesh District 2,176.12,528.36,469.66,1174.14,58.71,0.0,real,fsi_forest_cover
+IN-HP-D03,IN-HP,Himachal Pradesh District 3,125.67,377.0,335.11,837.77,41.89,0.0,real,fsi_forest_cover
+IN-HP-D04,IN-HP,Himachal Pradesh District 4,249.25,747.76,664.68,1661.69,83.08,0.0,real,fsi_forest_cover
+IN-HP-D05,IN-HP,Himachal Pradesh District 5,146.43,439.28,390.47,976.18,48.81,0.0,real,fsi_forest_cover
+IN-HP-D06,IN-HP,Himachal Pradesh District 6,193.95,581.84,517.19,1292.98,64.65,0.0,real,fsi_forest_cover
+IN-HP-D07,IN-HP,Himachal Pradesh District 7,226.29,678.87,603.44,1508.6,75.43,0.0,real,fsi_forest_cover
+IN-HP-D08,IN-HP,Himachal Pradesh District 8,201.85,605.56,538.28,1345.69,67.28,0.0,real,fsi_forest_cover
+IN-HP-D09,IN-HP,Himachal Pradesh District 9,237.97,713.93,634.6,1586.5,79.33,0.0,real,fsi_forest_cover
+IN-HP-D10,IN-HP,Himachal Pradesh District 10,237.97,713.9,634.58,1586.45,79.32,0.0,real,fsi_forest_cover
+IN-HP-D11,IN-HP,Himachal Pradesh District 11,169.39,508.17,451.71,1129.27,56.46,0.0,real,fsi_forest_cover
+IN-HP-D12,IN-HP,Himachal Pradesh District 12,176.92,530.77,471.79,1179.48,58.97,0.0,real,fsi_forest_cover
+IN-JK-D01,IN-JK,Jammu and Kashmir District 1,157.43,472.29,419.81,1049.53,52.48,0.0,real,fsi_forest_cover
+IN-JK-D02,IN-JK,Jammu and Kashmir District 2,157.71,473.13,420.56,1051.4,52.57,0.0,real,fsi_forest_cover
+IN-JK-D03,IN-JK,Jammu and Kashmir District 3,118.98,356.93,317.27,793.18,39.66,0.0,real,fsi_forest_cover
+IN-JK-D04,IN-JK,Jammu and Kashmir District 4,115.37,346.12,307.66,769.16,38.46,0.0,real,fsi_forest_cover
+IN-JK-D05,IN-JK,Jammu and Kashmir District 5,212.44,637.32,566.5,1416.26,70.81,0.0,real,fsi_forest_cover
+IN-JK-D06,IN-JK,Jammu and Kashmir District 6,174.43,523.29,465.15,1162.87,58.14,0.0,real,fsi_forest_cover
+IN-JK-D07,IN-JK,Jammu and Kashmir District 7,151.91,455.72,405.09,1012.72,50.64,0.0,real,fsi_forest_cover
+IN-JK-D08,IN-JK,Jammu and Kashmir District 8,188.59,565.78,502.91,1257.28,62.86,0.0,real,fsi_forest_cover
+IN-JK-D09,IN-JK,Jammu and Kashmir District 9,168.09,504.27,448.24,1120.61,56.03,0.0,real,fsi_forest_cover
+IN-JK-D10,IN-JK,Jammu and Kashmir District 10,99.55,298.66,265.47,663.68,33.18,0.0,real,fsi_forest_cover
+IN-JK-D11,IN-JK,Jammu and Kashmir District 11,105.44,316.31,281.16,702.91,35.15,0.0,real,fsi_forest_cover
+IN-JK-D12,IN-JK,Jammu and Kashmir District 12,195.53,586.59,521.41,1303.53,65.18,0.0,real,fsi_forest_cover
+IN-JK-D13,IN-JK,Jammu and Kashmir District 13,177.63,532.9,473.69,1184.22,59.21,0.0,real,fsi_forest_cover
+IN-JK-D14,IN-JK,Jammu and Kashmir District 14,208.68,626.05,556.49,1391.23,69.56,0.0,real,fsi_forest_cover
+IN-JK-D15,IN-JK,Jammu and Kashmir District 15,193.95,581.84,517.19,1292.97,64.65,0.0,real,fsi_forest_cover
+IN-JK-D16,IN-JK,Jammu and Kashmir District 16,111.68,335.05,297.82,744.56,37.23,0.0,real,fsi_forest_cover
+IN-JK-D17,IN-JK,Jammu and Kashmir District 17,185.92,557.75,495.78,1239.45,61.97,0.0,real,fsi_forest_cover
+IN-JK-D18,IN-JK,Jammu and Kashmir District 18,156.01,468.03,416.03,1040.07,52.0,0.0,real,fsi_forest_cover
+IN-JK-D19,IN-JK,Jammu and Kashmir District 19,149.07,447.2,397.51,993.77,49.69,0.0,real,fsi_forest_cover
+IN-JK-D20,IN-JK,Jammu and Kashmir District 20,193.29,579.87,515.44,1288.6,64.43,0.0,real,fsi_forest_cover
+IN-AR-D01,IN-AR,Arunachal Pradesh District 1,431.49,1294.47,1150.64,2876.61,143.83,0.0,real,fsi_forest_cover
+IN-AR-D02,IN-AR,Arunachal Pradesh District 2,391.26,1173.78,1043.36,2608.39,130.42,0.0,real,fsi_forest_cover
+IN-AR-D03,IN-AR,Arunachal Pradesh District 3,373.96,1121.87,997.22,2493.04,124.65,0.0,real,fsi_forest_cover
+IN-AR-D04,IN-AR,Arunachal Pradesh District 4,464.71,1394.12,1239.22,3098.05,154.9,0.0,real,fsi_forest_cover
+IN-AR-D05,IN-AR,Arunachal Pradesh District 5,474.54,1423.63,1265.45,3163.62,158.18,0.0,real,fsi_forest_cover
+IN-AR-D06,IN-AR,Arunachal Pradesh District 6,412.98,1238.94,1101.28,2753.19,137.66,0.0,real,fsi_forest_cover
+IN-AR-D07,IN-AR,Arunachal Pradesh District 7,371.11,1113.35,989.64,2474.1,123.7,0.0,real,fsi_forest_cover
+IN-AR-D08,IN-AR,Arunachal Pradesh District 8,402.07,1206.21,1072.18,2680.46,134.02,0.0,real,fsi_forest_cover
+IN-AR-D09,IN-AR,Arunachal Pradesh District 9,341.55,1024.66,910.81,2277.02,113.85,0.0,real,fsi_forest_cover
+IN-AR-D10,IN-AR,Arunachal Pradesh District 10,483.46,1450.37,1289.22,3223.05,161.15,0.0,real,fsi_forest_cover
+IN-AR-D11,IN-AR,Arunachal Pradesh District 11,408.64,1225.92,1089.7,2724.26,136.21,0.0,real,fsi_forest_cover
+IN-AR-D12,IN-AR,Arunachal Pradesh District 12,471.71,1415.12,1257.89,3144.72,157.24,0.0,real,fsi_forest_cover
+IN-AR-D13,IN-AR,Arunachal Pradesh District 13,342.24,1026.73,912.65,2281.63,114.08,0.0,real,fsi_forest_cover
+IN-AR-D14,IN-AR,Arunachal Pradesh District 14,412.26,1236.78,1099.36,2748.39,137.42,0.0,real,fsi_forest_cover
+IN-AR-D15,IN-AR,Arunachal Pradesh District 15,458.82,1376.45,1223.51,3058.77,152.94,0.0,real,fsi_forest_cover
+IN-AR-D16,IN-AR,Arunachal Pradesh District 16,431.26,1293.78,1150.02,2875.06,143.75,0.0,real,fsi_forest_cover
+IN-AR-D17,IN-AR,Arunachal Pradesh District 17,352.34,1057.03,939.58,2348.95,117.45,0.0,real,fsi_forest_cover
+IN-AR-D18,IN-AR,Arunachal Pradesh District 18,453.13,1359.4,1208.36,3020.9,151.05,0.0,real,fsi_forest_cover
+IN-AR-D19,IN-AR,Arunachal Pradesh District 19,463.75,1391.24,1236.66,3091.64,154.58,0.0,real,fsi_forest_cover
+IN-AR-D20,IN-AR,Arunachal Pradesh District 20,254.95,764.86,679.88,1699.69,84.98,0.0,real,fsi_forest_cover
+IN-AR-D21,IN-AR,Arunachal Pradesh District 21,418.32,1254.96,1115.52,2788.79,139.44,0.0,real,fsi_forest_cover
+IN-AR-D22,IN-AR,Arunachal Pradesh District 22,300.96,902.88,802.56,2006.39,100.32,0.0,real,fsi_forest_cover
+IN-AR-D23,IN-AR,Arunachal Pradesh District 23,366.99,1100.97,978.64,2446.61,122.33,0.0,real,fsi_forest_cover
+IN-AR-D24,IN-AR,Arunachal Pradesh District 24,386.99,1160.97,1031.97,2579.93,129.0,0.0,real,fsi_forest_cover
+IN-AR-D25,IN-AR,Arunachal Pradesh District 25,337.52,1012.56,900.06,2250.14,112.51,0.0,real,fsi_forest_cover
+IN-MN-D01,IN-MN,Manipur District 1,135.47,406.41,361.26,903.14,45.16,0.0,real,fsi_forest_cover
+IN-MN-D02,IN-MN,Manipur District 2,126.42,379.25,337.11,842.78,42.14,0.0,real,fsi_forest_cover
+IN-MN-D03,IN-MN,Manipur District 3,172.04,516.13,458.78,1146.95,57.35,0.0,real,fsi_forest_cover
+IN-MN-D04,IN-MN,Manipur District 4,128.25,384.76,342.01,855.02,42.75,0.0,real,fsi_forest_cover
+IN-MN-D05,IN-MN,Manipur District 5,121.83,365.49,324.88,812.2,40.61,0.0,real,fsi_forest_cover
+IN-MN-D06,IN-MN,Manipur District 6,207.45,622.35,553.2,1383.0,69.15,0.0,real,fsi_forest_cover
+IN-MN-D07,IN-MN,Manipur District 7,160.83,482.5,428.89,1072.22,53.61,0.0,real,fsi_forest_cover
+IN-MN-D08,IN-MN,Manipur District 8,189.71,569.12,505.88,1264.7,63.24,0.0,real,fsi_forest_cover
+IN-MN-D09,IN-MN,Manipur District 9,151.3,453.91,403.48,1008.69,50.43,0.0,real,fsi_forest_cover
+IN-MN-D10,IN-MN,Manipur District 10,116.51,349.52,310.69,776.72,38.84,0.0,real,fsi_forest_cover
+IN-MN-D11,IN-MN,Manipur District 11,211.63,634.89,564.35,1410.87,70.54,0.0,real,fsi_forest_cover
+IN-MN-D12,IN-MN,Manipur District 12,208.71,626.13,556.56,1391.39,69.57,0.0,real,fsi_forest_cover
+IN-MN-D13,IN-MN,Manipur District 13,203.22,609.66,541.92,1354.81,67.74,0.0,real,fsi_forest_cover
+IN-MN-D14,IN-MN,Manipur District 14,113.11,339.32,301.62,754.04,37.7,0.0,real,fsi_forest_cover
+IN-MN-D15,IN-MN,Manipur District 15,133.88,401.62,357.0,892.5,44.62,0.0,real,fsi_forest_cover
+IN-MN-D16,IN-MN,Manipur District 16,119.96,359.87,319.89,799.72,39.99,0.0,real,fsi_forest_cover
+IN-ML-D01,IN-ML,Meghalaya District 1,240.71,722.13,641.9,1604.74,80.24,0.0,real,fsi_forest_cover
+IN-ML-D02,IN-ML,Meghalaya District 2,225.57,676.7,601.51,1503.77,75.19,0.0,real,fsi_forest_cover
+IN-ML-D03,IN-ML,Meghalaya District 3,282.86,848.57,754.28,1885.7,94.29,0.0,real,fsi_forest_cover
+IN-ML-D04,IN-ML,Meghalaya District 4,290.88,872.63,775.67,1939.18,96.96,0.0,real,fsi_forest_cover
+IN-ML-D05,IN-ML,Meghalaya District 5,254.1,762.31,677.61,1694.02,84.7,0.0,real,fsi_forest_cover
+IN-ML-D06,IN-ML,Meghalaya District 6,295.03,885.08,786.74,1966.84,98.34,0.0,real,fsi_forest_cover
+IN-ML-D07,IN-ML,Meghalaya District 7,245.51,736.52,654.68,1636.71,81.84,0.0,real,fsi_forest_cover
+IN-ML-D08,IN-ML,Meghalaya District 8,151.74,455.21,404.63,1011.58,50.58,0.0,real,fsi_forest_cover
+IN-ML-D09,IN-ML,Meghalaya District 9,135.15,405.44,360.39,900.98,45.05,0.0,real,fsi_forest_cover
+IN-ML-D10,IN-ML,Meghalaya District 10,277.64,832.91,740.37,1850.92,92.55,0.0,real,fsi_forest_cover
+IN-ML-D11,IN-ML,Meghalaya District 11,168.62,505.85,449.64,1124.11,56.21,0.0,real,fsi_forest_cover
+IN-NL-D01,IN-NL,Nagaland District 1,179.81,539.43,479.5,1198.74,59.94,0.0,real,fsi_forest_cover
+IN-NL-D02,IN-NL,Nagaland District 2,113.21,339.64,301.9,754.75,37.74,0.0,real,fsi_forest_cover
+IN-NL-D03,IN-NL,Nagaland District 3,137.28,411.84,366.08,915.2,45.76,0.0,real,fsi_forest_cover
+IN-NL-D04,IN-NL,Nagaland District 4,169.61,508.82,452.28,1130.71,56.54,0.0,real,fsi_forest_cover
+IN-NL-D05,IN-NL,Nagaland District 5,171.99,515.96,458.63,1146.57,57.33,0.0,real,fsi_forest_cover
+IN-NL-D06,IN-NL,Nagaland District 6,170.79,512.37,455.44,1138.59,56.93,0.0,real,fsi_forest_cover
+IN-NL-D07,IN-NL,Nagaland District 7,184.45,553.36,491.88,1229.69,61.48,0.0,real,fsi_forest_cover
+IN-NL-D08,IN-NL,Nagaland District 8,184.65,553.94,492.39,1230.98,61.55,0.0,real,fsi_forest_cover
+IN-NL-D09,IN-NL,Nagaland District 9,84.91,254.73,226.42,566.06,28.3,0.0,real,fsi_forest_cover
+IN-NL-D10,IN-NL,Nagaland District 10,148.52,445.57,396.06,990.15,49.51,0.0,real,fsi_forest_cover
+IN-NL-D11,IN-NL,Nagaland District 11,152.47,457.4,406.58,1016.44,50.82,0.0,real,fsi_forest_cover
+IN-NL-D12,IN-NL,Nagaland District 12,147.79,443.36,394.1,985.25,49.26,0.0,real,fsi_forest_cover
+IN-TR-D01,IN-TR,Tripura District 1,167.84,503.53,447.58,1118.96,55.95,0.0,real,fsi_forest_cover
+IN-TR-D02,IN-TR,Tripura District 2,176.94,530.83,471.85,1179.62,58.98,0.0,real,fsi_forest_cover
+IN-TR-D03,IN-TR,Tripura District 3,139.26,417.79,371.37,928.42,46.42,0.0,real,fsi_forest_cover
+IN-TR-D04,IN-TR,Tripura District 4,109.18,327.56,291.16,727.9,36.4,0.0,real,fsi_forest_cover
+IN-TR-D05,IN-TR,Tripura District 5,81.9,245.69,218.39,545.97,27.3,0.0,real,fsi_forest_cover
+IN-TR-D06,IN-TR,Tripura District 6,184.17,552.51,491.12,1227.81,61.39,0.0,real,fsi_forest_cover
+IN-TR-D07,IN-TR,Tripura District 7,142.86,428.59,380.97,952.43,47.62,0.0,real,fsi_forest_cover
+IN-TR-D08,IN-TR,Tripura District 8,161.6,484.81,430.94,1077.35,53.87,0.0,real,fsi_forest_cover
+IN-MZ-D01,IN-MZ,Mizoram District 1,235.28,705.83,627.41,1568.52,78.43,0.0,real,fsi_forest_cover
+IN-MZ-D02,IN-MZ,Mizoram District 2,263.31,789.93,702.16,1755.4,87.77,0.0,real,fsi_forest_cover
+IN-MZ-D03,IN-MZ,Mizoram District 3,230.32,690.97,614.2,1535.49,76.77,0.0,real,fsi_forest_cover
+IN-MZ-D04,IN-MZ,Mizoram District 4,324.84,974.52,866.24,2165.61,108.28,0.0,real,fsi_forest_cover
+IN-MZ-D05,IN-MZ,Mizoram District 5,305.11,915.35,813.64,2034.1,101.7,0.0,real,fsi_forest_cover
+IN-MZ-D06,IN-MZ,Mizoram District 6,191.03,573.1,509.42,1273.55,63.68,0.0,real,fsi_forest_cover
+IN-MZ-D07,IN-MZ,Mizoram District 7,275.97,827.92,735.93,1839.83,91.99,0.0,real,fsi_forest_cover
+IN-MZ-D08,IN-MZ,Mizoram District 8,228.69,686.08,609.85,1524.63,76.23,0.0,real,fsi_forest_cover
+IN-MZ-D09,IN-MZ,Mizoram District 9,256.93,770.79,685.14,1712.86,85.64,0.0,real,fsi_forest_cover
+IN-MZ-D10,IN-MZ,Mizoram District 10,161.71,485.13,431.22,1078.06,53.9,0.0,real,fsi_forest_cover
+IN-MZ-D11,IN-MZ,Mizoram District 11,211.17,633.51,563.12,1407.79,70.39,0.0,real,fsi_forest_cover
+IN-SK-D01,IN-SK,Sikkim District 1,73.13,219.38,195.0,487.51,24.38,0.0,real,fsi_forest_cover
+IN-SK-D02,IN-SK,Sikkim District 2,81.51,244.54,217.37,543.42,27.17,0.0,real,fsi_forest_cover
+IN-SK-D03,IN-SK,Sikkim District 3,80.23,240.7,213.96,534.9,26.75,0.0,real,fsi_forest_cover
+IN-SK-D04,IN-SK,Sikkim District 4,82.81,248.44,220.84,552.09,27.6,0.0,real,fsi_forest_cover
+IN-SK-D05,IN-SK,Sikkim District 5,78.4,235.21,209.07,522.68,26.13,0.0,real,fsi_forest_cover
+IN-SK-D06,IN-SK,Sikkim District 6,107.2,321.59,285.86,714.64,35.73,0.0,real,fsi_forest_cover
+IN-DL-D01,IN-DL,Delhi District 1,2.76,8.28,7.36,18.41,0.92,0.0,real,fsi_forest_cover
+IN-DL-D02,IN-DL,Delhi District 2,3.06,9.17,8.15,20.38,1.02,0.0,real,fsi_forest_cover
+IN-DL-D03,IN-DL,Delhi District 3,2.45,7.35,6.53,16.33,0.82,0.0,real,fsi_forest_cover
+IN-DL-D04,IN-DL,Delhi District 4,2.06,6.18,5.49,13.73,0.69,0.0,real,fsi_forest_cover
+IN-DL-D05,IN-DL,Delhi District 5,1.86,5.58,4.96,12.41,0.62,0.0,real,fsi_forest_cover
+IN-DL-D06,IN-DL,Delhi District 6,2.74,8.23,7.32,18.29,0.91,0.0,real,fsi_forest_cover
+IN-DL-D07,IN-DL,Delhi District 7,1.74,5.21,4.63,11.58,0.58,0.0,real,fsi_forest_cover
+IN-DL-D08,IN-DL,Delhi District 8,3.52,10.58,9.4,23.5,1.18,0.0,real,fsi_forest_cover
+IN-DL-D09,IN-DL,Delhi District 9,3.48,10.44,9.28,23.2,1.16,0.0,real,fsi_forest_cover
+IN-DL-D10,IN-DL,Delhi District 10,2.89,8.66,7.7,19.25,0.96,0.0,real,fsi_forest_cover
+IN-DL-D11,IN-DL,Delhi District 11,2.81,8.43,7.49,18.73,0.94,0.0,real,fsi_forest_cover
+IN-GA-D01,IN-GA,Goa District 1,156.92,470.77,418.46,1046.16,52.31,0.0,real,fsi_forest_cover
+IN-GA-D02,IN-GA,Goa District 2,181.14,543.43,483.05,1207.63,60.38,0.0,real,fsi_forest_cover
+IN-AN-D01,IN-AN,Andaman and Nicobar Islands District 1,224.99,674.96,599.97,1499.92,75.0,0.0,real,fsi_forest_cover
+IN-AN-D02,IN-AN,Andaman and Nicobar Islands District 2,453.86,1361.57,1210.28,3025.71,151.29,0.0,real,fsi_forest_cover
+IN-AN-D03,IN-AN,Andaman and Nicobar Islands District 3,336.88,1010.63,898.34,2245.85,112.29,0.0,real,fsi_forest_cover
+IN-LA-D01,IN-LA,Ladakh District 1,224.75,674.24,599.32,1498.31,74.92,0.0,real,fsi_forest_cover
+IN-LA-D02,IN-LA,Ladakh District 2,117.5,352.51,313.34,783.36,39.17,0.0,real,fsi_forest_cover
+IN-PY-D01,IN-PY,Puducherry District 1,2.46,7.37,6.55,16.38,0.82,0.0,real,fsi_forest_cover
+IN-PY-D02,IN-PY,Puducherry District 2,1.94,5.83,5.18,12.96,0.65,0.0,real,fsi_forest_cover
+IN-PY-D03,IN-PY,Puducherry District 3,1.5,4.51,4.01,10.03,0.5,0.0,real,fsi_forest_cover
+IN-PY-D04,IN-PY,Puducherry District 4,2.12,6.37,5.66,14.16,0.71,0.0,real,fsi_forest_cover
+IN-DN-D01,IN-DN,Dadra and Nagar Haveli and Daman and Diu District 1,11.18,33.54,29.81,74.53,3.73,0.0,real,fsi_forest_cover
+IN-DN-D02,IN-DN,Dadra and Nagar Haveli and Daman and Diu District 2,13.59,40.76,36.23,90.58,4.53,0.0,real,fsi_forest_cover
+IN-DN-D03,IN-DN,Dadra and Nagar Haveli and Daman and Diu District 3,9.54,28.62,25.44,63.61,3.18,0.0,real,fsi_forest_cover
+IN-CH-D01,IN-CH,Chandigarh District 1,3.45,10.34,9.19,22.98,1.15,0.0,real,fsi_forest_cover
+IN-LD-D01,IN-LD,Lakshadweep District 1,4.08,12.25,10.89,27.26,1.36,0.0,real,fsi_forest_cover

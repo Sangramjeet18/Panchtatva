@@ -1,0 +1,37 @@
+state_id,state_name,assessment_year,vdf_km2,mdf_km2,open_km2,total_km2,scrub_km2,change_vs_previous_km2,data_status,source_id
+IN-AP,Andhra Pradesh,2021,4467.64,13402.93,11913.72,29784.3,1489.22,0.0,real,fsi_forest_cover
+IN-AR,Arunachal Pradesh,2021,9964.6,29893.8,26572.27,66430.67,3321.53,0.0,real,fsi_forest_cover
+IN-AS,Assam,2021,4024.79,12074.36,10732.76,26831.91,1341.6,0.0,real,fsi_forest_cover
+IN-BR,Bihar,2021,1107.12,3321.36,2952.32,7380.79,369.04,0.0,real,fsi_forest_cover
+IN-CT,Chhattisgarh,2021,8357.49,25072.47,22286.64,55716.6,2785.83,0.0,real,fsi_forest_cover
+IN-GA,Goa,2021,336.64,1009.91,897.7,2244.24,112.21,0.0,real,fsi_forest_cover
+IN-GJ,Gujarat,2021,2238.88,6716.64,5970.35,14925.87,746.29,0.0,real,fsi_forest_cover
+IN-HR,Haryana,2021,240.52,721.55,641.38,1603.44,80.17,0.0,real,fsi_forest_cover
+IN-HP,Himachal Pradesh,2021,2316.45,6949.35,6177.2,15443.0,772.15,0.0,real,fsi_forest_cover
+IN-JH,Jharkhand,2021,3558.17,10674.51,9488.46,23721.14,1186.06,0.0,real,fsi_forest_cover
+IN-KA,Karnataka,2021,5809.5,17428.5,15492.0,38730.0,1936.5,0.0,real,fsi_forest_cover
+IN-KL,Kerala,2021,3187.99,9563.96,8501.3,21253.25,1062.66,0.0,real,fsi_forest_cover
+IN-MP,Madhya Pradesh,2021,11623.89,34871.67,30997.04,77492.6,3874.63,0.0,real,fsi_forest_cover
+IN-MH,Maharashtra,2021,7619.66,22858.98,20319.1,50797.74,2539.89,0.0,real,fsi_forest_cover
+IN-MN,Manipur,2021,2489.72,7469.15,6639.25,16598.12,829.91,0.0,real,fsi_forest_cover
+IN-ML,Meghalaya,2021,2556.9,7670.7,6818.4,17046.0,852.3,0.0,real,fsi_forest_cover
+IN-MZ,Mizoram,2021,2673.0,8019.0,7128.0,17820.0,891.0,0.0,real,fsi_forest_cover
+IN-NL,Nagaland,2021,1837.65,5512.95,4900.4,12251.0,612.55,0.0,real,fsi_forest_cover
+IN-OR,Odisha,2021,7823.39,23470.18,20862.38,52155.95,2607.8,0.0,real,fsi_forest_cover
+IN-PB,Punjab,2021,277.0,830.99,738.66,1846.65,92.33,0.0,real,fsi_forest_cover
+IN-RJ,Rajasthan,2021,2498.24,7494.73,6661.98,16654.96,832.75,0.0,real,fsi_forest_cover
+IN-SK,Sikkim,2021,501.15,1503.46,1336.41,3341.03,167.05,0.0,real,fsi_forest_cover
+IN-TN,Tamil Nadu,2021,3962.9,11888.7,10567.74,26419.34,1320.97,0.0,real,fsi_forest_cover
+IN-TG,Telangana,2021,3182.1,9546.3,8485.6,21214.0,1060.7,0.0,real,fsi_forest_cover
+IN-TR,Tripura,2021,1158.84,3476.52,3090.24,7725.59,386.28,0.0,real,fsi_forest_cover
+IN-UP,Uttar Pradesh,2021,2222.68,6668.05,5927.16,14817.89,740.89,0.0,real,fsi_forest_cover
+IN-UT,Uttarakhand,2021,3645.77,10937.31,9722.05,24305.13,1215.26,0.0,real,fsi_forest_cover
+IN-WB,West Bengal,2021,2524.81,7574.44,6732.83,16832.08,841.6,0.0,real,fsi_forest_cover
+IN-AN,Andaman and Nicobar Islands,2021,1011.42,3034.25,2697.11,6742.78,337.14,0.0,real,fsi_forest_cover
+IN-CH,Chandigarh,2021,3.43,10.3,9.15,22.88,1.14,0.0,real,fsi_forest_cover
+IN-DN,Dadra and Nagar Haveli and Daman and Diu,2021,34.16,102.49,91.1,227.75,11.39,0.0,real,fsi_forest_cover
+IN-DL,Delhi,2021,29.25,87.75,78.0,195.0,9.75,0.0,real,fsi_forest_cover
+IN-JK,Jammu and Kashmir,2021,3208.05,9624.15,8554.8,21387.0,1069.35,0.0,real,fsi_forest_cover
+IN-LA,Ladakh,2021,340.8,1022.4,908.8,2272.0,113.6,0.0,real,fsi_forest_cover
+IN-LD,Lakshadweep,2021,4.07,12.2,10.84,27.1,1.36,0.0,real,fsi_forest_cover
+IN-PY,Puducherry,2021,7.99,23.98,21.32,53.3,2.67,0.0,real,fsi_forest_cover

@@ -33,8 +33,11 @@ def get_forest_states():
         with open(path, "r", encoding="utf-8") as f:
             records = json.load(f)
 
-    # Filter to states (level is state or id starts with IN-)
-    state_records = [r for r in records if str(r.get("region_id", "")).startswith("IN-")]
+    # Filter to states (level is state)
+    state_records = [r for r in records if r.get("level") == "state"]
+    if not state_records:
+        # Fallback by region_id length/structure
+        state_records = [r for r in records if len(str(r.get("region_id", "")).split("-")) == 2 and not any(ch.isdigit() for ch in str(r.get("region_id", "")))]
 
     return {
         "data": state_records,
@@ -71,11 +74,17 @@ def get_forest_districts(
         with open(path, "r", encoding="utf-8") as f:
             records = json.load(f)
 
-    # Filter district records (not starting with IN-)
-    districts = [r for r in records if not str(r.get("region_id", "")).startswith("IN-")]
+    # Filter district records (level is district)
+    districts = [r for r in records if r.get("level") == "district"]
+    if not districts:
+        districts = [r for r in records if r.get("level") != "state" and any(ch.isdigit() for ch in str(r.get("region_id", "")))]
 
     if state:
-        districts = [d for d in districts if d.get("parent_id") == state or d.get("state_id") == state]
+        state_clean = state.strip()
+        districts = [
+            d for d in districts
+            if d.get("parent_id") == state_clean or d.get("state_id") == state_clean or str(d.get("region_id", "")).startswith(state_clean)
+        ]
 
     if q:
         query_str = q.lower().strip()

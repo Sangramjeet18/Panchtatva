@@ -28,19 +28,20 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS configuration
-origins = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "https://ecosense.vercel.app",
-    "https://panchtatva.vercel.app",
-]
+# CORS configuration: allow origins from FRONTEND_ORIGINS env var (comma-separated).
+# Never use "*". Default for local development is http://localhost:3000.
+raw_origins = os.environ.get("FRONTEND_ORIGINS", "http://localhost:3000")
+origins = [o.strip() for o in raw_origins.split(",") if o.strip() and o.strip() != "*"]
+if "http://localhost:3000" not in origins:
+    origins.append("http://localhost:3000")
+if "http://127.0.0.1:3000" not in origins:
+    origins.append("http://127.0.0.1:3000")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
 
@@ -53,7 +54,7 @@ app.include_router(waterlogging_router)
 
 @app.get("/health")
 def health_check():
-    return {"status": "ok", "service": "ecosense-backend"}
+    return {"status": "ok", "version": "1.0.0"}
 
 
 @app.get("/")

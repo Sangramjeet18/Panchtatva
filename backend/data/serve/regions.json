@@ -286,5 +286,6005 @@
     "name": "Puducherry",
     "code": "IN-PY",
     "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D01",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 1",
+    "code": "IN-UP-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D02",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 2",
+    "code": "IN-UP-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D03",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 3",
+    "code": "IN-UP-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D04",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 4",
+    "code": "IN-UP-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D05",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 5",
+    "code": "IN-UP-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D06",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 6",
+    "code": "IN-UP-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D07",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 7",
+    "code": "IN-UP-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D08",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 8",
+    "code": "IN-UP-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D09",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 9",
+    "code": "IN-UP-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D10",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 10",
+    "code": "IN-UP-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D11",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 11",
+    "code": "IN-UP-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D12",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 12",
+    "code": "IN-UP-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D13",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 13",
+    "code": "IN-UP-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D14",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 14",
+    "code": "IN-UP-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D15",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 15",
+    "code": "IN-UP-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D16",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 16",
+    "code": "IN-UP-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D17",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 17",
+    "code": "IN-UP-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D18",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 18",
+    "code": "IN-UP-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D19",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 19",
+    "code": "IN-UP-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D20",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 20",
+    "code": "IN-UP-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D21",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 21",
+    "code": "IN-UP-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D22",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 22",
+    "code": "IN-UP-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D23",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 23",
+    "code": "IN-UP-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D24",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 24",
+    "code": "IN-UP-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D25",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 25",
+    "code": "IN-UP-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D26",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 26",
+    "code": "IN-UP-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D27",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 27",
+    "code": "IN-UP-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D28",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 28",
+    "code": "IN-UP-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D29",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 29",
+    "code": "IN-UP-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D30",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 30",
+    "code": "IN-UP-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D31",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 31",
+    "code": "IN-UP-D31",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D32",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 32",
+    "code": "IN-UP-D32",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D33",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 33",
+    "code": "IN-UP-D33",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D34",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 34",
+    "code": "IN-UP-D34",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D35",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 35",
+    "code": "IN-UP-D35",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D36",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 36",
+    "code": "IN-UP-D36",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D37",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 37",
+    "code": "IN-UP-D37",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D38",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 38",
+    "code": "IN-UP-D38",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D39",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 39",
+    "code": "IN-UP-D39",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D40",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 40",
+    "code": "IN-UP-D40",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D41",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 41",
+    "code": "IN-UP-D41",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D42",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 42",
+    "code": "IN-UP-D42",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D43",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 43",
+    "code": "IN-UP-D43",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D44",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 44",
+    "code": "IN-UP-D44",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D45",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 45",
+    "code": "IN-UP-D45",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D46",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 46",
+    "code": "IN-UP-D46",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D47",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 47",
+    "code": "IN-UP-D47",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D48",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 48",
+    "code": "IN-UP-D48",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D49",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 49",
+    "code": "IN-UP-D49",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D50",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 50",
+    "code": "IN-UP-D50",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D51",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 51",
+    "code": "IN-UP-D51",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D52",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 52",
+    "code": "IN-UP-D52",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D53",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 53",
+    "code": "IN-UP-D53",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D54",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 54",
+    "code": "IN-UP-D54",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D55",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 55",
+    "code": "IN-UP-D55",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D56",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 56",
+    "code": "IN-UP-D56",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D57",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 57",
+    "code": "IN-UP-D57",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D58",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 58",
+    "code": "IN-UP-D58",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D59",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 59",
+    "code": "IN-UP-D59",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D60",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 60",
+    "code": "IN-UP-D60",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D61",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 61",
+    "code": "IN-UP-D61",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D62",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 62",
+    "code": "IN-UP-D62",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D63",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 63",
+    "code": "IN-UP-D63",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D64",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 64",
+    "code": "IN-UP-D64",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D65",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 65",
+    "code": "IN-UP-D65",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D66",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 66",
+    "code": "IN-UP-D66",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D67",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 67",
+    "code": "IN-UP-D67",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D68",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 68",
+    "code": "IN-UP-D68",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D69",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 69",
+    "code": "IN-UP-D69",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D70",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 70",
+    "code": "IN-UP-D70",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D71",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 71",
+    "code": "IN-UP-D71",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D72",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 72",
+    "code": "IN-UP-D72",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D73",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 73",
+    "code": "IN-UP-D73",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D74",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 74",
+    "code": "IN-UP-D74",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP-D75",
+    "parent_id": "IN-UP",
+    "level": "district",
+    "name": "Uttar Pradesh District 75",
+    "code": "IN-UP-D75",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D01",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 1",
+    "code": "IN-MP-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D02",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 2",
+    "code": "IN-MP-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D03",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 3",
+    "code": "IN-MP-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D04",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 4",
+    "code": "IN-MP-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D05",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 5",
+    "code": "IN-MP-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D06",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 6",
+    "code": "IN-MP-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D07",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 7",
+    "code": "IN-MP-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D08",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 8",
+    "code": "IN-MP-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D09",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 9",
+    "code": "IN-MP-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D10",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 10",
+    "code": "IN-MP-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D11",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 11",
+    "code": "IN-MP-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D12",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 12",
+    "code": "IN-MP-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D13",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 13",
+    "code": "IN-MP-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D14",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 14",
+    "code": "IN-MP-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D15",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 15",
+    "code": "IN-MP-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D16",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 16",
+    "code": "IN-MP-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D17",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 17",
+    "code": "IN-MP-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D18",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 18",
+    "code": "IN-MP-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D19",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 19",
+    "code": "IN-MP-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D20",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 20",
+    "code": "IN-MP-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D21",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 21",
+    "code": "IN-MP-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D22",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 22",
+    "code": "IN-MP-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D23",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 23",
+    "code": "IN-MP-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D24",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 24",
+    "code": "IN-MP-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D25",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 25",
+    "code": "IN-MP-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D26",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 26",
+    "code": "IN-MP-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D27",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 27",
+    "code": "IN-MP-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D28",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 28",
+    "code": "IN-MP-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D29",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 29",
+    "code": "IN-MP-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D30",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 30",
+    "code": "IN-MP-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D31",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 31",
+    "code": "IN-MP-D31",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D32",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 32",
+    "code": "IN-MP-D32",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D33",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 33",
+    "code": "IN-MP-D33",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D34",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 34",
+    "code": "IN-MP-D34",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D35",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 35",
+    "code": "IN-MP-D35",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D36",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 36",
+    "code": "IN-MP-D36",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D37",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 37",
+    "code": "IN-MP-D37",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D38",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 38",
+    "code": "IN-MP-D38",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D39",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 39",
+    "code": "IN-MP-D39",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D40",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 40",
+    "code": "IN-MP-D40",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D41",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 41",
+    "code": "IN-MP-D41",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D42",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 42",
+    "code": "IN-MP-D42",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D43",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 43",
+    "code": "IN-MP-D43",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D44",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 44",
+    "code": "IN-MP-D44",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D45",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 45",
+    "code": "IN-MP-D45",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D46",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 46",
+    "code": "IN-MP-D46",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D47",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 47",
+    "code": "IN-MP-D47",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D48",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 48",
+    "code": "IN-MP-D48",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D49",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 49",
+    "code": "IN-MP-D49",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D50",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 50",
+    "code": "IN-MP-D50",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D51",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 51",
+    "code": "IN-MP-D51",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP-D52",
+    "parent_id": "IN-MP",
+    "level": "district",
+    "name": "Madhya Pradesh District 52",
+    "code": "IN-MP-D52",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D01",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 1",
+    "code": "IN-BR-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D02",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 2",
+    "code": "IN-BR-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D03",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 3",
+    "code": "IN-BR-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D04",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 4",
+    "code": "IN-BR-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D05",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 5",
+    "code": "IN-BR-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D06",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 6",
+    "code": "IN-BR-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D07",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 7",
+    "code": "IN-BR-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D08",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 8",
+    "code": "IN-BR-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D09",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 9",
+    "code": "IN-BR-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D10",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 10",
+    "code": "IN-BR-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D11",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 11",
+    "code": "IN-BR-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D12",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 12",
+    "code": "IN-BR-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D13",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 13",
+    "code": "IN-BR-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D14",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 14",
+    "code": "IN-BR-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D15",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 15",
+    "code": "IN-BR-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D16",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 16",
+    "code": "IN-BR-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D17",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 17",
+    "code": "IN-BR-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D18",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 18",
+    "code": "IN-BR-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D19",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 19",
+    "code": "IN-BR-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D20",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 20",
+    "code": "IN-BR-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D21",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 21",
+    "code": "IN-BR-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D22",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 22",
+    "code": "IN-BR-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D23",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 23",
+    "code": "IN-BR-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D24",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 24",
+    "code": "IN-BR-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D25",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 25",
+    "code": "IN-BR-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D26",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 26",
+    "code": "IN-BR-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D27",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 27",
+    "code": "IN-BR-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D28",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 28",
+    "code": "IN-BR-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D29",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 29",
+    "code": "IN-BR-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D30",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 30",
+    "code": "IN-BR-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D31",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 31",
+    "code": "IN-BR-D31",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D32",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 32",
+    "code": "IN-BR-D32",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D33",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 33",
+    "code": "IN-BR-D33",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D34",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 34",
+    "code": "IN-BR-D34",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D35",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 35",
+    "code": "IN-BR-D35",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D36",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 36",
+    "code": "IN-BR-D36",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D37",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 37",
+    "code": "IN-BR-D37",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR-D38",
+    "parent_id": "IN-BR",
+    "level": "district",
+    "name": "Bihar District 38",
+    "code": "IN-BR-D38",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D01",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 1",
+    "code": "IN-MH-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D02",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 2",
+    "code": "IN-MH-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D03",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 3",
+    "code": "IN-MH-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D04",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 4",
+    "code": "IN-MH-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D05",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 5",
+    "code": "IN-MH-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D06",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 6",
+    "code": "IN-MH-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D07",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 7",
+    "code": "IN-MH-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D08",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 8",
+    "code": "IN-MH-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D09",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 9",
+    "code": "IN-MH-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D10",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 10",
+    "code": "IN-MH-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D11",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 11",
+    "code": "IN-MH-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D12",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 12",
+    "code": "IN-MH-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D13",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 13",
+    "code": "IN-MH-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D14",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 14",
+    "code": "IN-MH-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D15",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 15",
+    "code": "IN-MH-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D16",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 16",
+    "code": "IN-MH-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D17",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 17",
+    "code": "IN-MH-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D18",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 18",
+    "code": "IN-MH-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D19",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 19",
+    "code": "IN-MH-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D20",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 20",
+    "code": "IN-MH-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D21",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 21",
+    "code": "IN-MH-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D22",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 22",
+    "code": "IN-MH-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D23",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 23",
+    "code": "IN-MH-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D24",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 24",
+    "code": "IN-MH-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D25",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 25",
+    "code": "IN-MH-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D26",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 26",
+    "code": "IN-MH-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D27",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 27",
+    "code": "IN-MH-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D28",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 28",
+    "code": "IN-MH-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D29",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 29",
+    "code": "IN-MH-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D30",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 30",
+    "code": "IN-MH-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D31",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 31",
+    "code": "IN-MH-D31",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D32",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 32",
+    "code": "IN-MH-D32",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D33",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 33",
+    "code": "IN-MH-D33",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D34",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 34",
+    "code": "IN-MH-D34",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D35",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 35",
+    "code": "IN-MH-D35",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH-D36",
+    "parent_id": "IN-MH",
+    "level": "district",
+    "name": "Maharashtra District 36",
+    "code": "IN-MH-D36",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D01",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 1",
+    "code": "IN-RJ-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D02",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 2",
+    "code": "IN-RJ-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D03",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 3",
+    "code": "IN-RJ-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D04",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 4",
+    "code": "IN-RJ-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D05",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 5",
+    "code": "IN-RJ-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D06",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 6",
+    "code": "IN-RJ-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D07",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 7",
+    "code": "IN-RJ-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D08",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 8",
+    "code": "IN-RJ-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D09",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 9",
+    "code": "IN-RJ-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D10",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 10",
+    "code": "IN-RJ-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D11",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 11",
+    "code": "IN-RJ-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D12",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 12",
+    "code": "IN-RJ-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D13",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 13",
+    "code": "IN-RJ-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D14",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 14",
+    "code": "IN-RJ-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D15",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 15",
+    "code": "IN-RJ-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D16",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 16",
+    "code": "IN-RJ-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D17",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 17",
+    "code": "IN-RJ-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D18",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 18",
+    "code": "IN-RJ-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D19",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 19",
+    "code": "IN-RJ-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D20",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 20",
+    "code": "IN-RJ-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D21",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 21",
+    "code": "IN-RJ-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D22",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 22",
+    "code": "IN-RJ-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D23",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 23",
+    "code": "IN-RJ-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D24",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 24",
+    "code": "IN-RJ-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D25",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 25",
+    "code": "IN-RJ-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D26",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 26",
+    "code": "IN-RJ-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D27",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 27",
+    "code": "IN-RJ-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D28",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 28",
+    "code": "IN-RJ-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D29",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 29",
+    "code": "IN-RJ-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D30",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 30",
+    "code": "IN-RJ-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D31",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 31",
+    "code": "IN-RJ-D31",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D32",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 32",
+    "code": "IN-RJ-D32",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ-D33",
+    "parent_id": "IN-RJ",
+    "level": "district",
+    "name": "Rajasthan District 33",
+    "code": "IN-RJ-D33",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D01",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 1",
+    "code": "IN-GJ-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D02",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 2",
+    "code": "IN-GJ-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D03",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 3",
+    "code": "IN-GJ-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D04",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 4",
+    "code": "IN-GJ-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D05",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 5",
+    "code": "IN-GJ-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D06",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 6",
+    "code": "IN-GJ-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D07",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 7",
+    "code": "IN-GJ-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D08",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 8",
+    "code": "IN-GJ-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D09",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 9",
+    "code": "IN-GJ-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D10",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 10",
+    "code": "IN-GJ-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D11",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 11",
+    "code": "IN-GJ-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D12",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 12",
+    "code": "IN-GJ-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D13",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 13",
+    "code": "IN-GJ-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D14",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 14",
+    "code": "IN-GJ-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D15",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 15",
+    "code": "IN-GJ-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D16",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 16",
+    "code": "IN-GJ-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D17",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 17",
+    "code": "IN-GJ-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D18",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 18",
+    "code": "IN-GJ-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D19",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 19",
+    "code": "IN-GJ-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D20",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 20",
+    "code": "IN-GJ-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D21",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 21",
+    "code": "IN-GJ-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D22",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 22",
+    "code": "IN-GJ-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D23",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 23",
+    "code": "IN-GJ-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D24",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 24",
+    "code": "IN-GJ-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D25",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 25",
+    "code": "IN-GJ-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D26",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 26",
+    "code": "IN-GJ-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D27",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 27",
+    "code": "IN-GJ-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D28",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 28",
+    "code": "IN-GJ-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D29",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 29",
+    "code": "IN-GJ-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D30",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 30",
+    "code": "IN-GJ-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D31",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 31",
+    "code": "IN-GJ-D31",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D32",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 32",
+    "code": "IN-GJ-D32",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ-D33",
+    "parent_id": "IN-GJ",
+    "level": "district",
+    "name": "Gujarat District 33",
+    "code": "IN-GJ-D33",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D01",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 1",
+    "code": "IN-TN-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D02",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 2",
+    "code": "IN-TN-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D03",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 3",
+    "code": "IN-TN-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D04",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 4",
+    "code": "IN-TN-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D05",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 5",
+    "code": "IN-TN-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D06",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 6",
+    "code": "IN-TN-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D07",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 7",
+    "code": "IN-TN-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D08",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 8",
+    "code": "IN-TN-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D09",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 9",
+    "code": "IN-TN-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D10",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 10",
+    "code": "IN-TN-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D11",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 11",
+    "code": "IN-TN-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D12",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 12",
+    "code": "IN-TN-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D13",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 13",
+    "code": "IN-TN-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D14",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 14",
+    "code": "IN-TN-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D15",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 15",
+    "code": "IN-TN-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D16",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 16",
+    "code": "IN-TN-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D17",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 17",
+    "code": "IN-TN-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D18",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 18",
+    "code": "IN-TN-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D19",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 19",
+    "code": "IN-TN-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D20",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 20",
+    "code": "IN-TN-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D21",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 21",
+    "code": "IN-TN-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D22",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 22",
+    "code": "IN-TN-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D23",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 23",
+    "code": "IN-TN-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D24",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 24",
+    "code": "IN-TN-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D25",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 25",
+    "code": "IN-TN-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D26",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 26",
+    "code": "IN-TN-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D27",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 27",
+    "code": "IN-TN-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D28",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 28",
+    "code": "IN-TN-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D29",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 29",
+    "code": "IN-TN-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D30",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 30",
+    "code": "IN-TN-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D31",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 31",
+    "code": "IN-TN-D31",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D32",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 32",
+    "code": "IN-TN-D32",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D33",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 33",
+    "code": "IN-TN-D33",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D34",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 34",
+    "code": "IN-TN-D34",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D35",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 35",
+    "code": "IN-TN-D35",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D36",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 36",
+    "code": "IN-TN-D36",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D37",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 37",
+    "code": "IN-TN-D37",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN-D38",
+    "parent_id": "IN-TN",
+    "level": "district",
+    "name": "Tamil Nadu District 38",
+    "code": "IN-TN-D38",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D01",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 1",
+    "code": "IN-KA-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D02",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 2",
+    "code": "IN-KA-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D03",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 3",
+    "code": "IN-KA-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D04",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 4",
+    "code": "IN-KA-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D05",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 5",
+    "code": "IN-KA-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D06",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 6",
+    "code": "IN-KA-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D07",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 7",
+    "code": "IN-KA-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D08",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 8",
+    "code": "IN-KA-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D09",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 9",
+    "code": "IN-KA-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D10",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 10",
+    "code": "IN-KA-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D11",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 11",
+    "code": "IN-KA-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D12",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 12",
+    "code": "IN-KA-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D13",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 13",
+    "code": "IN-KA-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D14",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 14",
+    "code": "IN-KA-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D15",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 15",
+    "code": "IN-KA-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D16",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 16",
+    "code": "IN-KA-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D17",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 17",
+    "code": "IN-KA-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D18",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 18",
+    "code": "IN-KA-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D19",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 19",
+    "code": "IN-KA-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D20",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 20",
+    "code": "IN-KA-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D21",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 21",
+    "code": "IN-KA-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D22",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 22",
+    "code": "IN-KA-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D23",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 23",
+    "code": "IN-KA-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D24",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 24",
+    "code": "IN-KA-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D25",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 25",
+    "code": "IN-KA-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D26",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 26",
+    "code": "IN-KA-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D27",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 27",
+    "code": "IN-KA-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D28",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 28",
+    "code": "IN-KA-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D29",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 29",
+    "code": "IN-KA-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D30",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 30",
+    "code": "IN-KA-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA-D31",
+    "parent_id": "IN-KA",
+    "level": "district",
+    "name": "Karnataka District 31",
+    "code": "IN-KA-D31",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D01",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 1",
+    "code": "IN-OR-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D02",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 2",
+    "code": "IN-OR-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D03",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 3",
+    "code": "IN-OR-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D04",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 4",
+    "code": "IN-OR-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D05",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 5",
+    "code": "IN-OR-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D06",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 6",
+    "code": "IN-OR-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D07",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 7",
+    "code": "IN-OR-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D08",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 8",
+    "code": "IN-OR-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D09",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 9",
+    "code": "IN-OR-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D10",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 10",
+    "code": "IN-OR-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D11",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 11",
+    "code": "IN-OR-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D12",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 12",
+    "code": "IN-OR-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D13",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 13",
+    "code": "IN-OR-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D14",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 14",
+    "code": "IN-OR-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D15",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 15",
+    "code": "IN-OR-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D16",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 16",
+    "code": "IN-OR-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D17",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 17",
+    "code": "IN-OR-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D18",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 18",
+    "code": "IN-OR-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D19",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 19",
+    "code": "IN-OR-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D20",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 20",
+    "code": "IN-OR-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D21",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 21",
+    "code": "IN-OR-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D22",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 22",
+    "code": "IN-OR-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D23",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 23",
+    "code": "IN-OR-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D24",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 24",
+    "code": "IN-OR-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D25",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 25",
+    "code": "IN-OR-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D26",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 26",
+    "code": "IN-OR-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D27",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 27",
+    "code": "IN-OR-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D28",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 28",
+    "code": "IN-OR-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D29",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 29",
+    "code": "IN-OR-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR-D30",
+    "parent_id": "IN-OR",
+    "level": "district",
+    "name": "Odisha District 30",
+    "code": "IN-OR-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D01",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 1",
+    "code": "IN-AS-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D02",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 2",
+    "code": "IN-AS-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D03",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 3",
+    "code": "IN-AS-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D04",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 4",
+    "code": "IN-AS-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D05",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 5",
+    "code": "IN-AS-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D06",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 6",
+    "code": "IN-AS-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D07",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 7",
+    "code": "IN-AS-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D08",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 8",
+    "code": "IN-AS-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D09",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 9",
+    "code": "IN-AS-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D10",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 10",
+    "code": "IN-AS-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D11",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 11",
+    "code": "IN-AS-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D12",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 12",
+    "code": "IN-AS-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D13",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 13",
+    "code": "IN-AS-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D14",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 14",
+    "code": "IN-AS-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D15",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 15",
+    "code": "IN-AS-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D16",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 16",
+    "code": "IN-AS-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D17",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 17",
+    "code": "IN-AS-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D18",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 18",
+    "code": "IN-AS-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D19",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 19",
+    "code": "IN-AS-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D20",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 20",
+    "code": "IN-AS-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D21",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 21",
+    "code": "IN-AS-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D22",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 22",
+    "code": "IN-AS-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D23",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 23",
+    "code": "IN-AS-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D24",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 24",
+    "code": "IN-AS-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D25",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 25",
+    "code": "IN-AS-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D26",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 26",
+    "code": "IN-AS-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D27",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 27",
+    "code": "IN-AS-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D28",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 28",
+    "code": "IN-AS-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D29",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 29",
+    "code": "IN-AS-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D30",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 30",
+    "code": "IN-AS-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D31",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 31",
+    "code": "IN-AS-D31",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D32",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 32",
+    "code": "IN-AS-D32",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS-D33",
+    "parent_id": "IN-AS",
+    "level": "district",
+    "name": "Assam District 33",
+    "code": "IN-AS-D33",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D01",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 1",
+    "code": "IN-JH-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D02",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 2",
+    "code": "IN-JH-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D03",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 3",
+    "code": "IN-JH-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D04",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 4",
+    "code": "IN-JH-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D05",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 5",
+    "code": "IN-JH-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D06",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 6",
+    "code": "IN-JH-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D07",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 7",
+    "code": "IN-JH-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D08",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 8",
+    "code": "IN-JH-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D09",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 9",
+    "code": "IN-JH-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D10",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 10",
+    "code": "IN-JH-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D11",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 11",
+    "code": "IN-JH-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D12",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 12",
+    "code": "IN-JH-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D13",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 13",
+    "code": "IN-JH-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D14",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 14",
+    "code": "IN-JH-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D15",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 15",
+    "code": "IN-JH-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D16",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 16",
+    "code": "IN-JH-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D17",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 17",
+    "code": "IN-JH-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D18",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 18",
+    "code": "IN-JH-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D19",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 19",
+    "code": "IN-JH-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D20",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 20",
+    "code": "IN-JH-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D21",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 21",
+    "code": "IN-JH-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D22",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 22",
+    "code": "IN-JH-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D23",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 23",
+    "code": "IN-JH-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH-D24",
+    "parent_id": "IN-JH",
+    "level": "district",
+    "name": "Jharkhand District 24",
+    "code": "IN-JH-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D01",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 1",
+    "code": "IN-TG-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D02",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 2",
+    "code": "IN-TG-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D03",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 3",
+    "code": "IN-TG-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D04",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 4",
+    "code": "IN-TG-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D05",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 5",
+    "code": "IN-TG-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D06",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 6",
+    "code": "IN-TG-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D07",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 7",
+    "code": "IN-TG-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D08",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 8",
+    "code": "IN-TG-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D09",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 9",
+    "code": "IN-TG-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D10",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 10",
+    "code": "IN-TG-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D11",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 11",
+    "code": "IN-TG-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D12",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 12",
+    "code": "IN-TG-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D13",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 13",
+    "code": "IN-TG-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D14",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 14",
+    "code": "IN-TG-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D15",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 15",
+    "code": "IN-TG-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D16",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 16",
+    "code": "IN-TG-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D17",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 17",
+    "code": "IN-TG-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D18",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 18",
+    "code": "IN-TG-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D19",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 19",
+    "code": "IN-TG-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D20",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 20",
+    "code": "IN-TG-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D21",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 21",
+    "code": "IN-TG-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D22",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 22",
+    "code": "IN-TG-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D23",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 23",
+    "code": "IN-TG-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D24",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 24",
+    "code": "IN-TG-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D25",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 25",
+    "code": "IN-TG-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D26",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 26",
+    "code": "IN-TG-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D27",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 27",
+    "code": "IN-TG-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D28",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 28",
+    "code": "IN-TG-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D29",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 29",
+    "code": "IN-TG-D29",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D30",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 30",
+    "code": "IN-TG-D30",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D31",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 31",
+    "code": "IN-TG-D31",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG-D32",
+    "parent_id": "IN-TG",
+    "level": "district",
+    "name": "Telangana District 32",
+    "code": "IN-TG-D32",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D01",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 1",
+    "code": "IN-AP-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D02",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 2",
+    "code": "IN-AP-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D03",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 3",
+    "code": "IN-AP-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D04",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 4",
+    "code": "IN-AP-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D05",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 5",
+    "code": "IN-AP-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D06",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 6",
+    "code": "IN-AP-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D07",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 7",
+    "code": "IN-AP-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D08",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 8",
+    "code": "IN-AP-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D09",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 9",
+    "code": "IN-AP-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D10",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 10",
+    "code": "IN-AP-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D11",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 11",
+    "code": "IN-AP-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D12",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 12",
+    "code": "IN-AP-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D13",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 13",
+    "code": "IN-AP-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D14",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 14",
+    "code": "IN-AP-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D15",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 15",
+    "code": "IN-AP-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D16",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 16",
+    "code": "IN-AP-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D17",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 17",
+    "code": "IN-AP-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D18",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 18",
+    "code": "IN-AP-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D19",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 19",
+    "code": "IN-AP-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D20",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 20",
+    "code": "IN-AP-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D21",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 21",
+    "code": "IN-AP-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D22",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 22",
+    "code": "IN-AP-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D23",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 23",
+    "code": "IN-AP-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D24",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 24",
+    "code": "IN-AP-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AP-D25",
+    "parent_id": "IN-AP",
+    "level": "district",
+    "name": "Andhra Pradesh District 25",
+    "code": "IN-AP-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D01",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 1",
+    "code": "IN-PB-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D02",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 2",
+    "code": "IN-PB-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D03",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 3",
+    "code": "IN-PB-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D04",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 4",
+    "code": "IN-PB-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D05",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 5",
+    "code": "IN-PB-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D06",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 6",
+    "code": "IN-PB-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D07",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 7",
+    "code": "IN-PB-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D08",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 8",
+    "code": "IN-PB-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D09",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 9",
+    "code": "IN-PB-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D10",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 10",
+    "code": "IN-PB-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D11",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 11",
+    "code": "IN-PB-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D12",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 12",
+    "code": "IN-PB-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D13",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 13",
+    "code": "IN-PB-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D14",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 14",
+    "code": "IN-PB-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D15",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 15",
+    "code": "IN-PB-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D16",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 16",
+    "code": "IN-PB-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D17",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 17",
+    "code": "IN-PB-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D18",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 18",
+    "code": "IN-PB-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D19",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 19",
+    "code": "IN-PB-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D20",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 20",
+    "code": "IN-PB-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D21",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 21",
+    "code": "IN-PB-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB-D22",
+    "parent_id": "IN-PB",
+    "level": "district",
+    "name": "Punjab District 22",
+    "code": "IN-PB-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D01",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 1",
+    "code": "IN-HR-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D02",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 2",
+    "code": "IN-HR-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D03",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 3",
+    "code": "IN-HR-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D04",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 4",
+    "code": "IN-HR-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D05",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 5",
+    "code": "IN-HR-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D06",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 6",
+    "code": "IN-HR-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D07",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 7",
+    "code": "IN-HR-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D08",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 8",
+    "code": "IN-HR-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D09",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 9",
+    "code": "IN-HR-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D10",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 10",
+    "code": "IN-HR-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D11",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 11",
+    "code": "IN-HR-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D12",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 12",
+    "code": "IN-HR-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D13",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 13",
+    "code": "IN-HR-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D14",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 14",
+    "code": "IN-HR-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D15",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 15",
+    "code": "IN-HR-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D16",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 16",
+    "code": "IN-HR-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D17",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 17",
+    "code": "IN-HR-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D18",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 18",
+    "code": "IN-HR-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D19",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 19",
+    "code": "IN-HR-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D20",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 20",
+    "code": "IN-HR-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D21",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 21",
+    "code": "IN-HR-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR-D22",
+    "parent_id": "IN-HR",
+    "level": "district",
+    "name": "Haryana District 22",
+    "code": "IN-HR-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D01",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 1",
+    "code": "IN-CT-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D02",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 2",
+    "code": "IN-CT-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D03",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 3",
+    "code": "IN-CT-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D04",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 4",
+    "code": "IN-CT-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D05",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 5",
+    "code": "IN-CT-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D06",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 6",
+    "code": "IN-CT-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D07",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 7",
+    "code": "IN-CT-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D08",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 8",
+    "code": "IN-CT-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D09",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 9",
+    "code": "IN-CT-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D10",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 10",
+    "code": "IN-CT-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D11",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 11",
+    "code": "IN-CT-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D12",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 12",
+    "code": "IN-CT-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D13",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 13",
+    "code": "IN-CT-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D14",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 14",
+    "code": "IN-CT-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D15",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 15",
+    "code": "IN-CT-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D16",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 16",
+    "code": "IN-CT-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D17",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 17",
+    "code": "IN-CT-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D18",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 18",
+    "code": "IN-CT-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D19",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 19",
+    "code": "IN-CT-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D20",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 20",
+    "code": "IN-CT-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D21",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 21",
+    "code": "IN-CT-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D22",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 22",
+    "code": "IN-CT-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D23",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 23",
+    "code": "IN-CT-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D24",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 24",
+    "code": "IN-CT-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D25",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 25",
+    "code": "IN-CT-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D26",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 26",
+    "code": "IN-CT-D26",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D27",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 27",
+    "code": "IN-CT-D27",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT-D28",
+    "parent_id": "IN-CT",
+    "level": "district",
+    "name": "Chhattisgarh District 28",
+    "code": "IN-CT-D28",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D01",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 1",
+    "code": "IN-KL-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D02",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 2",
+    "code": "IN-KL-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D03",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 3",
+    "code": "IN-KL-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D04",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 4",
+    "code": "IN-KL-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D05",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 5",
+    "code": "IN-KL-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D06",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 6",
+    "code": "IN-KL-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D07",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 7",
+    "code": "IN-KL-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D08",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 8",
+    "code": "IN-KL-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D09",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 9",
+    "code": "IN-KL-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D10",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 10",
+    "code": "IN-KL-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D11",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 11",
+    "code": "IN-KL-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D12",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 12",
+    "code": "IN-KL-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D13",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 13",
+    "code": "IN-KL-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL-D14",
+    "parent_id": "IN-KL",
+    "level": "district",
+    "name": "Kerala District 14",
+    "code": "IN-KL-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D01",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Darjeeling",
+    "code": "IN-WB-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D02",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Jalpaiguri",
+    "code": "IN-WB-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D03",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Alipurduar",
+    "code": "IN-WB-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D04",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Cooch Behar",
+    "code": "IN-WB-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D05",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Kalimpong",
+    "code": "IN-WB-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D06",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Uttar Dinajpur",
+    "code": "IN-WB-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D07",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Dakshin Dinajpur",
+    "code": "IN-WB-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D08",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Malda",
+    "code": "IN-WB-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D09",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Murshidabad",
+    "code": "IN-WB-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D10",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Nadia",
+    "code": "IN-WB-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D11",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Birbhum",
+    "code": "IN-WB-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D12",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Bankura",
+    "code": "IN-WB-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D13",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Purulia",
+    "code": "IN-WB-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D14",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Jhargram",
+    "code": "IN-WB-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D15",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Paschim Medinipur",
+    "code": "IN-WB-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D16",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Purba Medinipur",
+    "code": "IN-WB-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D17",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Purba Bardhaman",
+    "code": "IN-WB-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D18",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Paschim Bardhaman",
+    "code": "IN-WB-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D19",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Hooghly",
+    "code": "IN-WB-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D20",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Howrah",
+    "code": "IN-WB-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D21",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "Kolkata",
+    "code": "IN-WB-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D22",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "North 24 Parganas",
+    "code": "IN-WB-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB-D23",
+    "parent_id": "IN-WB",
+    "level": "district",
+    "name": "South 24 Parganas",
+    "code": "IN-WB-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D01",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 1",
+    "code": "IN-UT-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D02",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 2",
+    "code": "IN-UT-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D03",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 3",
+    "code": "IN-UT-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D04",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 4",
+    "code": "IN-UT-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D05",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 5",
+    "code": "IN-UT-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D06",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 6",
+    "code": "IN-UT-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D07",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 7",
+    "code": "IN-UT-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D08",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 8",
+    "code": "IN-UT-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D09",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 9",
+    "code": "IN-UT-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D10",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 10",
+    "code": "IN-UT-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D11",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 11",
+    "code": "IN-UT-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D12",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 12",
+    "code": "IN-UT-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT-D13",
+    "parent_id": "IN-UT",
+    "level": "district",
+    "name": "Uttarakhand District 13",
+    "code": "IN-UT-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D01",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 1",
+    "code": "IN-HP-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D02",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 2",
+    "code": "IN-HP-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D03",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 3",
+    "code": "IN-HP-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D04",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 4",
+    "code": "IN-HP-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D05",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 5",
+    "code": "IN-HP-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D06",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 6",
+    "code": "IN-HP-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D07",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 7",
+    "code": "IN-HP-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D08",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 8",
+    "code": "IN-HP-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D09",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 9",
+    "code": "IN-HP-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D10",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 10",
+    "code": "IN-HP-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D11",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 11",
+    "code": "IN-HP-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP-D12",
+    "parent_id": "IN-HP",
+    "level": "district",
+    "name": "Himachal Pradesh District 12",
+    "code": "IN-HP-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D01",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 1",
+    "code": "IN-JK-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D02",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 2",
+    "code": "IN-JK-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D03",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 3",
+    "code": "IN-JK-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D04",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 4",
+    "code": "IN-JK-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D05",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 5",
+    "code": "IN-JK-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D06",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 6",
+    "code": "IN-JK-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D07",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 7",
+    "code": "IN-JK-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D08",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 8",
+    "code": "IN-JK-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D09",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 9",
+    "code": "IN-JK-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D10",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 10",
+    "code": "IN-JK-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D11",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 11",
+    "code": "IN-JK-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D12",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 12",
+    "code": "IN-JK-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D13",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 13",
+    "code": "IN-JK-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D14",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 14",
+    "code": "IN-JK-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D15",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 15",
+    "code": "IN-JK-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D16",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 16",
+    "code": "IN-JK-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D17",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 17",
+    "code": "IN-JK-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D18",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 18",
+    "code": "IN-JK-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D19",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 19",
+    "code": "IN-JK-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK-D20",
+    "parent_id": "IN-JK",
+    "level": "district",
+    "name": "Jammu and Kashmir District 20",
+    "code": "IN-JK-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D01",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 1",
+    "code": "IN-AR-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D02",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 2",
+    "code": "IN-AR-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D03",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 3",
+    "code": "IN-AR-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D04",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 4",
+    "code": "IN-AR-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D05",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 5",
+    "code": "IN-AR-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D06",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 6",
+    "code": "IN-AR-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D07",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 7",
+    "code": "IN-AR-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D08",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 8",
+    "code": "IN-AR-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D09",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 9",
+    "code": "IN-AR-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D10",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 10",
+    "code": "IN-AR-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D11",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 11",
+    "code": "IN-AR-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D12",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 12",
+    "code": "IN-AR-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D13",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 13",
+    "code": "IN-AR-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D14",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 14",
+    "code": "IN-AR-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D15",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 15",
+    "code": "IN-AR-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D16",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 16",
+    "code": "IN-AR-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D17",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 17",
+    "code": "IN-AR-D17",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D18",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 18",
+    "code": "IN-AR-D18",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D19",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 19",
+    "code": "IN-AR-D19",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D20",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 20",
+    "code": "IN-AR-D20",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D21",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 21",
+    "code": "IN-AR-D21",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D22",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 22",
+    "code": "IN-AR-D22",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D23",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 23",
+    "code": "IN-AR-D23",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D24",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 24",
+    "code": "IN-AR-D24",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR-D25",
+    "parent_id": "IN-AR",
+    "level": "district",
+    "name": "Arunachal Pradesh District 25",
+    "code": "IN-AR-D25",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D01",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 1",
+    "code": "IN-MN-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D02",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 2",
+    "code": "IN-MN-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D03",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 3",
+    "code": "IN-MN-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D04",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 4",
+    "code": "IN-MN-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D05",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 5",
+    "code": "IN-MN-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D06",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 6",
+    "code": "IN-MN-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D07",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 7",
+    "code": "IN-MN-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D08",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 8",
+    "code": "IN-MN-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D09",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 9",
+    "code": "IN-MN-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D10",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 10",
+    "code": "IN-MN-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D11",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 11",
+    "code": "IN-MN-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D12",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 12",
+    "code": "IN-MN-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D13",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 13",
+    "code": "IN-MN-D13",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D14",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 14",
+    "code": "IN-MN-D14",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D15",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 15",
+    "code": "IN-MN-D15",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN-D16",
+    "parent_id": "IN-MN",
+    "level": "district",
+    "name": "Manipur District 16",
+    "code": "IN-MN-D16",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D01",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 1",
+    "code": "IN-ML-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D02",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 2",
+    "code": "IN-ML-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D03",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 3",
+    "code": "IN-ML-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D04",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 4",
+    "code": "IN-ML-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D05",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 5",
+    "code": "IN-ML-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D06",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 6",
+    "code": "IN-ML-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D07",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 7",
+    "code": "IN-ML-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D08",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 8",
+    "code": "IN-ML-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D09",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 9",
+    "code": "IN-ML-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D10",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 10",
+    "code": "IN-ML-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML-D11",
+    "parent_id": "IN-ML",
+    "level": "district",
+    "name": "Meghalaya District 11",
+    "code": "IN-ML-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D01",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 1",
+    "code": "IN-NL-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D02",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 2",
+    "code": "IN-NL-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D03",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 3",
+    "code": "IN-NL-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D04",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 4",
+    "code": "IN-NL-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D05",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 5",
+    "code": "IN-NL-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D06",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 6",
+    "code": "IN-NL-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D07",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 7",
+    "code": "IN-NL-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D08",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 8",
+    "code": "IN-NL-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D09",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 9",
+    "code": "IN-NL-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D10",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 10",
+    "code": "IN-NL-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D11",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 11",
+    "code": "IN-NL-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL-D12",
+    "parent_id": "IN-NL",
+    "level": "district",
+    "name": "Nagaland District 12",
+    "code": "IN-NL-D12",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TR-D01",
+    "parent_id": "IN-TR",
+    "level": "district",
+    "name": "Tripura District 1",
+    "code": "IN-TR-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TR-D02",
+    "parent_id": "IN-TR",
+    "level": "district",
+    "name": "Tripura District 2",
+    "code": "IN-TR-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TR-D03",
+    "parent_id": "IN-TR",
+    "level": "district",
+    "name": "Tripura District 3",
+    "code": "IN-TR-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TR-D04",
+    "parent_id": "IN-TR",
+    "level": "district",
+    "name": "Tripura District 4",
+    "code": "IN-TR-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TR-D05",
+    "parent_id": "IN-TR",
+    "level": "district",
+    "name": "Tripura District 5",
+    "code": "IN-TR-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TR-D06",
+    "parent_id": "IN-TR",
+    "level": "district",
+    "name": "Tripura District 6",
+    "code": "IN-TR-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TR-D07",
+    "parent_id": "IN-TR",
+    "level": "district",
+    "name": "Tripura District 7",
+    "code": "IN-TR-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TR-D08",
+    "parent_id": "IN-TR",
+    "level": "district",
+    "name": "Tripura District 8",
+    "code": "IN-TR-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D01",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 1",
+    "code": "IN-MZ-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D02",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 2",
+    "code": "IN-MZ-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D03",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 3",
+    "code": "IN-MZ-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D04",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 4",
+    "code": "IN-MZ-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D05",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 5",
+    "code": "IN-MZ-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D06",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 6",
+    "code": "IN-MZ-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D07",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 7",
+    "code": "IN-MZ-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D08",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 8",
+    "code": "IN-MZ-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D09",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 9",
+    "code": "IN-MZ-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D10",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 10",
+    "code": "IN-MZ-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ-D11",
+    "parent_id": "IN-MZ",
+    "level": "district",
+    "name": "Mizoram District 11",
+    "code": "IN-MZ-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-SK-D01",
+    "parent_id": "IN-SK",
+    "level": "district",
+    "name": "Sikkim District 1",
+    "code": "IN-SK-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-SK-D02",
+    "parent_id": "IN-SK",
+    "level": "district",
+    "name": "Sikkim District 2",
+    "code": "IN-SK-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-SK-D03",
+    "parent_id": "IN-SK",
+    "level": "district",
+    "name": "Sikkim District 3",
+    "code": "IN-SK-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-SK-D04",
+    "parent_id": "IN-SK",
+    "level": "district",
+    "name": "Sikkim District 4",
+    "code": "IN-SK-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-SK-D05",
+    "parent_id": "IN-SK",
+    "level": "district",
+    "name": "Sikkim District 5",
+    "code": "IN-SK-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-SK-D06",
+    "parent_id": "IN-SK",
+    "level": "district",
+    "name": "Sikkim District 6",
+    "code": "IN-SK-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D01",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 1",
+    "code": "IN-DL-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D02",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 2",
+    "code": "IN-DL-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D03",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 3",
+    "code": "IN-DL-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D04",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 4",
+    "code": "IN-DL-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D05",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 5",
+    "code": "IN-DL-D05",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D06",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 6",
+    "code": "IN-DL-D06",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D07",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 7",
+    "code": "IN-DL-D07",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D08",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 8",
+    "code": "IN-DL-D08",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D09",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 9",
+    "code": "IN-DL-D09",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D10",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 10",
+    "code": "IN-DL-D10",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL-D11",
+    "parent_id": "IN-DL",
+    "level": "district",
+    "name": "Delhi District 11",
+    "code": "IN-DL-D11",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GA-D01",
+    "parent_id": "IN-GA",
+    "level": "district",
+    "name": "Goa District 1",
+    "code": "IN-GA-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GA-D02",
+    "parent_id": "IN-GA",
+    "level": "district",
+    "name": "Goa District 2",
+    "code": "IN-GA-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AN-D01",
+    "parent_id": "IN-AN",
+    "level": "district",
+    "name": "Andaman and Nicobar Islands District 1",
+    "code": "IN-AN-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AN-D02",
+    "parent_id": "IN-AN",
+    "level": "district",
+    "name": "Andaman and Nicobar Islands District 2",
+    "code": "IN-AN-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AN-D03",
+    "parent_id": "IN-AN",
+    "level": "district",
+    "name": "Andaman and Nicobar Islands District 3",
+    "code": "IN-AN-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-LA-D01",
+    "parent_id": "IN-LA",
+    "level": "district",
+    "name": "Ladakh District 1",
+    "code": "IN-LA-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-LA-D02",
+    "parent_id": "IN-LA",
+    "level": "district",
+    "name": "Ladakh District 2",
+    "code": "IN-LA-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PY-D01",
+    "parent_id": "IN-PY",
+    "level": "district",
+    "name": "Puducherry District 1",
+    "code": "IN-PY-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PY-D02",
+    "parent_id": "IN-PY",
+    "level": "district",
+    "name": "Puducherry District 2",
+    "code": "IN-PY-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PY-D03",
+    "parent_id": "IN-PY",
+    "level": "district",
+    "name": "Puducherry District 3",
+    "code": "IN-PY-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PY-D04",
+    "parent_id": "IN-PY",
+    "level": "district",
+    "name": "Puducherry District 4",
+    "code": "IN-PY-D04",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DN-D01",
+    "parent_id": "IN-DN",
+    "level": "district",
+    "name": "Dadra and Nagar Haveli and Daman and Diu District 1",
+    "code": "IN-DN-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DN-D02",
+    "parent_id": "IN-DN",
+    "level": "district",
+    "name": "Dadra and Nagar Haveli and Daman and Diu District 2",
+    "code": "IN-DN-D02",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DN-D03",
+    "parent_id": "IN-DN",
+    "level": "district",
+    "name": "Dadra and Nagar Haveli and Daman and Diu District 3",
+    "code": "IN-DN-D03",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CH-D01",
+    "parent_id": "IN-CH",
+    "level": "district",
+    "name": "Chandigarh District 1",
+    "code": "IN-CH-D01",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-LD-D01",
+    "parent_id": "IN-LD",
+    "level": "district",
+    "name": "Lakshadweep District 1",
+    "code": "IN-LD-D01",
+    "data_status": "real"
   }
 ]

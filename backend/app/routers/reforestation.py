@@ -1,12 +1,14 @@
 import os
 import json
 from typing import Dict, Any, List, Optional
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from pydantic import BaseModel, Field
 try:
     from app.services.reforestation_service import load_species, plan_reforestation
+    from app.limiter import rate_limit_post
 except ImportError:
     from backend.app.services.reforestation_service import load_species, plan_reforestation
+    from backend.app.limiter import rate_limit_post
 
 router = APIRouter(prefix="/reforestation", tags=["Reforestation"])
 
@@ -44,7 +46,7 @@ def get_species():
     }
 
 
-@router.post("/plan", response_model=StandardResponse)
+@router.post("/plan", response_model=StandardResponse, dependencies=[Depends(rate_limit_post)])
 def create_plan(payload: ReforestationPlanRequest):
     result = plan_reforestation(
         target_trees=payload.target_trees,

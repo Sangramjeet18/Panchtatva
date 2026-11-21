@@ -182,6 +182,9 @@ def run_ingest(all_tables: bool = True):
         forest_assessments.append({
             "region_id": st["id"],
             "region_name": st["name"],
+            "parent_id": "IND",
+            "state_id": st["id"],
+            "level": "state",
             "assessment_year": 2021,
             "vdf_km2": round(st["total_forest_km2"] * 0.15, 2),
             "mdf_km2": round(st["total_forest_km2"] * 0.45, 2),
@@ -220,6 +223,9 @@ def run_ingest(all_tables: bool = True):
             forest_assessments.append({
                 "region_id": str(row["district_id"]),
                 "region_name": str(row["name"]),
+                "parent_id": str(row["state_id"]),
+                "state_id": str(row["state_id"]),
+                "level": "district",
                 "assessment_year": 2021,
                 "vdf_km2": float(row.get("vdf_km2", 0)),
                 "mdf_km2": float(row.get("mdf_km2", 0)),

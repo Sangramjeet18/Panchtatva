@@ -1,12 +1,16 @@
 import os
 import json
 from typing import Dict, Any, List, Optional
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel, Field
 try:
     from app.services.carbon_service import calculate_carbon_footprint, load_factors
+    from app.services.live_cache import live_cache
+    from app.limiter import rate_limit_post
 except ImportError:
     from backend.app.services.carbon_service import calculate_carbon_footprint, load_factors
+    from backend.app.services.live_cache import live_cache
+    from backend.app.limiter import rate_limit_post
 
 router = APIRouter(prefix="/carbon", tags=["Carbon"])
 
@@ -69,12 +73,7 @@ def get_countries():
 
 @router.get("/air", response_model=StandardResponse)
 def get_air_quality():
-    path = os.path.join(SERVE_DIR, "kolkata_air_live.json")
-    records = []
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            records = json.load(f)
-
+    records = live_cache.get_air_quality()
     return {
         "data": records,
         "meta": {
@@ -86,7 +85,7 @@ def get_air_quality():
     }
 
 
-@router.post("/calc", response_model=StandardResponse)
+@router.post("/calc", response_model=StandardResponse, dependencies=[Depends(rate_limit_post)])
 def calculate_footprint(payload: CarbonCalcRequest):
     result = calculate_carbon_footprint(
         electricity_kwh_monthly=payload.electricity_kwh_monthly,
