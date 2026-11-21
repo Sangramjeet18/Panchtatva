@@ -1,9 +1,7 @@
 import React from 'react';
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary';
-  asLink?: boolean;
-  href?: string;
+  variant?: 'primary' | 'secondary' | 'secondary-light';
 }
 
 export function Button({
@@ -12,28 +10,12 @@ export function Button({
   style,
   ...props
 }: ButtonProps) {
-  const isPrimary = variant === 'primary';
-  const baseStyle: React.CSSProperties = {
-    display: 'inline-flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '48px',
-    padding: '0 24px',
-    borderRadius: '2px',
-    border: isPrimary ? '1px solid var(--forest)' : '1px solid var(--ink)',
-    backgroundColor: isPrimary ? 'var(--forest)' : 'transparent',
-    color: isPrimary ? 'var(--paper)' : 'var(--ink)',
-    fontFamily: 'var(--font-sans)',
-    fontSize: '15px',
-    fontWeight: 500,
-    cursor: 'pointer',
-    textDecoration: 'none',
-    boxShadow: 'none',
-    ...style,
-  };
+  let className = 'btn-primary';
+  if (variant === 'secondary') className = 'btn-secondary';
+  if (variant === 'secondary-light') className = 'btn-secondary-light';
 
   return (
-    <button style={baseStyle} {...props}>
+    <button className={className} style={style} {...props}>
       {children}
     </button>
   );

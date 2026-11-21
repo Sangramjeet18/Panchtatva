@@ -1,6 +1,20 @@
+'use client';
+
+import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export function Nav() {
+  const pathname = usePathname();
+
+  const navLinks = [
+    { href: '/deforestation', label: 'Deforestation' },
+    { href: '/reforestation', label: 'Reforestation' },
+    { href: '/carbon', label: 'Carbon' },
+    { href: '/waterlogging', label: 'Waterlogging' },
+    { href: '/about', label: 'About' },
+  ];
+
   return (
     <header
       style={{
@@ -9,6 +23,7 @@ export function Nav() {
         position: 'sticky',
         top: 0,
         zIndex: 50,
+        height: '68px',
       }}
     >
       <div
@@ -17,18 +32,21 @@ export function Nav() {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          height: '72px',
+          height: '68px',
         }}
       >
         <Link
           href="/"
           style={{
             fontFamily: 'var(--font-serif)',
-            fontSize: '24px',
+            fontSize: '26px',
             fontWeight: 600,
             color: 'var(--forest)',
             textDecoration: 'none',
-            letterSpacing: '-0.01em',
+            letterSpacing: '-0.02em',
+            display: 'flex',
+            alignItems: 'center',
+            height: '100%',
           }}
         >
           EcoSense
@@ -36,26 +54,34 @@ export function Nav() {
         <nav
           style={{
             display: 'flex',
-            gap: '24px',
+            gap: '28px',
             alignItems: 'center',
+            height: '100%',
             fontSize: '15px',
           }}
         >
-          <Link href="/deforestation" style={{ color: 'var(--ink)' }}>
-            Deforestation
-          </Link>
-          <Link href="/reforestation" style={{ color: 'var(--ink)' }}>
-            Reforestation
-          </Link>
-          <Link href="/carbon" style={{ color: 'var(--ink)' }}>
-            Carbon
-          </Link>
-          <Link href="/waterlogging" style={{ color: 'var(--ink)' }}>
-            Waterlogging
-          </Link>
-          <Link href="/about" style={{ color: 'var(--muted)' }}>
-            About
-          </Link>
+          {navLinks.map((item) => {
+            const isActive = pathname === item.href || (item.href !== '/' && pathname?.startsWith(item.href));
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="nav-link"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  height: '100%',
+                  color: isActive ? 'var(--ink)' : 'var(--muted)',
+                  textDecoration: 'none',
+                  borderBottom: isActive ? '2px solid var(--clay)' : '2px solid transparent',
+                  paddingTop: '2px',
+                  fontWeight: isActive ? 600 : 500,
+                }}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </header>

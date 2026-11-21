@@ -125,25 +125,28 @@ export function CarbonCalculatorFull() {
         {/* Results and flat horizontal bar breakdown */}
         <div
           style={{
-            borderLeft: '1px solid var(--line)',
-            paddingLeft: '32px',
+            border: '1px solid var(--ink)',
+            backgroundColor: 'var(--paper)',
+            borderRadius: '2px',
+            padding: '36px',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'space-between',
           }}
         >
           <div>
-            <div style={{ fontSize: '13px', color: 'var(--muted)', textTransform: 'uppercase', marginBottom: '6px' }}>
+            <div className="kicker" style={{ color: 'var(--muted)' }}>
               Computed Annual Carbon Output
             </div>
             <div
               className="tabular-nums"
               style={{
                 fontFamily: 'var(--font-serif)',
-                fontSize: '52px',
+                fontSize: 'clamp(56px, 7vw, 104px)',
                 fontWeight: 600,
                 color: 'var(--clay)',
                 lineHeight: 1,
+                letterSpacing: '-0.02em',
                 marginBottom: '6px',
               }}
             >
@@ -152,7 +155,7 @@ export function CarbonCalculatorFull() {
                 tonnes CO2/yr
               </span>
             </div>
-            <div style={{ fontSize: '14px', color: 'var(--muted)', marginBottom: '24px' }}>
+            <div style={{ fontSize: '15px', color: 'var(--muted)', marginBottom: '28px' }}>
               ({result.totalKgPerYear.toLocaleString()} kilograms of carbon dioxide equivalent)
             </div>
 

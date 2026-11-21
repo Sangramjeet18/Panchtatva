@@ -8,7 +8,7 @@ export interface PhotoBandProps {
   children?: React.ReactNode;
 }
 
-export function PhotoBand({ src, alt, height = 400, children }: PhotoBandProps) {
+export function PhotoBand({ src, alt, height = 420, children }: PhotoBandProps) {
   return (
     <div
       style={{
@@ -16,7 +16,7 @@ export function PhotoBand({ src, alt, height = 400, children }: PhotoBandProps) 
         width: '100%',
         height: `${height}px`,
         overflow: 'hidden',
-        backgroundColor: 'var(--surface)',
+        backgroundColor: '#16231B',
       }}
     >
       <Image
@@ -24,7 +24,7 @@ export function PhotoBand({ src, alt, height = 400, children }: PhotoBandProps) 
         alt={alt}
         fill
         sizes="100vw"
-        style={{ objectFit: 'cover' }}
+        style={{ objectFit: 'cover', objectPosition: 'center 45%' }}
         priority
       />
       <div className="photo-overlay" />
@@ -35,7 +35,8 @@ export function PhotoBand({ src, alt, height = 400, children }: PhotoBandProps) 
             zIndex: 10,
             height: '100%',
             display: 'flex',
-            alignItems: 'center',
+            flexDirection: 'column',
+            justifyContent: 'center',
           }}
         >
           <div className="container">{children}</div>
