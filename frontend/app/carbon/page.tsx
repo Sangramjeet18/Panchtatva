@@ -1,20 +1,22 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { PhotoBand } from '@/components/ui/PhotoBand';
 import { Section } from '@/components/ui/Section';
 import { CarbonCalculatorFull } from '@/components/carbon/calculator/CarbonCalculatorFull';
-import { CarbonLivePanel } from '@/components/carbon/live/CarbonLivePanel';
+import { OwidChart } from '@/components/carbon/OwidChart';
+import { AirModelledPanel } from '@/components/carbon/AirModelledPanel';
+import factorData from '@/data/serve/emission_factors.json';
 
 export const metadata = {
   title: 'Carbon Footprint Tracker | EcoSense',
-  description: 'Evaluate personal greenhouse gas emissions across electricity, transit, flights and diet with real-time canopy telemetry.',
+  description: 'Evaluate individual greenhouse gas emissions, inspect OWID per capita benchmarks, and review modelled CAMS air composition under Data Truth Rules.',
 };
 
 export default function CarbonPage() {
+  const factors = (factorData as any[]) || [];
+
   return (
     <div>
-      {/* Header photo band using carbon-1.jpg */}
       <PhotoBand src="/images/carbon-1.jpg" alt="Industrial thermal emission cooling stacks" height={420}>
         <div style={{ maxWidth: '820px', color: '#EDE7D9' }}>
           <div className="kicker" style={{ color: '#D98A63', marginBottom: '12px' }}>
@@ -24,32 +26,42 @@ export default function CarbonPage() {
             Carbon Footprint Tracker
           </h1>
           <p style={{ fontSize: '20px', color: '#EDE7D9', lineHeight: 1.6, maxWidth: '58ch' }}>
-            Calculate individual greenhouse gas emissions, inspect live simulated canopy sensor telemetry, and balance output with tree offset targets.
+            Calculate individual emissions, compare national benchmarks against world averages, and review regional modelled air quality.
           </p>
         </div>
       </PhotoBand>
 
       <Section>
-        {/* Context hairline summary table */}
+        {/* Context hairline summary table with Assumption badges */}
         <div style={{ marginBottom: '48px', maxWidth: '100%' }}>
           <table className="hairline-table">
             <tbody>
               <tr>
                 <td>Grid emission factor</td>
-                <td style={{ color: 'var(--ink)' }}>0.80 kg CO2 per kWh (Central Electricity Authority National Grid Baseline)</td>
+                <td>
+                  <span style={{ color: 'var(--ink)' }}>0.80 kg CO2 per kWh (Central Electricity Authority National Grid Baseline)</span>
+                  <span className="tag-badge-assumption" style={{ marginLeft: '10px' }}>Assumption</span>
+                </td>
               </tr>
               <tr>
                 <td>Transit factors</td>
-                <td style={{ color: 'var(--ink)' }}>Private petrol/diesel car: 0.17 kg/km; City bus: 0.08 kg/km; Metro rail: 0.04 kg/km; Domestic flight: 250 kg/trip</td>
+                <td>
+                  <span style={{ color: 'var(--ink)' }}>Private car: 0.17 kg/km; Bus: 0.08 kg/km; Metro: 0.04 kg/km; Flight: 250 kg/trip</span>
+                  <span className="tag-badge-assumption" style={{ marginLeft: '10px' }}>Assumption</span>
+                </td>
               </tr>
               <tr>
-                <td>Dietary factors</td>
-                <td style={{ color: 'var(--ink)' }}>Vegetarian: 1,000 kg/yr; Mixed balanced: 1,700 kg/yr; Meat heavy: 2,500 kg/yr (IPCC household baseline)</td>
+                <td>Dietary profiles</td>
+                <td>
+                  <span style={{ color: 'var(--ink)' }}>Vegetarian: 1,000 kg/yr; Mixed: 1,700 kg/yr; Meat heavy: 2,500 kg/yr (IPCC household baseline)</span>
+                  <span className="tag-badge-assumption" style={{ marginLeft: '10px' }}>Assumption</span>
+                </td>
               </tr>
               <tr>
                 <td>Offset loop</td>
                 <td style={{ color: 'var(--muted)' }}>
-                  Total emissions compute mature tree requirements linking directly to the{' '}
+                  Total emissions compute mature tree requirements at 21 kg/tree{' '}
+                  <span className="tag-badge-assumption">Assumption</span>, linking directly to the{' '}
                   <Link href="/reforestation" style={{ color: 'var(--forest)', fontWeight: 600 }}>
                     Reforestation Planner
                   </Link>.
@@ -60,57 +72,55 @@ export default function CarbonPage() {
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '56px' }}>
-          {/* Inset photo band with carbon-2.jpg and context description */}
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-              gap: '40px',
-              alignItems: 'center',
-              borderBottom: '1px solid var(--line)',
-              paddingBottom: '48px',
-            }}
-          >
-            <div>
-              <div className="kicker" style={{ color: 'var(--muted)' }}>
-                Regional Context
+          {/* Factor Reference Table (Agent D requirement) */}
+          <div style={{ border: '1px solid var(--line)', backgroundColor: 'var(--surface)', padding: '24px 28px', borderRadius: '2px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
+              <div>
+                <div className="kicker" style={{ color: 'var(--clay)' }}>Parameter Accounting</div>
+                <h3 style={{ fontSize: '22px', margin: 0 }}>Statutory and Empirical Emission Factors</h3>
               </div>
-              <h3 style={{ fontSize: '28px', marginBottom: '12px' }}>
-                Thermal Power and Transport Dominance in India
-              </h3>
-              <p style={{ fontSize: '16px', color: 'var(--ink)', lineHeight: 1.6, marginBottom: '12px' }}>
-                India&apos;s electric grid operates predominantly on coal-fired thermal generation, yielding a high statutory factor of 0.80 kg CO2 per kilowatt-hour. Ground commuting and domestic flights multiply personal baselines significantly.
-              </p>
-              <p style={{ fontSize: '15px', color: 'var(--muted)', margin: 0 }}>
-                This module connects personal consumption directly with physical sensor streams and land-based reforestation offsetting.
-              </p>
+              <span className="tag-badge-assumption">All Values Tagged Assumption</span>
             </div>
-
-            <div
-              style={{
-                position: 'relative',
-                height: '280px',
-                border: '1px solid var(--line)',
-                borderRadius: '2px',
-                overflow: 'hidden',
-                backgroundColor: 'var(--surface)',
-              }}
-            >
-              <Image
-                src="/images/carbon-2.jpg"
-                alt="Industrial emissions in urban electrical substation canopy"
-                fill
-                sizes="(max-width: 768px) 100vw, 500px"
-                style={{ objectFit: 'cover' }}
-              />
+            <div style={{ overflowX: 'auto' }}>
+              <table className="hairline-table" style={{ width: '100%', minWidth: '600px', backgroundColor: 'var(--paper)' }}>
+                <thead>
+                  <tr style={{ textAlign: 'left', borderBottom: '2px solid var(--line)', backgroundColor: 'var(--surface)' }}>
+                    <th style={{ padding: '10px 12px', fontSize: '12px', textTransform: 'uppercase', color: 'var(--muted)' }}>Category</th>
+                    <th style={{ padding: '10px 12px', fontSize: '12px', textTransform: 'uppercase', color: 'var(--muted)' }}>Factor Key</th>
+                    <th style={{ padding: '10px 12px', fontSize: '12px', textTransform: 'uppercase', color: 'var(--muted)' }}>Intensity</th>
+                    <th style={{ padding: '10px 12px', fontSize: '12px', textTransform: 'uppercase', color: 'var(--muted)' }}>Source & Year</th>
+                    <th style={{ padding: '10px 12px', fontSize: '12px', textTransform: 'uppercase', color: 'var(--muted)' }}>Status Tag</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {factors.map((f: any) => (
+                    <tr key={f.key}>
+                      <td style={{ fontWeight: 600, color: 'var(--ink)' }}>{f.category}</td>
+                      <td style={{ color: 'var(--muted)' }}><code>{f.key}</code></td>
+                      <td className="tabular-nums" style={{ fontWeight: 600, color: 'var(--forest)' }}>
+                        {f.kg_co2_per_unit} {f.unit}
+                      </td>
+                      <td style={{ fontSize: '13px', color: 'var(--muted)' }}>
+                        {f.source} ({f.year})
+                      </td>
+                      <td>
+                        <span className="tag-badge-assumption">{f.status}</span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
 
-          {/* Calculator UI */}
+          {/* Interactive Calculator */}
           <CarbonCalculatorFull />
 
-          {/* Live Panel UI */}
-          <CarbonLivePanel />
+          {/* OWID Comparative Benchmark Chart */}
+          <OwidChart />
+
+          {/* Modelled Atmospheric Telemetry Panel */}
+          <AirModelledPanel />
         </div>
       </Section>
     </div>

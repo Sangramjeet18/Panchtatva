@@ -1,0 +1,82 @@
+[
+  {
+    "id": "world_bank_forest",
+    "dataset": "India National Forest Area Series",
+    "publisher": "World Bank / Food and Agriculture Organization (FAO)",
+    "used_for": "National forest area trend analysis and 10-year holdout statistical forecast",
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "download_date": "2026-11-21",
+    "status_tag": "Real",
+    "url": "https://data.worldbank.org/indicator/AG.LND.FRST.K2?locations=IN"
+  },
+  {
+    "id": "fsi_forest_cover",
+    "dataset": "State & District Forest Cover Assessments",
+    "publisher": "Forest Survey of India (FSI), MoEFCC",
+    "used_for": "Biennial forest canopy density breakdown (VDF, MDF, Open) and geographic change tracking",
+    "licence": "Government Open Data License - India (GODL)",
+    "download_date": "2026-11-21",
+    "status_tag": "Real",
+    "url": "https://fsi.nic.in/forest-report-2021"
+  },
+  {
+    "id": "open_meteo_weather",
+    "dataset": "High-Resolution Precipitation & Weather Forecasts",
+    "publisher": "Open-Meteo / ECMWF / DWD",
+    "used_for": "3-day and 7-day municipal rainfall forecasts across Kolkata monitoring areas",
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "download_date": "2026-11-21",
+    "status_tag": "Real",
+    "url": "https://open-meteo.com"
+  },
+  {
+    "id": "open_meteo_cams",
+    "dataset": "Atmospheric CO2 & Air Quality Composition",
+    "publisher": "Copernicus Atmosphere Monitoring Service (CAMS) via Open-Meteo",
+    "used_for": "Modelled ambient atmospheric carbon concentrations and air quality indices",
+    "licence": "Copernicus License / Open-Meteo Non-Commercial Terms",
+    "download_date": "2026-11-21",
+    "status_tag": "Modelled",
+    "url": "https://atmosphere.copernicus.eu"
+  },
+  {
+    "id": "owid_co2",
+    "dataset": "CO2 Emissions Per Capita (India vs World)",
+    "publisher": "Our World in Data (OWID) / Global Carbon Project",
+    "used_for": "Comparative per capita greenhouse gas emission benchmarks",
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "download_date": "2026-11-21",
+    "status_tag": "Real",
+    "url": "https://ourworldindata.org/co2-emissions"
+  },
+  {
+    "id": "waterlogging_index",
+    "dataset": "Rainfall and Elevation Screening Index",
+    "publisher": "EcoSense Research Framework",
+    "used_for": "Rule-based screening of municipal drainage vulnerability in Kolkata monitoring zones",
+    "licence": "Open Educational License (MIT)",
+    "download_date": "2026-11-21",
+    "status_tag": "Proxy",
+    "url": "https://github.com/Sangramjeet18/Panchtatva"
+  },
+  {
+    "id": "cea_ipcc_factors",
+    "dataset": "Indian Grid and Transit Carbon Factors",
+    "publisher": "Central Electricity Authority (CEA) / IPCC",
+    "used_for": "Household carbon footprint accounting across electricity, transport, aviation and diet",
+    "licence": "Public Domain / CEA Technical Reports",
+    "download_date": "2026-11-21",
+    "status_tag": "Assumption",
+    "url": "https://cea.nic.in/cdm-co2-baseline-database"
+  },
+  {
+    "id": "icfre_species",
+    "dataset": "Native Agro-Climatic Tree Candidates",
+    "publisher": "Indian Council of Forestry Research and Education (ICFRE)",
+    "used_for": "Rainfall-band matched species recommendations and 21 kg/tree annual absorption baseline",
+    "licence": "Public Domain Forestry Reference",
+    "download_date": "2026-11-21",
+    "status_tag": "Assumption",
+    "url": "https://icfre.gov.in"
+  }
+]

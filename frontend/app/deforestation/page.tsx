@@ -5,23 +5,23 @@ import { Section } from '@/components/ui/Section';
 import { DeforestationClient } from '@/components/deforestation/DeforestationClient';
 
 export const metadata = {
-  title: 'Deforestation Tracker | EcoSense',
-  description: 'Historical tree cover loss analysis and 10-year statistical forecast for West Bengal, Assam, Odisha and Kerala.',
+  title: 'Forest Cover and National Trends | EcoSense',
+  description: 'National forest area trends (World Bank/FAO) and biennial state-level canopy assessments (Forest Survey of India) under Data Truth Rules.',
 };
 
 export default function DeforestationPage() {
   return (
     <div>
-      <PhotoBand src="/images/deforestation.jpg" alt="Deforested landscape with felled logs" height={420}>
+      <PhotoBand src="/images/deforestation.jpg" alt="Forest canopy and mountain landscape in India" height={420}>
         <div style={{ maxWidth: '820px', color: '#EDE7D9' }}>
           <div className="kicker" style={{ color: '#7FB08F', marginBottom: '12px' }}>
             Module 01
           </div>
           <h1 style={{ color: '#EDE7D9', fontSize: '52px', lineHeight: 1.08, marginBottom: '16px' }}>
-            Deforestation Tracker
+            Forest Cover and National Trends
           </h1>
           <p style={{ fontSize: '20px', color: '#EDE7D9', lineHeight: 1.6, maxWidth: '58ch' }}>
-            Inspect historical tree cover loss, review 10-year projected trends with shaded prediction bounds, and locate vulnerable districts across Indian states.
+            Inspect long-term national forest area trends and evaluate registered biennial canopy distributions across 36 Indian States and Union Territories.
           </p>
         </div>
       </PhotoBand>
@@ -33,24 +33,24 @@ export default function DeforestationPage() {
             <tbody>
               <tr>
                 <td>Coverage</td>
-                <td style={{ color: 'var(--ink)' }}>West Bengal, Assam, Odisha, and Kerala (state and district levels)</td>
+                <td style={{ color: 'var(--ink)' }}>36 States and Union Territories (FSI) & National All-India Series (World Bank / FAO)</td>
               </tr>
               <tr>
                 <td>Data baseline</td>
-                <td style={{ color: 'var(--ink)' }}>Global Forest Watch annual tree cover loss (2001 to 2023) and NASA FIRMS active fire alerts</td>
+                <td style={{ color: 'var(--ink)' }}>World Bank FAO Indicator AG.LND.FRST.K2 & Forest Survey of India (ISFR Biennial Assessments)</td>
               </tr>
               <tr>
                 <td>Statistical model</td>
-                <td style={{ color: 'var(--ink)' }}>Ordinary least-squares linear regression with hold-out validation and 95% forecast interval</td>
+                <td style={{ color: 'var(--ink)' }}>National linear regression with 3-year holdout MAE validation, clamped at zero. No state or district regressions (Rule 1).</td>
               </tr>
               <tr>
                 <td>Downstream impact</td>
                 <td style={{ color: 'var(--muted)' }}>
-                  Upper catchment tree loss directly accelerates soil erosion and increases urban runoff in downstream cities. See the{' '}
+                  Catchment forest cover directly influences hydrological infiltration and urban storm runoff in downstream river basins. See the{' '}
                   <Link href="/waterlogging" style={{ color: 'var(--river)', fontWeight: 600 }}>
                     Waterlogging Predictor
                   </Link>{' '}
-                  to evaluate municipal drainage impact.
+                  to inspect municipal screening indices.
                 </td>
               </tr>
             </tbody>

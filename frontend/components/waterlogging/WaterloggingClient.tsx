@@ -1,247 +1,209 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useMemo } from 'react';
+import areasData from '@/data/serve/monitoring_areas.json';
+import rainfallData from '@/data/serve/rainfall_daily.json';
 
-interface WardRisk {
-  ward_id: number;
-  ward_no: string;
-  ward_name: string;
-  zone: string;
+interface MonitoringArea {
+  id: number;
+  name: string;
   lat: number;
   lon: number;
-  forecast_date: string;
-  rainfall_mm: number;
-  risk_level: 'low' | 'medium' | 'high';
-  probability: number;
   elevation_m: number;
-  drainage_score: number;
-  past_flood_events: number;
-  impervious_pct: number;
+  data_status: string;
 }
 
-interface ApiResponse {
-  data: {
-    wards: WardRisk[];
-    forecast_dates: string[];
-    selected_date: string;
-  };
-  meta: {
-    source: string;
-    simulated: boolean;
-    generated_at: string;
-    model: string;
-    city: string;
-  };
+interface RainfallRecord {
+  area_id: number;
+  area_name: string;
+  date: string;
+  rain_mm: number;
+  rain_3day: number;
+  elevation_m: number;
+  risk_proxy: string;
+  data_status: string;
 }
 
-const RISK_COLORS = {
-  low: { bg: 'rgba(91,123,58,0.15)', text: '#5B7B3A', border: '#5B7B3A', label: 'Low' },
-  medium: { bg: 'rgba(184,138,30,0.15)', text: '#B88A1E', border: '#B88A1E', label: 'Medium' },
-  high: { bg: 'rgba(180,83,42,0.18)', text: '#B4532A', border: '#B4532A', label: 'High' },
+const RISK_CONFIG = {
+  low: {
+    bg: 'rgba(91,123,58,0.12)',
+    text: '#5B7B3A',
+    border: '#5B7B3A',
+    label: 'Low Risk',
+  },
+  medium: {
+    bg: 'rgba(184,138,30,0.12)',
+    text: '#B88A1E',
+    border: '#B88A1E',
+    label: 'Medium Risk',
+  },
+  high: {
+    bg: 'rgba(180,83,42,0.14)',
+    text: '#B4532A',
+    border: '#B4532A',
+    label: 'High Risk',
+  },
 };
 
-function RiskBadge({ level }: { level: 'low' | 'medium' | 'high' }) {
-  const c = RISK_COLORS[level];
-  return (
-    <span
-      style={{
-        fontSize: '11px',
-        textTransform: 'uppercase',
-        padding: '2px 8px',
-        borderRadius: '2px',
-        backgroundColor: c.bg,
-        color: c.text,
-        border: `1px solid ${c.border}`,
-        fontWeight: 600,
-        letterSpacing: '0.04em',
-      }}
-    >
-      {c.label}
-    </span>
-  );
-}
-
-function FeatureImportanceBar({
-  label,
-  value,
-  max,
-  color,
-}: {
-  label: string;
-  value: number;
-  max: number;
-  color: string;
-}) {
-  const pct = max > 0 ? (value / max) * 100 : 0;
-  return (
-    <div style={{ marginBottom: '10px' }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', marginBottom: '4px' }}>
-        <span style={{ color: 'var(--ink)' }}>{label}</span>
-        <span style={{ color: 'var(--muted)', fontVariantNumeric: 'tabular-nums' }}>{(value * 100).toFixed(1)}%</span>
-      </div>
-      <div style={{ height: '8px', backgroundColor: 'var(--line)', borderRadius: '1px' }}>
-        <div
-          style={{
-            height: '100%',
-            width: `${pct}%`,
-            backgroundColor: color,
-            borderRadius: '1px',
-          }}
-        />
-      </div>
-    </div>
-  );
+/**
+ * Transparent screening rule (Data Truth Rule 3).
+ * Evaluates drainage vulnerability deterministically:
+ * - High: 3-day accumulated rainfall >= 70mm and elevation <= 5.0m
+ * - Medium: 3-day accumulated rainfall >= 40mm, or >= 25mm with elevation <= 6.0m
+ * - Low: all other conditions
+ */
+function calculateScreeningIndex(rain3DayMm: number, elevationM: number): 'low' | 'medium' | 'high' {
+  if (rain3DayMm >= 70.0 && elevationM <= 5.0) {
+    return 'high';
+  } else if (rain3DayMm >= 40.0 || (rain3DayMm >= 25.0 && elevationM <= 6.0)) {
+    return 'medium';
+  }
+  return 'low';
 }
 
 export function WaterloggingClient() {
-  const [day, setDay] = useState(0);
-  const [rainfallOverride, setRainfallOverride] = useState<number | null>(null);
-  const [data, setData] = useState<ApiResponse | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [sliderValue, setSliderValue] = useState(50);
-  const [useSlider, setUseSlider] = useState(false);
+  const areas: MonitoringArea[] = areasData as MonitoringArea[];
+  const records: RainfallRecord[] = rainfallData as RainfallRecord[];
 
-  const load = useCallback(async (d: number, override: number | null) => {
-    setLoading(true);
-    setError(null);
-    try {
-      let url = `/api/waterlogging?day=${d}`;
-      if (override !== null) url += `&rainfall_mm=${override}`;
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const json: ApiResponse = await res.json();
-      setData(json);
-    } catch (e) {
-      setError(e instanceof Error ? e.message : 'Failed to load predictions');
-    } finally {
-      setLoading(false);
-    }
-  }, []);
+  // Unique forecast dates sorted
+  const availableDates = useMemo(() => {
+    const dates = Array.from(new Set(records.map((r) => r.date)));
+    return dates.sort();
+  }, [records]);
 
-  useEffect(() => {
-    load(day, rainfallOverride);
-  }, [day, rainfallOverride, load]);
+  const [selectedDate, setSelectedDate] = useState<string>(availableDates[0] || '2026-11-21');
+  const [sliderValue, setSliderValue] = useState<number>(50);
+  const [useSlider, setUseSlider] = useState<boolean>(false);
 
-  const handleSliderChange = (val: number) => {
-    setSliderValue(val);
-    if (useSlider) setRainfallOverride(val);
-  };
+  // Compute screening status for each monitoring area
+  const evaluatedAreas = useMemo(() => {
+    return areas.map((area) => {
+      let rainVal = 0;
+      let rain3Day = 0;
 
-  const toggleSlider = () => {
-    const next = !useSlider;
-    setUseSlider(next);
-    setRainfallOverride(next ? sliderValue : null);
-  };
+      if (useSlider) {
+        rainVal = sliderValue;
+        rain3Day = Number((sliderValue * 2.2).toFixed(1));
+      } else {
+        const match = records.find((r) => r.area_id === area.id && r.date === selectedDate);
+        if (match) {
+          rainVal = match.rain_mm;
+          rain3Day = match.rain_3day;
+        } else {
+          rainVal = 0;
+          rain3Day = 0;
+        }
+      }
 
-  const wards = data?.data.wards ?? [];
-  const forecastDates = data?.data.forecast_dates ?? [];
-  const top5 = wards.filter(w => w.risk_level === 'high').slice(0, 5);
-  const simulated = data?.meta.simulated;
+      const risk = calculateScreeningIndex(rain3Day, area.elevation_m);
 
-  // Feature importances (from train.py output embedded here for display)
-  const featureImportances = [
-    { label: 'Rainfall 24h (mm)', value: 0.4821, color: '#2F5D73' },
-    { label: 'Drainage Score', value: 0.2134, color: '#1E4D35' },
-    { label: 'Impervious Surface %', value: 0.1583, color: '#5B7B3A' },
-    { label: 'Past Flood Events', value: 0.1021, color: '#B88A1E' },
-    { label: 'Elevation (m)', value: 0.0441, color: '#B4532A' },
-  ];
-  const maxImportance = Math.max(...featureImportances.map(f => f.value));
+      return {
+        ...area,
+        rain_mm: rainVal,
+        rain_3day_mm: rain3Day,
+        risk_proxy: risk,
+      };
+    });
+  }, [areas, records, selectedDate, useSlider, sliderValue]);
 
-  const riskCounts = wards.reduce(
-    (acc, w) => {
-      acc[w.risk_level]++;
-      return acc;
-    },
-    { low: 0, medium: 0, high: 0 },
-  );
+  const riskCounts = useMemo(() => {
+    return evaluatedAreas.reduce(
+      (acc, a) => {
+        acc[a.risk_proxy]++;
+        return acc;
+      },
+      { low: 0, medium: 0, high: 0 } as Record<'low' | 'medium' | 'high', number>
+    );
+  }, [evaluatedAreas]);
 
   return (
     <div>
-      {/* Controls row */}
+      {/* Data Truth Rule 3 Banner */}
       <div
         style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          gap: '16px',
-          alignItems: 'flex-end',
-          marginBottom: '32px',
-          padding: '20px',
+          padding: '16px 20px',
           backgroundColor: 'var(--surface)',
           border: '1px solid var(--line)',
           borderRadius: '2px',
+          marginBottom: '32px',
         }}
       >
-        {/* Day selector */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+          <span className="tag-badge-proxy">Proxy</span>
+          <span style={{ fontWeight: 600, fontSize: '14px', color: 'var(--ink)' }}>
+            Data Truth Rule 3: Screening Index Specification
+          </span>
+        </div>
+        <p style={{ fontSize: '14px', color: 'var(--muted)', margin: 0, lineHeight: 1.5 }}>
+          The waterlogging risk label is a transparent screening index calculated deterministically from Open-Meteo rainfall forecasts and elevation survey data. It is not an ML-trained classifier, and no accuracy, precision, or recall figures are claimed. The 8 Kolkata locations represent monitored topographical stations, not municipal wards.
+        </p>
+      </div>
+
+      {/* Scenario and Date Controls */}
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+          gap: '20px',
+          padding: '24px',
+          backgroundColor: 'var(--surface)',
+          border: '1px solid var(--line)',
+          borderRadius: '2px',
+          marginBottom: '32px',
+        }}
+      >
+        {/* Date Selector */}
         <div>
-          <label style={{ display: 'block', fontSize: '13px', color: 'var(--muted)', marginBottom: '6px' }}>
-            Forecast day
+          <label style={{ display: 'block', fontSize: '13px', color: 'var(--muted)', marginBottom: '8px' }}>
+            Open-Meteo Forecast Date (7-day window)
           </label>
-          <div style={{ display: 'flex', gap: '8px' }}>
-            {forecastDates.length > 0
-              ? forecastDates.map((date, i) => (
-                  <button
-                    key={date}
-                    onClick={() => setDay(i)}
-                    style={{
-                      padding: '8px 16px',
-                      borderRadius: '2px',
-                      border: day === i ? '1px solid var(--forest)' : '1px solid var(--line)',
-                      backgroundColor: day === i ? 'var(--forest)' : 'var(--paper)',
-                      color: day === i ? 'var(--paper)' : 'var(--ink)',
-                      fontSize: '13px',
-                      cursor: 'pointer',
-                      fontFamily: 'var(--font-sans)',
-                    }}
-                  >
-                    Day {i + 1}
-                    <span style={{ display: 'block', fontSize: '11px', color: day === i ? 'rgba(255,255,255,0.75)' : 'var(--muted)' }}>
-                      {date}
-                    </span>
-                  </button>
-                ))
-              : [0, 1, 2].map(i => (
-                  <button
-                    key={i}
-                    onClick={() => setDay(i)}
-                    style={{
-                      padding: '8px 16px',
-                      borderRadius: '2px',
-                      border: day === i ? '1px solid var(--forest)' : '1px solid var(--line)',
-                      backgroundColor: day === i ? 'var(--forest)' : 'var(--paper)',
-                      color: day === i ? 'var(--paper)' : 'var(--ink)',
-                      fontSize: '13px',
-                      cursor: 'pointer',
-                      fontFamily: 'var(--font-sans)',
-                    }}
-                  >
-                    Day {i + 1}
-                  </button>
-                ))}
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+            {availableDates.map((d) => (
+              <button
+                key={d}
+                type="button"
+                onClick={() => {
+                  setSelectedDate(d);
+                  setUseSlider(false);
+                }}
+                style={{
+                  padding: '6px 12px',
+                  borderRadius: '2px',
+                  border: !useSlider && selectedDate === d ? '1px solid var(--forest)' : '1px solid var(--line)',
+                  backgroundColor: !useSlider && selectedDate === d ? 'var(--forest)' : 'var(--paper)',
+                  color: !useSlider && selectedDate === d ? '#EDE7D9' : 'var(--ink)',
+                  fontSize: '13px',
+                  fontFamily: 'var(--font-sans)',
+                  cursor: 'pointer',
+                }}
+              >
+                {d.slice(5)}
+              </button>
+            ))}
           </div>
         </div>
 
-        {/* Rainfall override slider */}
-        <div style={{ flex: 1, minWidth: '240px' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
+        {/* Manual Rainfall Slider */}
+        <div>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
             <label style={{ fontSize: '13px', color: 'var(--muted)' }}>
-              Manual rainfall scenario: {sliderValue} mm/day
+              Simulation scenario: {sliderValue} mm/day
             </label>
             <button
-              onClick={toggleSlider}
+              type="button"
+              onClick={() => setUseSlider(!useSlider)}
               style={{
                 fontSize: '12px',
                 padding: '2px 10px',
                 borderRadius: '2px',
-                border: `1px solid ${useSlider ? '#B4532A' : 'var(--line)'}`,
+                border: `1px solid ${useSlider ? 'var(--clay)' : 'var(--line)'}`,
                 backgroundColor: useSlider ? 'rgba(180,83,42,0.1)' : 'var(--paper)',
-                color: useSlider ? '#B4532A' : 'var(--muted)',
+                color: useSlider ? 'var(--clay)' : 'var(--muted)',
                 cursor: 'pointer',
                 fontFamily: 'var(--font-sans)',
               }}
             >
-              {useSlider ? 'Using slider' : 'Use slider'}
+              {useSlider ? 'Using slider' : 'Use simulation'}
             </button>
           </div>
           <input
@@ -250,267 +212,211 @@ export function WaterloggingClient() {
             max={200}
             step={1}
             value={sliderValue}
-            onChange={e => handleSliderChange(Number(e.target.value))}
-            style={{ width: '100%', accentColor: 'var(--waterlogging, #2F5D73)' }}
-            aria-label="Rainfall scenario slider in mm per day"
+            onChange={(e) => {
+              setSliderValue(Number(e.target.value));
+              setUseSlider(true);
+            }}
+            style={{ width: '100%', accentColor: 'var(--river)' }}
+            aria-label="Manual rainfall scenario in mm"
           />
-          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: 'var(--muted)' }}>
-            <span>0 mm (dry)</span>
-            <span>50 mm (moderate)</span>
-            <span>200 mm (cyclonic)</span>
+          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: 'var(--muted)', marginTop: '4px' }}>
+            <span>0 mm (Dry)</span>
+            <span>40 mm (Screening trigger)</span>
+            <span>200 mm (Cyclonic surge)</span>
           </div>
         </div>
       </div>
 
-      {/* Simulated notice */}
-      {(simulated || useSlider) && (
+      {/* Summary Stat Counters */}
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+          gap: '16px',
+          marginBottom: '32px',
+        }}
+      >
         <div
           style={{
-            padding: '10px 16px',
-            backgroundColor: 'rgba(47,93,115,0.08)',
-            border: '1px solid #2F5D73',
+            padding: '20px',
+            backgroundColor: RISK_CONFIG.high.bg,
+            border: `1px solid ${RISK_CONFIG.high.border}`,
             borderRadius: '2px',
-            fontSize: '13px',
-            color: '#2F5D73',
-            marginBottom: '24px',
+            textAlign: 'center',
           }}
         >
-          {useSlider
-            ? `Showing simulated predictions for a manual rainfall input of ${sliderValue} mm/day. This is not a real forecast.`
-            : 'Open-Meteo API unavailable. Showing stored sample forecast data. Predictions are illustrative.'}
-        </div>
-      )}
-
-      {/* Loading skeleton */}
-      {loading && (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-          {[320, 180, 220].map((h, i) => (
-            <div
-              key={i}
-              style={{
-                height: `${h}px`,
-                backgroundColor: 'var(--surface)',
-                border: '1px solid var(--line)',
-                borderRadius: '2px',
-                animation: 'pulse 1.5s ease-in-out infinite',
-              }}
-            />
-          ))}
-        </div>
-      )}
-
-      {/* Error state */}
-      {!loading && error && (
-        <div
-          style={{
-            padding: '24px',
-            backgroundColor: 'rgba(180,83,42,0.08)',
-            border: '1px solid #B4532A',
-            borderRadius: '2px',
-          }}
-        >
-          <div style={{ fontSize: '16px', fontWeight: 600, color: '#B4532A', marginBottom: '8px' }}>
-            Prediction service unavailable
+          <div style={{ fontSize: '36px', fontFamily: 'var(--font-serif)', color: RISK_CONFIG.high.text, marginBottom: '4px' }}>
+            {riskCounts.high}
           </div>
-          <p style={{ color: 'var(--muted)', fontSize: '14px', marginBottom: '16px' }}>{error}</p>
-          <button
-            onClick={() => load(day, rainfallOverride)}
-            style={{
-              padding: '8px 20px',
-              borderRadius: '2px',
-              border: '1px solid #B4532A',
-              backgroundColor: 'transparent',
-              color: '#B4532A',
-              cursor: 'pointer',
-              fontFamily: 'var(--font-sans)',
-              fontSize: '14px',
-            }}
-          >
-            Retry
-          </button>
+          <div style={{ fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', color: RISK_CONFIG.high.text, fontWeight: 600 }}>
+            High Risk Stations
+          </div>
         </div>
-      )}
 
-      {/* Main content */}
-      {!loading && !error && data && (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
-          {/* Summary cards */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '16px' }}>
-            {(['high', 'medium', 'low'] as const).map(level => {
-              const c = RISK_COLORS[level];
+        <div
+          style={{
+            padding: '20px',
+            backgroundColor: RISK_CONFIG.medium.bg,
+            border: `1px solid ${RISK_CONFIG.medium.border}`,
+            borderRadius: '2px',
+            textAlign: 'center',
+          }}
+        >
+          <div style={{ fontSize: '36px', fontFamily: 'var(--font-serif)', color: RISK_CONFIG.medium.text, marginBottom: '4px' }}>
+            {riskCounts.medium}
+          </div>
+          <div style={{ fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', color: RISK_CONFIG.medium.text, fontWeight: 600 }}>
+            Medium Risk Stations
+          </div>
+        </div>
+
+        <div
+          style={{
+            padding: '20px',
+            backgroundColor: RISK_CONFIG.low.bg,
+            border: `1px solid ${RISK_CONFIG.low.border}`,
+            borderRadius: '2px',
+            textAlign: 'center',
+          }}
+        >
+          <div style={{ fontSize: '36px', fontFamily: 'var(--font-serif)', color: RISK_CONFIG.low.text, marginBottom: '4px' }}>
+            {riskCounts.low}
+          </div>
+          <div style={{ fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', color: RISK_CONFIG.low.text, fontWeight: 600 }}>
+            Low Risk Stations
+          </div>
+        </div>
+
+        <div
+          style={{
+            padding: '20px',
+            backgroundColor: 'var(--surface)',
+            border: '1px solid var(--line)',
+            borderRadius: '2px',
+            textAlign: 'center',
+          }}
+        >
+          <div style={{ fontSize: '36px', fontFamily: 'var(--font-serif)', color: 'var(--ink)', marginBottom: '4px' }}>
+            8
+          </div>
+          <div style={{ fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--muted)', fontWeight: 600 }}>
+            Total Monitored Areas
+          </div>
+        </div>
+      </div>
+
+      {/* Deterministic Screening Rule Definition Box */}
+      <div
+        style={{
+          border: '1px solid var(--line)',
+          borderRadius: '2px',
+          backgroundColor: 'var(--surface)',
+          padding: '24px',
+          marginBottom: '32px',
+        }}
+      >
+        <h3 style={{ fontSize: '20px', marginBottom: '12px' }}>
+          Screening Rule Definition
+        </h3>
+        <p style={{ fontSize: '14px', color: 'var(--muted)', marginBottom: '16px' }}>
+          The classification evaluates water accumulation risk through a transparent two-tier physical threshold based on 3-day accumulated rainfall and ground elevation:
+        </p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '12px' }}>
+          <div style={{ padding: '12px', border: '1px solid var(--line)', borderRadius: '2px', backgroundColor: 'var(--paper)' }}>
+            <div style={{ fontWeight: 600, color: RISK_CONFIG.high.text, fontSize: '14px', marginBottom: '4px' }}>
+              High Risk Rule
+            </div>
+            <div style={{ fontSize: '13px', color: 'var(--ink)' }}>
+              3-day accumulated rainfall &ge; 70.0 mm AND ground elevation &le; 5.0 m
+            </div>
+          </div>
+          <div style={{ padding: '12px', border: '1px solid var(--line)', borderRadius: '2px', backgroundColor: 'var(--paper)' }}>
+            <div style={{ fontWeight: 600, color: RISK_CONFIG.medium.text, fontSize: '14px', marginBottom: '4px' }}>
+              Medium Risk Rule
+            </div>
+            <div style={{ fontSize: '13px', color: 'var(--ink)' }}>
+              3-day rainfall &ge; 40.0 mm OR (rainfall &ge; 25.0 mm AND elevation &le; 6.0 m)
+            </div>
+          </div>
+          <div style={{ padding: '12px', border: '1px solid var(--line)', borderRadius: '2px', backgroundColor: 'var(--paper)' }}>
+            <div style={{ fontWeight: 600, color: RISK_CONFIG.low.text, fontSize: '14px', marginBottom: '4px' }}>
+              Low Risk Rule
+            </div>
+            <div style={{ fontSize: '13px', color: 'var(--ink)' }}>
+              All other conditions where precipitation remains below screening triggers
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Table of 8 Monitoring Areas */}
+      <div style={{ overflowX: 'auto', marginBottom: '40px' }}>
+        <table className="hairline-table" style={{ width: '100%', textAlign: 'left' }}>
+          <thead>
+            <tr>
+              <th>Station / Monitoring Area</th>
+              <th>Elevation (m)</th>
+              <th>24h Rain (mm)</th>
+              <th>3-Day Rain (mm)</th>
+              <th>Screening Index</th>
+              <th>Data Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            {evaluatedAreas.map((area) => {
+              const conf = RISK_CONFIG[area.risk_proxy];
               return (
-                <div
-                  key={level}
-                  style={{
-                    padding: '20px',
-                    backgroundColor: c.bg,
-                    border: `1px solid ${c.border}`,
-                    borderRadius: '2px',
-                    textAlign: 'center',
-                  }}
-                >
-                  <div style={{ fontSize: '36px', fontFamily: 'var(--font-serif)', color: c.text, marginBottom: '4px' }}>
-                    {riskCounts[level]}
-                  </div>
-                  <div style={{ fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', color: c.text }}>
-                    {c.label} Risk Wards
-                  </div>
-                </div>
-              );
-            })}
-            <div
-              style={{
-                padding: '20px',
-                backgroundColor: 'var(--surface)',
-                border: '1px solid var(--line)',
-                borderRadius: '2px',
-                textAlign: 'center',
-              }}
-            >
-              <div style={{ fontSize: '36px', fontFamily: 'var(--font-serif)', color: 'var(--ink)', marginBottom: '4px' }}>
-                {wards[0]?.rainfall_mm ?? 0}
-                <span style={{ fontSize: '14px', fontFamily: 'var(--font-sans)' }}> mm</span>
-              </div>
-              <div style={{ fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--muted)' }}>
-                Rainfall Input
-              </div>
-            </div>
-          </div>
-
-          {/* Top 5 High Risk Wards */}
-          <div style={{ border: '1px solid var(--line)', borderRadius: '2px', backgroundColor: 'var(--surface)', padding: '24px' }}>
-            <div style={{ marginBottom: '16px' }}>
-              <div style={{ fontSize: '13px', color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '4px' }}>
-                Priority Attention
-              </div>
-              <h3 style={{ fontSize: '20px', margin: 0 }}>Top High-Risk Wards for {data.data.selected_date}</h3>
-              <p style={{ fontSize: '14px', color: 'var(--muted)', marginTop: '4px' }}>
-                Ranked by flood probability. All wards above 70% probability should be pre-emptively informed.
-              </p>
-            </div>
-            {top5.length === 0 ? (
-              <p style={{ color: 'var(--muted)', fontSize: '14px' }}>
-                No wards assessed as high risk for this rainfall scenario.
-              </p>
-            ) : (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                {top5.map((ward, rank) => (
-                  <div
-                    key={ward.ward_id}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '16px',
-                      padding: '12px 16px',
-                      border: '1px solid var(--line)',
-                      borderRadius: '2px',
-                      backgroundColor: 'var(--paper)',
-                    }}
-                  >
-                    <div
+                <tr key={area.id}>
+                  <td style={{ fontWeight: 600, color: 'var(--ink)' }}>
+                    <div>{area.name}</div>
+                    <div style={{ fontSize: '12px', color: 'var(--muted)', fontWeight: 400 }}>
+                      Lat: {area.lat.toFixed(4)}, Lon: {area.lon.toFixed(4)}
+                    </div>
+                  </td>
+                  <td>
+                    <span style={{ fontVariantNumeric: 'tabular-nums', marginRight: '8px' }}>
+                      {area.elevation_m.toFixed(1)} m
+                    </span>
+                    <span className="tag-badge-real">Real</span>
+                  </td>
+                  <td>
+                    <span style={{ fontVariantNumeric: 'tabular-nums', marginRight: '8px' }}>
+                      {area.rain_mm.toFixed(1)} mm
+                    </span>
+                    <span className="tag-badge-modelled">Modelled</span>
+                  </td>
+                  <td>
+                    <span style={{ fontVariantNumeric: 'tabular-nums', marginRight: '8px' }}>
+                      {area.rain_3day_mm.toFixed(1)} mm
+                    </span>
+                    <span className="tag-badge-modelled">Modelled</span>
+                  </td>
+                  <td>
+                    <span
                       style={{
-                        fontFamily: 'var(--font-serif)',
-                        fontSize: '24px',
-                        color: '#B4532A',
-                        minWidth: '32px',
-                        textAlign: 'center',
+                        padding: '3px 8px',
+                        borderRadius: '2px',
+                        backgroundColor: conf.bg,
+                        color: conf.text,
+                        border: `1px solid ${conf.border}`,
+                        fontSize: '12px',
+                        fontWeight: 600,
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.04em',
                       }}
                     >
-                      {rank + 1}
-                    </div>
-                    <div style={{ flex: 1 }}>
-                      <div style={{ fontWeight: 600, fontSize: '15px', color: 'var(--ink)' }}>{ward.ward_name}</div>
-                      <div style={{ fontSize: '12px', color: 'var(--muted)' }}>
-                        {ward.ward_no} · Zone: {ward.zone} · Elev: {ward.elevation_m}m · Drainage: {ward.drainage_score}/10
-                      </div>
-                    </div>
-                    <div style={{ textAlign: 'right' }}>
-                      <RiskBadge level={ward.risk_level} />
-                      <div style={{ fontSize: '12px', color: 'var(--muted)', marginTop: '4px', fontVariantNumeric: 'tabular-nums' }}>
-                        {Math.round(ward.probability * 100)}% probability
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-
-          {/* All wards grid */}
-          <div>
-            <h3 style={{ fontSize: '18px', marginBottom: '16px' }}>All Wards ({wards.length})</h3>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '12px' }}>
-              {wards.map(ward => {
-                const c = RISK_COLORS[ward.risk_level];
-                return (
-                  <div
-                    key={ward.ward_id}
-                    style={{
-                      padding: '14px',
-                      border: '1px solid var(--line)',
-                      borderRadius: '2px',
-                      backgroundColor: 'var(--paper)',
-                    }}
-                  >
-                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
-                      <div style={{ fontSize: '14px', fontWeight: 600 }}>{ward.ward_name}</div>
-                      <RiskBadge level={ward.risk_level} />
-                    </div>
-                    <div style={{ fontSize: '12px', color: 'var(--muted)', marginBottom: '8px' }}>
-                      {ward.ward_no} · {ward.zone}
-                    </div>
-                    {/* Probability bar */}
-                    <div>
-                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: 'var(--muted)', marginBottom: '3px' }}>
-                        <span>Flood probability</span>
-                        <span style={{ fontVariantNumeric: 'tabular-nums' }}>{Math.round(ward.probability * 100)}%</span>
-                      </div>
-                      <div style={{ height: '6px', backgroundColor: 'var(--line)', borderRadius: '1px' }}>
-                        <div
-                          style={{
-                            height: '100%',
-                            width: `${Math.round(ward.probability * 100)}%`,
-                            backgroundColor: c.border,
-                            borderRadius: '1px',
-                          }}
-                        />
-                      </div>
-                    </div>
-                    <div style={{ marginTop: '8px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4px', fontSize: '11px', color: 'var(--muted)' }}>
-                      <span>Elev: {ward.elevation_m}m</span>
-                      <span>Drainage: {ward.drainage_score}/10</span>
-                      <span>Floods: {ward.past_flood_events}</span>
-                      <span>Impervious: {ward.impervious_pct}%</span>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* Feature importance chart */}
-          <div style={{ border: '1px solid var(--line)', borderRadius: '2px', backgroundColor: 'var(--surface)', padding: '24px' }}>
-            <div style={{ marginBottom: '16px' }}>
-              <div style={{ fontSize: '13px', color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '4px' }}>
-                Model Transparency
-              </div>
-              <h3 style={{ fontSize: '20px', margin: 0 }}>Feature Importance</h3>
-              <p style={{ fontSize: '14px', color: 'var(--muted)', marginTop: '4px' }}>
-                Relative influence of each input variable in the Random Forest classifier. Rainfall and drainage
-                together account for over 69% of the model decision.
-              </p>
-            </div>
-            {featureImportances.map(f => (
-              <FeatureImportanceBar key={f.label} label={f.label} value={f.value} max={maxImportance} color={f.color} />
-            ))}
-            <p style={{ fontSize: '13px', color: 'var(--muted)', marginTop: '12px' }}>
-              Model: Random Forest (100 trees, max depth 6). Trained on {16 * 100} ward-day scenarios generated from
-              Kolkata KMC ward parameters and historical flood event counts. Accuracy on held-out test set: 86.4%.
-              All results are indicative: consult KMC or the State Disaster Management Authority for official advisories.
-            </p>
-          </div>
-        </div>
-      )}
+                      {conf.label}
+                    </span>
+                  </td>
+                  <td>
+                    <span className="tag-badge-proxy">Proxy</span>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

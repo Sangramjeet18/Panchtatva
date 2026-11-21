@@ -1,0 +1,218 @@
+[
+  {
+    "year": 1990,
+    "forest_area_km2": 639380.0,
+    "forest_pct_land": 21.5,
+    "data_status": "real"
+  },
+  {
+    "year": 1991,
+    "forest_area_km2": 643033.0,
+    "forest_pct_land": 21.63,
+    "data_status": "real"
+  },
+  {
+    "year": 1992,
+    "forest_area_km2": 646686.0,
+    "forest_pct_land": 21.75,
+    "data_status": "real"
+  },
+  {
+    "year": 1993,
+    "forest_area_km2": 650339.0,
+    "forest_pct_land": 21.87,
+    "data_status": "real"
+  },
+  {
+    "year": 1994,
+    "forest_area_km2": 653992.0,
+    "forest_pct_land": 22.0,
+    "data_status": "real"
+  },
+  {
+    "year": 1995,
+    "forest_area_km2": 657645.0,
+    "forest_pct_land": 22.12,
+    "data_status": "real"
+  },
+  {
+    "year": 1996,
+    "forest_area_km2": 661298.0,
+    "forest_pct_land": 22.24,
+    "data_status": "real"
+  },
+  {
+    "year": 1997,
+    "forest_area_km2": 664951.0,
+    "forest_pct_land": 22.36,
+    "data_status": "real"
+  },
+  {
+    "year": 1998,
+    "forest_area_km2": 668604.0,
+    "forest_pct_land": 22.49,
+    "data_status": "real"
+  },
+  {
+    "year": 1999,
+    "forest_area_km2": 672257.0,
+    "forest_pct_land": 22.61,
+    "data_status": "real"
+  },
+  {
+    "year": 2000,
+    "forest_area_km2": 675910.0,
+    "forest_pct_land": 22.73,
+    "data_status": "real"
+  },
+  {
+    "year": 2001,
+    "forest_area_km2": 677815.0,
+    "forest_pct_land": 22.8,
+    "data_status": "real"
+  },
+  {
+    "year": 2002,
+    "forest_area_km2": 679720.0,
+    "forest_pct_land": 22.86,
+    "data_status": "real"
+  },
+  {
+    "year": 2003,
+    "forest_area_km2": 681625.0,
+    "forest_pct_land": 22.93,
+    "data_status": "real"
+  },
+  {
+    "year": 2004,
+    "forest_area_km2": 683530.0,
+    "forest_pct_land": 22.99,
+    "data_status": "real"
+  },
+  {
+    "year": 2005,
+    "forest_area_km2": 685435.0,
+    "forest_pct_land": 23.05,
+    "data_status": "real"
+  },
+  {
+    "year": 2006,
+    "forest_area_km2": 687340.0,
+    "forest_pct_land": 23.12,
+    "data_status": "real"
+  },
+  {
+    "year": 2007,
+    "forest_area_km2": 689245.0,
+    "forest_pct_land": 23.18,
+    "data_status": "real"
+  },
+  {
+    "year": 2008,
+    "forest_area_km2": 691150.0,
+    "forest_pct_land": 23.25,
+    "data_status": "real"
+  },
+  {
+    "year": 2009,
+    "forest_area_km2": 693055.0,
+    "forest_pct_land": 23.31,
+    "data_status": "real"
+  },
+  {
+    "year": 2010,
+    "forest_area_km2": 694960.0,
+    "forest_pct_land": 23.37,
+    "data_status": "real"
+  },
+  {
+    "year": 2011,
+    "forest_area_km2": 697624.0,
+    "forest_pct_land": 23.46,
+    "data_status": "real"
+  },
+  {
+    "year": 2012,
+    "forest_area_km2": 700288.0,
+    "forest_pct_land": 23.55,
+    "data_status": "real"
+  },
+  {
+    "year": 2013,
+    "forest_area_km2": 702952.0,
+    "forest_pct_land": 23.64,
+    "data_status": "real"
+  },
+  {
+    "year": 2014,
+    "forest_area_km2": 705616.0,
+    "forest_pct_land": 23.73,
+    "data_status": "real"
+  },
+  {
+    "year": 2015,
+    "forest_area_km2": 708280.0,
+    "forest_pct_land": 23.82,
+    "data_status": "real"
+  },
+  {
+    "year": 2016,
+    "forest_area_km2": 711242.0,
+    "forest_pct_land": 23.92,
+    "data_status": "real"
+  },
+  {
+    "year": 2017,
+    "forest_area_km2": 714204.0,
+    "forest_pct_land": 24.02,
+    "data_status": "real"
+  },
+  {
+    "year": 2018,
+    "forest_area_km2": 717166.0,
+    "forest_pct_land": 24.12,
+    "data_status": "real"
+  },
+  {
+    "year": 2019,
+    "forest_area_km2": 720128.0,
+    "forest_pct_land": 24.22,
+    "data_status": "real"
+  },
+  {
+    "year": 2020,
+    "forest_area_km2": 723090.0,
+    "forest_pct_land": 24.32,
+    "data_status": "real"
+  },
+  {
+    "year": 2021,
+    "forest_area_km2": 723950.0,
+    "forest_pct_land": 24.35,
+    "data_status": "real"
+  },
+  {
+    "year": 2022,
+    "forest_area_km2": 724810.0,
+    "forest_pct_land": 24.38,
+    "data_status": "real"
+  },
+  {
+    "year": 2023,
+    "forest_area_km2": 725670.0,
+    "forest_pct_land": 24.41,
+    "data_status": "real"
+  },
+  {
+    "year": 2024,
+    "forest_area_km2": 726530.0,
+    "forest_pct_land": 24.44,
+    "data_status": "real"
+  },
+  {
+    "year": 2025,
+    "forest_area_km2": 727390.0,
+    "forest_pct_land": null,
+    "data_status": "real"
+  }
+]

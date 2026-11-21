@@ -8,10 +8,10 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Waterlogging Predictor | EcoSense',
   description:
-    'Ward-level 3-day flood risk predictions for Kolkata based on Open-Meteo rainfall forecasts, elevation, drainage scores and historical flood event data.',
+    'Monitoring area 7-day flood risk screening index for Kolkata based on Open-Meteo rainfall forecasts and elevation data.',
   openGraph: {
     title: 'Waterlogging Predictor | EcoSense',
-    description: 'Know which Kolkata wards face high flood risk in the next 3 days.',
+    description: 'Screening index for Kolkata monitoring areas using rainfall and elevation.',
     images: [{ url: '/images/waterlogging.jpg', width: 1200, height: 630, alt: 'Flooded street in Kolkata' }],
   },
 };
@@ -29,7 +29,7 @@ export default function WaterloggingPage() {
             Waterlogging Predictor
           </h1>
           <p style={{ fontSize: '20px', color: '#EDE7D9', lineHeight: 1.6, maxWidth: '58ch' }}>
-            Ward-level 3-day flood risk for Kolkata, derived from Open-Meteo rainfall forecasts and a Random Forest classifier trained on drainage, elevation and historical flood records.
+            Rainfall and elevation screening index for eight Kolkata monitoring areas, evaluated using Open-Meteo precipitation forecasts and ground elevation survey benchmarks.
           </p>
         </div>
       </PhotoBand>
@@ -40,16 +40,25 @@ export default function WaterloggingPage() {
           <table className="hairline-table">
             <tbody>
               <tr>
-                <td>City</td>
-                <td style={{ color: 'var(--ink)' }}>Kolkata Municipal Corporation (16 representative municipal wards)</td>
+                <td>Target geography</td>
+                <td style={{ color: 'var(--ink)' }}>
+                  <span className="tag-badge-real" style={{ marginRight: '8px' }}>Real</span>
+                  Kolkata Topography Survey: 8 representative monitoring areas (not municipal wards)
+                </td>
               </tr>
               <tr>
                 <td>Meteorological data</td>
-                <td style={{ color: 'var(--ink)' }}>Open-Meteo hourly precipitation aggregated into 3-day forecast totals (30-min cache)</td>
+                <td style={{ color: 'var(--ink)' }}>
+                  <span className="tag-badge-modelled" style={{ marginRight: '8px' }}>Modelled</span>
+                  Open-Meteo precipitation forecasts aggregated into 3-day accumulated totals
+                </td>
               </tr>
               <tr>
-                <td>Classification model</td>
-                <td style={{ color: 'var(--ink)' }}>Random Forest classifier (100 estimators, 96.8% test accuracy) evaluated on Runoff Accumulation Potential</td>
+                <td>Screening index</td>
+                <td style={{ color: 'var(--ink)' }}>
+                  <span className="tag-badge-proxy" style={{ marginRight: '8px' }}>Proxy</span>
+                  Transparent rule-based screening index from rainfall and elevation. No machine learning classifier is trained on this proxy and no accuracy, precision, or recall figures are claimed.
+                </td>
               </tr>
               <tr>
                 <td>Catchment runoff link</td>

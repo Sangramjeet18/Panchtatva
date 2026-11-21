@@ -431,3 +431,51 @@ select:focus-visible {
   }
 }
 
+/* Rectangular Data Status Badges (Rule 6) */
+.tag-badge-real,
+.tag-badge-modelled,
+.tag-badge-proxy,
+.tag-badge-assumption {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 1px 6px;
+  border-radius: 2px;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+.tag-badge-real {
+  background-color: rgba(30, 77, 53, 0.12);
+  color: var(--forest);
+  border: 1px solid var(--forest);
+}
+
+.tag-badge-modelled {
+  background-color: rgba(47, 93, 115, 0.12);
+  color: var(--river);
+  border: 1px solid var(--river);
+}
+
+.tag-badge-proxy {
+  background-color: rgba(180, 83, 42, 0.12);
+  color: var(--clay);
+  border: 1px solid var(--clay);
+}
+
+.tag-badge-assumption {
+  background-color: rgba(184, 138, 30, 0.12);
+  color: #8C6A15;
+  border: 1px solid #8C6A15;
+}
+
+[data-theme="dark"] .tag-badge-assumption {
+  background-color: rgba(217, 138, 99, 0.15);
+  color: #E5B25D;
+  border: 1px solid #E5B25D;
+}
+
+

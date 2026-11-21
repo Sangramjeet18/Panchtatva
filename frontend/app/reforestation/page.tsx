@@ -37,11 +37,17 @@ export default function ReforestationPage() {
               </tr>
               <tr>
                 <td>Absorption model</td>
-                <td style={{ color: 'var(--ink)' }}>21 kg CO2 absorbed per mature native tree annually (Forest Survey of India agro-climatic baseline)</td>
+                <td style={{ color: 'var(--ink)' }}>
+                  <span className="tag-badge-assumption" style={{ marginRight: '8px' }}>Assumption</span>
+                  21 kg CO2 absorbed per mature native tree annually (Forest Survey of India agro-climatic baseline)
+                </td>
               </tr>
               <tr>
                 <td>Species matching</td>
-                <td style={{ color: 'var(--ink)' }}>Native Indian forestry database filtered by regional rainfall band (Low &lt;800mm, Moderate 800-1500mm, High &gt;1500mm)</td>
+                <td style={{ color: 'var(--ink)' }}>
+                  <span className="tag-badge-assumption" style={{ marginRight: '8px' }}>Assumption</span>
+                  Native Indian forestry database filtered by regional rainfall band (Low &lt;800mm, Moderate 800-1500mm, High &gt;1500mm)
+                </td>
               </tr>
               <tr>
                 <td>Priority corridors</td>

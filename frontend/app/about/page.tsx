@@ -4,7 +4,7 @@ import { Section } from '@/components/ui/Section';
 
 export const metadata = {
   title: 'About and Method | EcoSense',
-  description: 'Mission, methodology, data sources and project background for the EcoSense environmental platform.',
+  description: 'Mission, methodology, data truth rules and project background for the EcoSense environmental platform.',
 };
 
 export default function AboutPage() {
@@ -39,44 +39,64 @@ export default function AboutPage() {
           <table className="hairline-table">
             <tbody>
               <tr>
-                <td style={{ color: 'var(--forest)' }}>01 Deforestation</td>
+                <td style={{ color: 'var(--forest)' }}>01 Forest Cover</td>
                 <td>
-                  <div style={{ fontWeight: 600, marginBottom: '4px', color: 'var(--ink)' }}>Deforestation Tracker</div>
-                  <div style={{ color: 'var(--muted)' }}>Tracks historical tree cover losses across Indian states, provides a 10-year statistical forecast with prediction bounds, and highlights vulnerable districts using normalised loss rates and satellite fire alerts.</div>
+                  <div style={{ fontWeight: 600, marginBottom: '4px', color: 'var(--ink)' }}>Forest Cover and National Trends</div>
+                  <div style={{ color: 'var(--muted)' }}>
+                    Examines long-term national forest area trends using the World Bank FAO series alongside biennial Forest Survey of India state canopy assessments (Very Dense, Moderately Dense, and Open Forest).
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td style={{ color: 'var(--clay)' }}>02 Reforestation</td>
                 <td>
                   <div style={{ fontWeight: 600, marginBottom: '4px', color: 'var(--ink)' }}>Reforestation Planner</div>
-                  <div style={{ color: 'var(--muted)' }}>Calculates carbon dioxide absorption potential for planting sites, recommends native species tailored to local rainfall bands, and draws high-priority planting zones directly from high-risk deforestation areas.</div>
+                  <div style={{ color: 'var(--muted)' }}>
+                    Calculates carbon dioxide absorption potential for planting sites, recommends native species tailored to local rainfall bands, and draws high-priority planting zones directly from high-risk deforestation areas.
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td style={{ color: 'var(--smoke)' }}>03 Carbon</td>
                 <td>
                   <div style={{ fontWeight: 600, marginBottom: '4px', color: 'var(--ink)' }}>Carbon Footprint Tracker</div>
-                  <div style={{ color: 'var(--muted)' }}>Evaluates household emissions across electricity, transit, aviation and diet, and monitors live emissions readings with threshold warnings. Output connects directly to the tree offset requirements.</div>
+                  <div style={{ color: 'var(--muted)' }}>
+                    Evaluates household emissions across electricity, transit, aviation and diet, and monitors live emissions readings with threshold warnings. Output connects directly to the tree offset requirements.
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td style={{ color: 'var(--river)' }}>04 Waterlogging</td>
                 <td>
                   <div style={{ fontWeight: 600, marginBottom: '4px', color: 'var(--ink)' }}>Waterlogging Predictor</div>
-                  <div style={{ color: 'var(--muted)' }}>Combines 3-day precipitation forecasts with ward elevation, drainage efficiency scores and past flood frequency to classify ward-level inundation risk for cities starting with Kolkata.</div>
+                  <div style={{ color: 'var(--muted)' }}>
+                    Evaluates 3-day precipitation forecasts against ground elevation and drainage features across eight Kolkata monitoring areas using a transparent screening index rule.
+                  </div>
                 </td>
               </tr>
             </tbody>
           </table>
 
           <h2 style={{ fontSize: '32px', marginBottom: '16px', borderTop: '1px solid var(--line)', paddingTop: '36px', marginTop: '48px' }}>
-            Methodology and Limits
+            Methodology and Data Truth Rules
           </h2>
           <p style={{ fontSize: '16px', lineHeight: 1.65, marginBottom: '16px' }}>
-            All prediction models are built for educational interpretability. Regressions run transparent linear baselines. Classification rules evaluate standard physical thresholds without opaque machine learning black boxes.
+            All calculations are governed by the Six Data Truth Rules:
           </p>
+          <ul style={{ listStyleType: 'decimal', paddingLeft: '20px', fontSize: '15px', color: 'var(--ink)', display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '24px' }}>
+            <li><strong>Forest Cover vs Loss:</strong> Biennial FSI canopy surveys are never described as annual deforestation, and no linear regressions are fit to biennial state figures.</li>
+            <li><strong>World Bank Isolation:</strong> The national FAO forest series is evaluated independently and never plotted on the same axis as FSI figures.</li>
+            <li><strong>Screening Index (Proxy):</strong> The waterlogging risk rating is a transparent deterministic rule, not a trained machine learning model, and claims no false accuracy scores.</li>
+            <li><strong>Modelled Atmosphere:</strong> Atmospheric CO2 and pollutants derive from regional Copernicus numerical models (CAMS) rather than ground hardware sensors.</li>
+            <li><strong>Explicit Assumptions:</strong> Species rainfall bounds and the standard 21 kg CO2/tree annual absorption baseline are tagged Assumption.</li>
+            <li><strong>Universal Metric Tagging:</strong> Every quantity displayed across the platform carries a visible text badge indicating its provenance: Real, Modelled, Proxy, or Assumption.</li>
+          </ul>
+
           <p style={{ fontSize: '15px', color: 'var(--muted)', lineHeight: 1.6, marginBottom: '40px' }}>
-            Predictions represent statistical likelihoods under current baseline conditions. They do not claim absolute foresight and must not be used as civil defence or municipal emergency certifications.
+            Detailed dataset attributions, licensing, and access links are documented on the{' '}
+            <Link href="/data-sources" style={{ color: 'var(--forest)', fontWeight: 600, textDecoration: 'underline' }}>
+              Data Sources and Truth Rules page
+            </Link>.
           </p>
 
           <div
@@ -91,14 +111,14 @@ export default function AboutPage() {
               Open Source and Academic Inquiries
             </div>
             <p style={{ fontSize: '15px', color: 'var(--ink)', margin: 0 }}>
-              The complete codebase, documentation and trained model parameters are published openly under MIT license. View the repository on{' '}
+              The complete codebase, documentation and analytical scripts are published openly under MIT license. View the repository on{' '}
               <a
                 href="https://github.com/Sangramjeet18/Panchtatva"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontWeight: 600, color: 'var(--forest)' }}
               >
-                GitHub
+                GitHub (Sangramjeet18/Panchtatva)
               </a>.
             </p>
           </div>
