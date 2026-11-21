@@ -3,7 +3,6 @@
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { calculateFootprint, CarbonCalculatorInput } from '@/lib/factors';
-import { Input, Select } from '@/components/ui/Input';
 
 export function CarbonCalculatorFull() {
   const [electricity, setElectricity] = useState<number>(220);
@@ -60,66 +59,160 @@ export function CarbonCalculatorFull() {
           gap: '40px',
         }}
       >
-        {/* Controls */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
-          <Input
-            id="carb-elec"
-            label="Grid electricity consumption"
-            type="number"
-            min="0"
-            unit="kWh/mo"
-            value={electricity}
-            onChange={(e) => setElectricity(Math.max(0, Number(e.target.value)))}
-          />
-          <Input
-            id="carb-car"
-            label="Personal car travel"
-            type="number"
-            min="0"
-            unit="km/wk"
-            value={carKm}
-            onChange={(e) => setCarKm(Math.max(0, Number(e.target.value)))}
-          />
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-            <Input
-              id="carb-bus"
-              label="Bus commute"
-              type="number"
+        {/* Controls: sliders in hairline separated fields */}
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          {/* Field 1: Electricity */}
+          <div style={{ borderBottom: '1px solid var(--line)', paddingBottom: '20px', marginBottom: '20px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '8px' }}>
+              <label htmlFor="carb-elec" style={{ fontSize: '15px', fontWeight: 600, color: 'var(--ink)' }}>
+                Grid electricity consumption
+              </label>
+              <span className="tabular-nums" style={{ fontSize: '16px', fontWeight: 600, color: 'var(--forest)' }}>
+                {electricity} kWh/mo
+              </span>
+            </div>
+            <input
+              id="carb-elec"
+              type="range"
               min="0"
-              unit="km/wk"
-              value={busKm}
-              onChange={(e) => setBusKm(Math.max(0, Number(e.target.value)))}
+              max="800"
+              step="10"
+              value={electricity}
+              onChange={(e) => setElectricity(Number(e.target.value))}
+              style={{ width: '100%', accentColor: 'var(--forest)' }}
+              aria-label="Grid electricity consumption in kilowatt-hours per month"
             />
-            <Input
-              id="carb-metro"
-              label="Metro commute"
-              type="number"
-              min="0"
-              unit="km/wk"
-              value={metroKm}
-              onChange={(e) => setMetroKm(Math.max(0, Number(e.target.value)))}
-            />
+            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: 'var(--muted)', marginTop: '4px' }}>
+              <span>0 kWh (off-grid)</span>
+              <span>220 kWh (urban avg)</span>
+              <span>800 kWh (high)</span>
+            </div>
           </div>
-          <Input
-            id="carb-flights"
-            label="Short domestic flights (under 2 hours)"
-            type="number"
-            min="0"
-            unit="trips/yr"
-            value={flights}
-            onChange={(e) => setFlights(Math.max(0, Number(e.target.value)))}
-          />
-          <Select
-            id="carb-diet"
-            label="Dietary consumption pattern"
-            value={diet}
-            onChange={(e) => setDiet(e.target.value as 'vegetarian' | 'mixed' | 'meatHeavy')}
-            options={[
-              { value: 'vegetarian', label: 'Vegetarian (1,000 kg CO2/yr baseline)' },
-              { value: 'mixed', label: 'Mixed balanced (1,700 kg CO2/yr baseline)' },
-              { value: 'meatHeavy', label: 'Meat heavy (2,500 kg CO2/yr baseline)' },
-            ]}
-          />
+
+          {/* Field 2: Car Travel */}
+          <div style={{ borderBottom: '1px solid var(--line)', paddingBottom: '20px', marginBottom: '20px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '8px' }}>
+              <label htmlFor="carb-car" style={{ fontSize: '15px', fontWeight: 600, color: 'var(--ink)' }}>
+                Personal car travel
+              </label>
+              <span className="tabular-nums" style={{ fontSize: '16px', fontWeight: 600, color: 'var(--river)' }}>
+                {carKm} km/wk
+              </span>
+            </div>
+            <input
+              id="carb-car"
+              type="range"
+              min="0"
+              max="300"
+              step="5"
+              value={carKm}
+              onChange={(e) => setCarKm(Number(e.target.value))}
+              style={{ width: '100%', accentColor: 'var(--river)' }}
+              aria-label="Personal car travel in kilometers per week"
+            />
+            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: 'var(--muted)', marginTop: '4px' }}>
+              <span>0 km</span>
+              <span>60 km</span>
+              <span>300 km</span>
+            </div>
+          </div>
+
+          {/* Field 3: Public Transit */}
+          <div style={{ borderBottom: '1px solid var(--line)', paddingBottom: '20px', marginBottom: '20px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '8px' }}>
+              <label htmlFor="carb-bus" style={{ fontSize: '15px', fontWeight: 600, color: 'var(--ink)' }}>
+                Bus & Metro public transit
+              </label>
+              <span className="tabular-nums" style={{ fontSize: '16px', fontWeight: 600, color: 'var(--ink)' }}>
+                {busKm + metroKm} km/wk
+              </span>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <div>
+                <span style={{ fontSize: '12px', color: 'var(--muted)', display: 'block', marginBottom: '4px' }}>Bus ({busKm} km)</span>
+                <input
+                  id="carb-bus"
+                  type="range"
+                  min="0"
+                  max="150"
+                  step="5"
+                  value={busKm}
+                  onChange={(e) => setBusKm(Number(e.target.value))}
+                  style={{ width: '100%', accentColor: 'var(--smoke)' }}
+                  aria-label="Bus travel in kilometers per week"
+                />
+              </div>
+              <div>
+                <span style={{ fontSize: '12px', color: 'var(--muted)', display: 'block', marginBottom: '4px' }}>Metro ({metroKm} km)</span>
+                <input
+                  id="carb-metro"
+                  type="range"
+                  min="0"
+                  max="150"
+                  step="5"
+                  value={metroKm}
+                  onChange={(e) => setMetroKm(Number(e.target.value))}
+                  style={{ width: '100%', accentColor: 'var(--smoke)' }}
+                  aria-label="Metro travel in kilometers per week"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Field 4: Flights */}
+          <div style={{ borderBottom: '1px solid var(--line)', paddingBottom: '20px', marginBottom: '20px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '8px' }}>
+              <label htmlFor="carb-flights" style={{ fontSize: '15px', fontWeight: 600, color: 'var(--ink)' }}>
+                Short domestic flights
+              </label>
+              <span className="tabular-nums" style={{ fontSize: '16px', fontWeight: 600, color: 'var(--smoke)' }}>
+                {flights} {flights === 1 ? 'flight' : 'flights'}/yr
+              </span>
+            </div>
+            <input
+              id="carb-flights"
+              type="range"
+              min="0"
+              max="15"
+              step="1"
+              value={flights}
+              onChange={(e) => setFlights(Number(e.target.value))}
+              style={{ width: '100%', accentColor: 'var(--smoke)' }}
+              aria-label="Short domestic flights per year"
+            />
+            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: 'var(--muted)', marginTop: '4px' }}>
+              <span>0</span>
+              <span>2</span>
+              <span>15 flights</span>
+            </div>
+          </div>
+
+          {/* Field 5: Diet Profile */}
+          <div style={{ paddingBottom: '8px' }}>
+            <label htmlFor="carb-diet" style={{ display: 'block', fontSize: '15px', fontWeight: 600, color: 'var(--ink)', marginBottom: '8px' }}>
+              Dietary consumption profile
+            </label>
+            <select
+              id="carb-diet"
+              value={diet}
+              onChange={(e) => setDiet(e.target.value as 'vegetarian' | 'mixed' | 'meatHeavy')}
+              style={{
+                width: '100%',
+                height: '48px',
+                padding: '0 14px',
+                borderRadius: '2px',
+                border: '1px solid var(--line)',
+                backgroundColor: 'var(--paper)',
+                color: 'var(--ink)',
+                fontFamily: 'var(--font-sans)',
+                fontSize: '15px',
+              }}
+            >
+              <option value="vegetarian">Vegetarian (1,000 kg CO2/yr baseline)</option>
+              <option value="mixed">Mixed balanced (1,700 kg CO2/yr baseline)</option>
+              <option value="meatHeavy">Meat heavy (2,500 kg CO2/yr baseline)</option>
+            </select>
+          </div>
         </div>
 
         {/* Results and flat horizontal bar breakdown */}
@@ -172,14 +265,14 @@ export function CarbonCalculatorFull() {
                   border: '1px solid var(--line)',
                   borderRadius: '2px',
                   overflow: 'hidden',
-                  backgroundColor: 'var(--paper)',
+                  backgroundColor: 'var(--surface)',
                 }}
               >
                 {elecPct > 0 && (
                   <div
                     style={{
                       width: `${elecPct}%`,
-                      backgroundColor: 'var(--smoke)',
+                      backgroundColor: 'var(--forest)',
                       height: '100%',
                     }}
                     title={`Electricity: ${elecPct}%`}
@@ -189,7 +282,7 @@ export function CarbonCalculatorFull() {
                   <div
                     style={{
                       width: `${travelPct}%`,
-                      backgroundColor: 'var(--clay)',
+                      backgroundColor: 'var(--river)',
                       height: '100%',
                     }}
                     title={`Travel: ${travelPct}%`}
@@ -199,7 +292,7 @@ export function CarbonCalculatorFull() {
                   <div
                     style={{
                       width: `${flightsPct}%`,
-                      backgroundColor: 'var(--river)',
+                      backgroundColor: 'var(--smoke)',
                       height: '100%',
                     }}
                     title={`Aviation: ${flightsPct}%`}
@@ -209,7 +302,7 @@ export function CarbonCalculatorFull() {
                   <div
                     style={{
                       width: `${dietPct}%`,
-                      backgroundColor: 'var(--forest)',
+                      backgroundColor: 'var(--clay)',
                       height: '100%',
                     }}
                     title={`Diet: ${dietPct}%`}
@@ -219,63 +312,67 @@ export function CarbonCalculatorFull() {
 
               {/* Bar Legend */}
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginTop: '12px', fontSize: '13px' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <span style={{ width: '12px', height: '12px', backgroundColor: 'var(--smoke)', borderRadius: '1px' }} />
-                  <span>Electricity: {result.breakdown.electricityKg.toLocaleString()} kg ({elecPct}%)</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span style={{ display: 'inline-block', width: '10px', height: '10px', backgroundColor: 'var(--forest)', borderRadius: '1px' }} />
+                  <span style={{ color: 'var(--muted)' }}>Power:</span>
+                  <span className="tabular-nums" style={{ fontWeight: 600, color: 'var(--ink)' }}>{result.breakdown.electricityKg} kg</span>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <span style={{ width: '12px', height: '12px', backgroundColor: 'var(--clay)', borderRadius: '1px' }} />
-                  <span>Transit: {result.breakdown.travelKg.toLocaleString()} kg ({travelPct}%)</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span style={{ display: 'inline-block', width: '10px', height: '10px', backgroundColor: 'var(--river)', borderRadius: '1px' }} />
+                  <span style={{ color: 'var(--muted)' }}>Transit:</span>
+                  <span className="tabular-nums" style={{ fontWeight: 600, color: 'var(--ink)' }}>{result.breakdown.travelKg} kg</span>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <span style={{ width: '12px', height: '12px', backgroundColor: 'var(--river)', borderRadius: '1px' }} />
-                  <span>Aviation: {result.breakdown.flightsKg.toLocaleString()} kg ({flightsPct}%)</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span style={{ display: 'inline-block', width: '10px', height: '10px', backgroundColor: 'var(--smoke)', borderRadius: '1px' }} />
+                  <span style={{ color: 'var(--muted)' }}>Flights:</span>
+                  <span className="tabular-nums" style={{ fontWeight: 600, color: 'var(--ink)' }}>{result.breakdown.flightsKg} kg</span>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <span style={{ width: '12px', height: '12px', backgroundColor: 'var(--forest)', borderRadius: '1px' }} />
-                  <span>Diet: {result.breakdown.dietKg.toLocaleString()} kg ({dietPct}%)</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span style={{ display: 'inline-block', width: '10px', height: '10px', backgroundColor: 'var(--clay)', borderRadius: '1px' }} />
+                  <span style={{ color: 'var(--muted)' }}>Diet:</span>
+                  <span className="tabular-nums" style={{ fontWeight: 600, color: 'var(--ink)' }}>{result.breakdown.dietKg} kg</span>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Reforestation link card */}
+          {/* Trees equivalent below */}
           <div
             style={{
-              backgroundColor: 'var(--paper)',
-              border: '1px solid var(--forest)',
-              borderRadius: '2px',
-              padding: '20px',
+              borderTop: '1px solid var(--line)',
+              paddingTop: '20px',
             }}
           >
-            <div style={{ fontSize: '13px', color: 'var(--forest)', textTransform: 'uppercase', marginBottom: '4px' }}>
-              Cross-Module Action
+            <div className="kicker" style={{ color: 'var(--forest)' }}>
+              Offset Requirement
             </div>
             <div
               className="tabular-nums"
               style={{
                 fontFamily: 'var(--font-serif)',
-                fontSize: '28px',
+                fontSize: '36px',
                 fontWeight: 600,
                 color: 'var(--forest)',
-                marginBottom: '6px',
+                lineHeight: 1.1,
+                marginBottom: '4px',
               }}
             >
-              {result.treesNeeded.toLocaleString()} mature trees needed
+              {result.treesNeeded.toLocaleString()} mature trees
             </div>
-            <p style={{ fontSize: '14px', color: 'var(--muted)', marginBottom: '14px' }}>
+            <p style={{ fontSize: '14px', color: 'var(--muted)', marginBottom: '16px' }}>
               At standard Indian agro-climatic absorption of 21 kg CO2 per mature tree annually, planting this quantity neutralizes your annual greenhouse emissions.
             </p>
             <Link
               href={`/reforestation?trees=${result.treesNeeded}`}
               style={{
-                display: 'inline-block',
-                fontSize: '14px',
+                fontSize: '15px',
                 fontWeight: 600,
                 color: 'var(--forest)',
+                textDecoration: 'underline',
+                textUnderlineOffset: '3px',
               }}
             >
-              Prefill in Reforestation Planner
+              Plan species and zones in Reforestation Planner
             </Link>
           </div>
         </div>
