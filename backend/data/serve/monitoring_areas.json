@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "BBD Bagh / Burrabazar",
+    "lat": 22.5744,
+    "lon": 88.3497,
+    "elevation_m": 8.5,
+    "data_status": "real"
+  },
+  {
+    "id": 2,
+    "name": "Park Street / Camac St",
+    "lat": 22.5511,
+    "lon": 88.3533,
+    "elevation_m": 7.8,
+    "data_status": "real"
+  },
+  {
+    "id": 3,
+    "name": "Ballygunge / Bondel",
+    "lat": 22.5283,
+    "lon": 88.3667,
+    "elevation_m": 6.4,
+    "data_status": "real"
+  },
+  {
+    "id": 4,
+    "name": "Bhowanipore / Elgin",
+    "lat": 22.5342,
+    "lon": 88.3475,
+    "elevation_m": 7.1,
+    "data_status": "real"
+  },
+  {
+    "id": 5,
+    "name": "Kalighat / Rashbehari",
+    "lat": 22.5189,
+    "lon": 88.3456,
+    "elevation_m": 6.2,
+    "data_status": "real"
+  },
+  {
+    "id": 6,
+    "name": "Chetla / Alipore Bank",
+    "lat": 22.5167,
+    "lon": 88.3361,
+    "elevation_m": 5.3,
+    "data_status": "real"
+  },
+  {
+    "id": 7,
+    "name": "Jadavpur / Baghajatin",
+    "lat": 22.4875,
+    "lon": 88.3722,
+    "elevation_m": 4.6,
+    "data_status": "real"
+  },
+  {
+    "id": 8,
+    "name": "Behala Chowrasta",
+    "lat": 22.4917,
+    "lon": 88.3139,
+    "elevation_m": 3.8,
+    "data_status": "real"
+  }
+]

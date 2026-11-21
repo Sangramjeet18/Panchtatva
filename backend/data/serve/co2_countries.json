@@ -1,0 +1,98 @@
+[
+  {
+    "entity": "India",
+    "year": 1990,
+    "co2_per_capita": 0.71,
+    "data_status": "real"
+  },
+  {
+    "entity": "India",
+    "year": 1995,
+    "co2_per_capita": 0.84,
+    "data_status": "real"
+  },
+  {
+    "entity": "India",
+    "year": 2000,
+    "co2_per_capita": 0.98,
+    "data_status": "real"
+  },
+  {
+    "entity": "India",
+    "year": 2005,
+    "co2_per_capita": 1.15,
+    "data_status": "real"
+  },
+  {
+    "entity": "India",
+    "year": 2010,
+    "co2_per_capita": 1.43,
+    "data_status": "real"
+  },
+  {
+    "entity": "India",
+    "year": 2015,
+    "co2_per_capita": 1.73,
+    "data_status": "real"
+  },
+  {
+    "entity": "India",
+    "year": 2020,
+    "co2_per_capita": 1.74,
+    "data_status": "real"
+  },
+  {
+    "entity": "India",
+    "year": 2022,
+    "co2_per_capita": 1.91,
+    "data_status": "real"
+  },
+  {
+    "entity": "World",
+    "year": 1990,
+    "co2_per_capita": 4.29,
+    "data_status": "real"
+  },
+  {
+    "entity": "World",
+    "year": 1995,
+    "co2_per_capita": 4.19,
+    "data_status": "real"
+  },
+  {
+    "entity": "World",
+    "year": 2000,
+    "co2_per_capita": 4.14,
+    "data_status": "real"
+  },
+  {
+    "entity": "World",
+    "year": 2005,
+    "co2_per_capita": 4.49,
+    "data_status": "real"
+  },
+  {
+    "entity": "World",
+    "year": 2010,
+    "co2_per_capita": 4.84,
+    "data_status": "real"
+  },
+  {
+    "entity": "World",
+    "year": 2015,
+    "co2_per_capita": 4.81,
+    "data_status": "real"
+  },
+  {
+    "entity": "World",
+    "year": 2020,
+    "co2_per_capita": 4.47,
+    "data_status": "real"
+  },
+  {
+    "entity": "World",
+    "year": 2022,
+    "co2_per_capita": 4.66,
+    "data_status": "real"
+  }
+]

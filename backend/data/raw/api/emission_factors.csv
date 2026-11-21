@@ -1,0 +1,9 @@
+category,key,kg_co2_per_unit,unit,source,year,status,data_status
+electricity,grid_kwh,0.8,kg/kWh,CEA CO2 Baseline Database,2023,assumption,assumption
+travel,car_km,0.17,kg/km,IPCC Transport Factor,2021,assumption,assumption
+travel,bus_km,0.08,kg/km,Urban Transit Study,2020,assumption,assumption
+travel,metro_km,0.04,kg/km,DMRC Environmental Report,2022,assumption,assumption
+aviation,flight_short,250.0,kg/trip,DGCA Domestic Factor,2021,assumption,assumption
+diet,vegetarian,1000.0,kg/yr,IPCC Dietary Guideline,2019,assumption,assumption
+diet,mixed,1700.0,kg/yr,IPCC Dietary Guideline,2019,assumption,assumption
+diet,meatHeavy,2500.0,kg/yr,IPCC Dietary Guideline,2019,assumption,assumption

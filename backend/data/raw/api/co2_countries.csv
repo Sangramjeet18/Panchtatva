@@ -1,0 +1,17 @@
+entity,year,co2_per_capita,data_status
+India,1990,0.71,real
+India,1995,0.84,real
+India,2000,0.98,real
+India,2005,1.15,real
+India,2010,1.43,real
+India,2015,1.73,real
+India,2020,1.74,real
+India,2022,1.91,real
+World,1990,4.29,real
+World,1995,4.19,real
+World,2000,4.14,real
+World,2005,4.49,real
+World,2010,4.84,real
+World,2015,4.81,real
+World,2020,4.47,real
+World,2022,4.66,real

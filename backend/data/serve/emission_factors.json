@@ -1,0 +1,82 @@
+[
+  {
+    "category": "electricity",
+    "key": "grid_kwh",
+    "kg_co2_per_unit": 0.8,
+    "unit": "kg/kWh",
+    "source": "CEA CO2 Baseline Database",
+    "year": 2023,
+    "status": "assumption",
+    "data_status": "assumption"
+  },
+  {
+    "category": "travel",
+    "key": "car_km",
+    "kg_co2_per_unit": 0.17,
+    "unit": "kg/km",
+    "source": "IPCC Transport Factor",
+    "year": 2021,
+    "status": "assumption",
+    "data_status": "assumption"
+  },
+  {
+    "category": "travel",
+    "key": "bus_km",
+    "kg_co2_per_unit": 0.08,
+    "unit": "kg/km",
+    "source": "Urban Transit Study",
+    "year": 2020,
+    "status": "assumption",
+    "data_status": "assumption"
+  },
+  {
+    "category": "travel",
+    "key": "metro_km",
+    "kg_co2_per_unit": 0.04,
+    "unit": "kg/km",
+    "source": "DMRC Environmental Report",
+    "year": 2022,
+    "status": "assumption",
+    "data_status": "assumption"
+  },
+  {
+    "category": "aviation",
+    "key": "flight_short",
+    "kg_co2_per_unit": 250.0,
+    "unit": "kg/trip",
+    "source": "DGCA Domestic Factor",
+    "year": 2021,
+    "status": "assumption",
+    "data_status": "assumption"
+  },
+  {
+    "category": "diet",
+    "key": "vegetarian",
+    "kg_co2_per_unit": 1000.0,
+    "unit": "kg/yr",
+    "source": "IPCC Dietary Guideline",
+    "year": 2019,
+    "status": "assumption",
+    "data_status": "assumption"
+  },
+  {
+    "category": "diet",
+    "key": "mixed",
+    "kg_co2_per_unit": 1700.0,
+    "unit": "kg/yr",
+    "source": "IPCC Dietary Guideline",
+    "year": 2019,
+    "status": "assumption",
+    "data_status": "assumption"
+  },
+  {
+    "category": "diet",
+    "key": "meatHeavy",
+    "kg_co2_per_unit": 2500.0,
+    "unit": "kg/yr",
+    "source": "IPCC Dietary Guideline",
+    "year": 2019,
+    "status": "assumption",
+    "data_status": "assumption"
+  }
+]

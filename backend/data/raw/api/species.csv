@@ -1,0 +1,20 @@
+id,common_name,scientific_name,region,rainfall_band,min_rain_mm,max_rain_mm,co2_kg_per_year,notes,source,year,status,data_status
+1,Sal,Shorea robusta,"West Bengal, Odisha, Assam",Moderate,1000,2000,24,Dominant native deciduous keystone species with deep root systems.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+2,Teak,Tectona grandis,"Kerala, Odisha",Moderate,1000,2000,22,High canopy deciduous tree suited to tropical moist forests.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+3,Neem,Azadirachta indica,"West Bengal, Odisha",Low,400,1000,20,Hardy drought-tolerant evergreen that enriches degraded soil.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+4,Banyan,Ficus benghalensis,All Regions,Moderate,800,2000,30,Large canopy keystone tree supporting birds and soil moisture retention.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+5,Peepal,Ficus religiosa,All Regions,Moderate,800,2000,28,Dense foliage with high particulate matter filtration.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+6,Arjun,Terminalia arjuna,"West Bengal, Odisha",Moderate,800,1800,23,Riparian riverbank tree that stabilizes banks and curbs water runoff.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+7,Mahua,Madhuca longifolia,"Odisha, West Bengal",Low,600,1200,21,Drought-resilient deciduous tree critical to community forest economy.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+8,Assam Bamboo,Bambusa tulda,Assam,High,1800,3500,19,Rapid-growth clumping bamboo effective for slope soil stabilization.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+9,Indian Rosewood,Dalbergia latifolia,"Kerala, Odisha",High,1500,3000,25,Native nitrogen-fixing legume tree of moist evergreen tracts.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+10,Jamun,Syzygium cumini,All Regions,Moderate,900,2200,22,Waterlogging-tolerant fruit tree suited for floodplain fringes.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+11,Amla,Phyllanthus emblica,"West Bengal, Odisha",Low,500,1200,18,Hardy deciduous tree suitable for dry hills and alkaline soils.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+12,Sundari,Heritiera fomes,West Bengal,High,1800,3200,26,Estuarine mangrove tree providing natural storm surge barriers.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+13,Jackfruit,Artocarpus heterophyllus,"Kerala, Assam",High,1500,3500,24,Evergreen tree thriving in humid tropical laterite soils.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+14,Karanj,Millettia pinnata,All Regions,Low,500,1400,20,Salinity and drought-tolerant nitrogen fixer for degraded lands.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+15,Palash,Butea monosperma,"Odisha, West Bengal",Low,450,1100,19,"Flame of the forest, tolerant of waterlogging and heavy clay soils.",ICFRE Agro-climatic Reference,2022,assumption,assumption
+16,Kadam,Neolamarckia cadamba,"Assam, West Bengal",High,1600,3000,27,Fast-growing broadleaf tree adapted to moist alluvial river banks.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+17,Champa,Magnolia champaca,"Assam, Kerala",High,1800,3500,23,Evergreen subtropical tree supporting pollinators and moisture.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+18,Semal,Bombax ceiba,All Regions,Moderate,800,2000,25,Tall buttressed pioneer tree providing wildlife nesting habitats.,ICFRE Agro-climatic Reference,2022,assumption,assumption
+19,Baheda,Terminalia bellirica,"Odisha, West Bengal",Moderate,900,1800,22,Deciduous canopy tree common in mixed forest associations.,ICFRE Agro-climatic Reference,2022,assumption,assumption

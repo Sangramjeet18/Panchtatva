@@ -1,0 +1,290 @@
+[
+  {
+    "id": "IN-AP",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Andhra Pradesh",
+    "code": "IN-AP",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AR",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Arunachal Pradesh",
+    "code": "IN-AR",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AS",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Assam",
+    "code": "IN-AS",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-BR",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Bihar",
+    "code": "IN-BR",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CT",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Chhattisgarh",
+    "code": "IN-CT",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GA",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Goa",
+    "code": "IN-GA",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-GJ",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Gujarat",
+    "code": "IN-GJ",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HR",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Haryana",
+    "code": "IN-HR",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-HP",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Himachal Pradesh",
+    "code": "IN-HP",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JH",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Jharkhand",
+    "code": "IN-JH",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KA",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Karnataka",
+    "code": "IN-KA",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-KL",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Kerala",
+    "code": "IN-KL",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MP",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Madhya Pradesh",
+    "code": "IN-MP",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MH",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Maharashtra",
+    "code": "IN-MH",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MN",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Manipur",
+    "code": "IN-MN",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-ML",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Meghalaya",
+    "code": "IN-ML",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-MZ",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Mizoram",
+    "code": "IN-MZ",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-NL",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Nagaland",
+    "code": "IN-NL",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-OR",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Odisha",
+    "code": "IN-OR",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PB",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Punjab",
+    "code": "IN-PB",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-RJ",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Rajasthan",
+    "code": "IN-RJ",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-SK",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Sikkim",
+    "code": "IN-SK",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TN",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Tamil Nadu",
+    "code": "IN-TN",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TG",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Telangana",
+    "code": "IN-TG",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-TR",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Tripura",
+    "code": "IN-TR",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UP",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Uttar Pradesh",
+    "code": "IN-UP",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-UT",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Uttarakhand",
+    "code": "IN-UT",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-WB",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "West Bengal",
+    "code": "IN-WB",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-AN",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Andaman and Nicobar Islands",
+    "code": "IN-AN",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-CH",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Chandigarh",
+    "code": "IN-CH",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DN",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "code": "IN-DN",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-DL",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Delhi",
+    "code": "IN-DL",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-JK",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Jammu and Kashmir",
+    "code": "IN-JK",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-LA",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Ladakh",
+    "code": "IN-LA",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-LD",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Lakshadweep",
+    "code": "IN-LD",
+    "data_status": "real"
+  },
+  {
+    "id": "IN-PY",
+    "parent_id": "IND",
+    "level": "state",
+    "name": "Puducherry",
+    "code": "IN-PY",
+    "data_status": "real"
+  }
+]

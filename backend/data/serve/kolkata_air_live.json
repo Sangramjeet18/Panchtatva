@@ -1,0 +1,170 @@
+[
+  {
+    "time": "2026-11-21T00:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 442.0,
+    "pm2_5": 10.1,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T01:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 321.0,
+    "pm2_5": 9.9,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T02:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 246.0,
+    "pm2_5": 10.4,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T03:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 262.0,
+    "pm2_5": 11.1,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T04:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 323.0,
+    "pm2_5": 11.6,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T05:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 379.0,
+    "pm2_5": 11.6,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T06:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 421.0,
+    "pm2_5": 13.9,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T07:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 458.0,
+    "pm2_5": 13.6,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T08:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 466.0,
+    "pm2_5": 12.7,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T09:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 418.0,
+    "pm2_5": 10.2,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T10:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 341.0,
+    "pm2_5": 8.5,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T11:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 290.0,
+    "pm2_5": 7.8,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T12:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 273.0,
+    "pm2_5": 7.9,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T13:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 282.0,
+    "pm2_5": 7.5,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T14:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 355.0,
+    "pm2_5": 7.5,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T15:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 564.0,
+    "pm2_5": 8.7,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T16:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 836.0,
+    "pm2_5": 11.8,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T17:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 986.0,
+    "pm2_5": 19.6,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T18:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 888.0,
+    "pm2_5": 25.5,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T19:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 667.0,
+    "pm2_5": 26.0,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T20:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 515.0,
+    "pm2_5": 22.3,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T21:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 538.0,
+    "pm2_5": 20.7,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T22:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 630.0,
+    "pm2_5": 19.0,
+    "data_status": "modelled"
+  },
+  {
+    "time": "2026-11-21T23:00",
+    "city": "Kolkata",
+    "carbon_monoxide_ug_m3": 662.0,
+    "pm2_5": 15.4,
+    "data_status": "modelled"
+  }
+]
