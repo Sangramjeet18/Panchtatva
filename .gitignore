@@ -1,8 +1,15 @@
+# Environments
+.env*
+frontend/.env*
+backend/.env*
+
 # Node
+node_modules/
 frontend/node_modules/
+.next/
 frontend/.next/
-frontend/.env.local
-frontend/.env*.local
+out/
+frontend/out/
 
 # Python
 __pycache__/
@@ -18,7 +25,7 @@ backend/app/services/__pycache__/
 backend/scripts/__pycache__/
 backend/tests/__pycache__/
 
-# Raw FSI PDFs
+# Raw FSI PDFs and raw extracts
 *.pdf
 backend/data/raw/fsi/
 
@@ -27,11 +34,9 @@ backend/data/raw/fsi/
 venv/
 env/
 
-# OS
+# OS and Editor
 .DS_Store
 Thumbs.db
-
-# Editor
 .idea/
 .vscode/
 *.swp
