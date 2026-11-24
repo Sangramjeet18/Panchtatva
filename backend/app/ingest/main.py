@@ -136,13 +136,34 @@ def run_ingest(all_tables: bool = True):
         json.dump(factor_records, f, indent=2)
     print(f"Emission factors: {len(factor_records)} factors saved with Assumption tags.")
 
-    # 5. Species Candidates (from raw/api/species.csv)
-    raw_species = os.path.join(RAW_API_DIR, "species.csv")
-    if os.path.exists(raw_species):
-        df_species = pd.read_csv(raw_species)
-        species_records = df_species.to_dict(orient="records")
-    else:
-        species_records = []
+    # 5. Species Candidates (from species/species_candidates.csv)
+    species_csv_path = os.path.join(DATA_DIR, "species", "species_candidates.csv")
+    if not os.path.exists(species_csv_path):
+        species_csv_path = os.path.join(RAW_API_DIR, "species.csv")
+
+    species_records = []
+    if os.path.exists(species_csv_path):
+        df_species = pd.read_csv(species_csv_path)
+        for _, row in df_species.iterrows():
+            min_r = None if pd.isna(row.get("min_rain_mm")) else int(row["min_rain_mm"])
+            max_r = None if pd.isna(row.get("max_rain_mm")) else int(row["max_rain_mm"])
+            rain_tag = "Assumption" if (min_r is not None and max_r is not None) else None
+            rain_text = f"{min_r}–{max_r} mm" if (min_r is not None and max_r is not None) else "Range not sourced"
+            species_records.append({
+                "species_id": int(row.get("species_id", row.get("id", len(species_records) + 1))),
+                "name": str(row.get("name", row.get("common_name", ""))),
+                "scientific_name": str(row.get("scientific_name", "")),
+                "broad_zone_hint": str(row.get("broad_zone_hint", row.get("region", ""))),
+                "broad_zone_tag": "Unverified",
+                "min_rain_mm": min_r,
+                "max_rain_mm": max_r,
+                "rain_tag": rain_tag,
+                "rain_text": rain_text,
+                "absorption_rate": None,
+                "absorption_rate_text": "Not yet sourced",
+                "note": "" if pd.isna(row.get("note", row.get("notes", ""))) else str(row.get("note", row.get("notes", ""))),
+                "data_status": "assumption"
+            })
     
     assert len(species_records) == 19, f"Expected 19 species candidates, found {len(species_records)}"
     with open(os.path.join(SERVE_DIR, "species.json"), "w", encoding="utf-8") as f:
@@ -231,8 +252,10 @@ def run_ingest(all_tables: bool = True):
                 "mdf_km2": float(row.get("mdf_km2", 0)),
                 "open_km2": float(row.get("open_km2", 0)),
                 "total_km2": float(row["total_km2"]),
+                "forest_cover_km2": float(row.get("forest_cover_km2", row["total_km2"])),
                 "scrub_km2": float(row.get("scrub_km2", 0)),
                 "change_vs_previous_km2": float(row.get("change_vs_previous_km2", 0)),
+                "change_vs_2021_km2": float(row.get("change_vs_2021_km2", row.get("change_vs_previous_km2", 0))),
                 "data_status": "real",
                 "source_id": "fsi_forest_cover"
             })

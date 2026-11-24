@@ -19,8 +19,11 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import pandas as pd
 
-RAW_API_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "raw", "api")
-DATA_SOURCES_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "data_sources.json")
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+SERVE_DIR = os.path.join(DATA_DIR, "serve")
+RAW_API_DIR = os.path.join(DATA_DIR, "raw", "api")
+DATA_SOURCES_PATH = os.path.join(DATA_DIR, "data_sources.json")
 
 # 8 Kolkata Monitoring Areas (per Data Truth Rule 3: monitoring areas, not wards)
 MONITORING_AREAS = [
@@ -301,35 +304,45 @@ def collect_forest(session: requests.Session) -> bool:
     rows.sort(key=lambda r: r["year"])
     os.makedirs(RAW_API_DIR, exist_ok=True)
     pd.DataFrame(rows).to_csv(os.path.join(RAW_API_DIR, "india_forest.csv"), index=False)
+    with open(os.path.join(SERVE_DIR, "national_forest_series.json"), "w", encoding="utf-8") as f:
+        json.dump(rows, f, indent=2)
     update_data_sources_date(["world_bank_forest"])
     print(f"Forest series collected: {len(rows)} annual entries.")
     return True
 
 
 def collect_species(session: requests.Session) -> bool:
-    """Save the 19 native species candidates with source, year, and status 'assumption'."""
-    print("Formatting 19 species candidates table with Assumption metadata...")
-    species_list = [
-        {"id": 1, "common_name": "Sal", "scientific_name": "Shorea robusta", "region": "West Bengal, Odisha, Assam", "rainfall_band": "Moderate", "min_rain_mm": 1000, "max_rain_mm": 2000, "co2_kg_per_year": 24, "notes": "Dominant native deciduous keystone species with deep root systems."},
-        {"id": 2, "common_name": "Teak", "scientific_name": "Tectona grandis", "region": "Kerala, Odisha", "rainfall_band": "Moderate", "min_rain_mm": 1000, "max_rain_mm": 2000, "co2_kg_per_year": 22, "notes": "High canopy deciduous tree suited to tropical moist forests."},
-        {"id": 3, "common_name": "Neem", "scientific_name": "Azadirachta indica", "region": "West Bengal, Odisha", "rainfall_band": "Low", "min_rain_mm": 400, "max_rain_mm": 1000, "co2_kg_per_year": 20, "notes": "Hardy drought-tolerant evergreen that enriches degraded soil."},
-        {"id": 4, "common_name": "Banyan", "scientific_name": "Ficus benghalensis", "region": "All Regions", "rainfall_band": "Moderate", "min_rain_mm": 800, "max_rain_mm": 2000, "co2_kg_per_year": 30, "notes": "Large canopy keystone tree supporting birds and soil moisture retention."},
-        {"id": 5, "common_name": "Peepal", "scientific_name": "Ficus religiosa", "region": "All Regions", "rainfall_band": "Moderate", "min_rain_mm": 800, "max_rain_mm": 2000, "co2_kg_per_year": 28, "notes": "Dense foliage with high particulate matter filtration."},
-        {"id": 6, "common_name": "Arjun", "scientific_name": "Terminalia arjuna", "region": "West Bengal, Odisha", "rainfall_band": "Moderate", "min_rain_mm": 800, "max_rain_mm": 1800, "co2_kg_per_year": 23, "notes": "Riparian riverbank tree that stabilizes banks and curbs water runoff."},
-        {"id": 7, "common_name": "Mahua", "scientific_name": "Madhuca longifolia", "region": "Odisha, West Bengal", "rainfall_band": "Low", "min_rain_mm": 600, "max_rain_mm": 1200, "co2_kg_per_year": 21, "notes": "Drought-resilient deciduous tree critical to community forest economy."},
-        {"id": 8, "common_name": "Assam Bamboo", "scientific_name": "Bambusa tulda", "region": "Assam", "rainfall_band": "High", "min_rain_mm": 1800, "max_rain_mm": 3500, "co2_kg_per_year": 19, "notes": "Rapid-growth clumping bamboo effective for slope soil stabilization."},
-        {"id": 9, "common_name": "Indian Rosewood", "scientific_name": "Dalbergia latifolia", "region": "Kerala, Odisha", "rainfall_band": "High", "min_rain_mm": 1500, "max_rain_mm": 3000, "co2_kg_per_year": 25, "notes": "Native nitrogen-fixing legume tree of moist evergreen tracts."},
-        {"id": 10, "common_name": "Jamun", "scientific_name": "Syzygium cumini", "region": "All Regions", "rainfall_band": "Moderate", "min_rain_mm": 900, "max_rain_mm": 2200, "co2_kg_per_year": 22, "notes": "Waterlogging-tolerant fruit tree suited for floodplain fringes."},
-        {"id": 11, "common_name": "Amla", "scientific_name": "Phyllanthus emblica", "region": "West Bengal, Odisha", "rainfall_band": "Low", "min_rain_mm": 500, "max_rain_mm": 1200, "co2_kg_per_year": 18, "notes": "Hardy deciduous tree suitable for dry hills and alkaline soils."},
-        {"id": 12, "common_name": "Sundari", "scientific_name": "Heritiera fomes", "region": "West Bengal", "rainfall_band": "High", "min_rain_mm": 1800, "max_rain_mm": 3200, "co2_kg_per_year": 26, "notes": "Estuarine mangrove tree providing natural storm surge barriers."},
-        {"id": 13, "common_name": "Jackfruit", "scientific_name": "Artocarpus heterophyllus", "region": "Kerala, Assam", "rainfall_band": "High", "min_rain_mm": 1500, "max_rain_mm": 3500, "co2_kg_per_year": 24, "notes": "Evergreen tree thriving in humid tropical laterite soils."},
-        {"id": 14, "common_name": "Karanj", "scientific_name": "Millettia pinnata", "region": "All Regions", "rainfall_band": "Low", "min_rain_mm": 500, "max_rain_mm": 1400, "co2_kg_per_year": 20, "notes": "Salinity and drought-tolerant nitrogen fixer for degraded lands."},
-        {"id": 15, "common_name": "Palash", "scientific_name": "Butea monosperma", "region": "Odisha, West Bengal", "rainfall_band": "Low", "min_rain_mm": 450, "max_rain_mm": 1100, "co2_kg_per_year": 19, "notes": "Flame of the forest, tolerant of waterlogging and heavy clay soils."},
-        {"id": 16, "common_name": "Kadam", "scientific_name": "Neolamarckia cadamba", "region": "Assam, West Bengal", "rainfall_band": "High", "min_rain_mm": 1600, "max_rain_mm": 3000, "co2_kg_per_year": 27, "notes": "Fast-growing broadleaf tree adapted to moist alluvial river banks."},
-        {"id": 17, "common_name": "Champa", "scientific_name": "Magnolia champaca", "region": "Assam, Kerala", "rainfall_band": "High", "min_rain_mm": 1800, "max_rain_mm": 3500, "co2_kg_per_year": 23, "notes": "Evergreen subtropical tree supporting pollinators and moisture."},
-        {"id": 18, "common_name": "Semal", "scientific_name": "Bombax ceiba", "region": "All Regions", "rainfall_band": "Moderate", "min_rain_mm": 800, "max_rain_mm": 2000, "co2_kg_per_year": 25, "notes": "Tall buttressed pioneer tree providing wildlife nesting habitats."},
-        {"id": 19, "common_name": "Baheda", "scientific_name": "Terminalia bellirica", "region": "Odisha, West Bengal", "rainfall_band": "Moderate", "min_rain_mm": 900, "max_rain_mm": 1800, "co2_kg_per_year": 22, "notes": "Deciduous canopy tree common in mixed forest associations."}
-    ]
+    """Save the 19 native species candidates from species_candidates.csv with Assumption metadata."""
+    print("Formatting 19 species candidates table from species_candidates.csv...")
+    species_csv = os.path.join(DATA_DIR, "species", "species_candidates.csv")
+    if os.path.exists(species_csv):
+        df_species = pd.read_csv(species_csv)
+    else:
+        df_species = pd.read_csv(os.path.join(RAW_API_DIR, "species.csv"))
+    
+    species_list = []
+    for _, row in df_species.iterrows():
+        min_r = None if pd.isna(row.get("min_rain_mm")) else int(row["min_rain_mm"])
+        max_r = None if pd.isna(row.get("max_rain_mm")) else int(row["max_rain_mm"])
+        species_list.append({
+            "species_id": int(row.get("species_id", row.get("id", len(species_list) + 1))),
+            "name": str(row.get("name", row.get("common_name", ""))),
+            "scientific_name": str(row.get("scientific_name", "")),
+            "broad_zone_hint": str(row.get("broad_zone_hint", row.get("region", ""))),
+            "broad_zone_tag": "Unverified",
+            "min_rain_mm": min_r,
+            "max_rain_mm": max_r,
+            "rain_tag": "Assumption" if (min_r is not None and max_r is not None) else None,
+            "rain_text": f"{min_r}-{max_r} mm" if (min_r is not None and max_r is not None) else "Range not sourced",
+            "absorption_rate": None,
+            "absorption_rate_text": "Not yet sourced",
+            "note": "" if pd.isna(row.get("note", row.get("notes", ""))) else str(row.get("note", row.get("notes", ""))),
+            "data_status": "assumption"
+        })
+    assert len(species_list) == 19
+    with open(os.path.join(SERVE_DIR, "species.json"), "w", encoding="utf-8") as f:
+        json.dump(species_list, f, indent=2)
+    return True
 
     for sp in species_list:
         sp["source"] = "ICFRE Agro-climatic Reference"

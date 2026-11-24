@@ -5,7 +5,7 @@
     "publisher": "World Bank / Food and Agriculture Organization (FAO)",
     "used_for": "National forest area trend analysis and 10-year holdout statistical forecast",
     "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
-    "download_date": "2026-11-21",
+    "download_date": "2026-11-24",
     "status_tag": "Real",
     "url": "https://data.worldbank.org/indicator/AG.LND.FRST.K2?locations=IN"
   },
@@ -25,7 +25,7 @@
     "publisher": "Open-Meteo / ECMWF / DWD",
     "used_for": "3-day and 7-day municipal rainfall forecasts across Kolkata monitoring areas",
     "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
-    "download_date": "2026-11-21",
+    "download_date": "2026-11-24",
     "status_tag": "Real",
     "url": "https://open-meteo.com"
   },
@@ -35,7 +35,7 @@
     "publisher": "Copernicus Atmosphere Monitoring Service (CAMS) via Open-Meteo",
     "used_for": "Modelled ambient atmospheric carbon concentrations and air quality indices",
     "licence": "Copernicus License / Open-Meteo Non-Commercial Terms",
-    "download_date": "2026-11-21",
+    "download_date": "2026-11-24",
     "status_tag": "Modelled",
     "url": "https://atmosphere.copernicus.eu"
   },
@@ -45,7 +45,7 @@
     "publisher": "Our World in Data (OWID) / Global Carbon Project",
     "used_for": "Comparative per capita greenhouse gas emission benchmarks",
     "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
-    "download_date": "2026-11-21",
+    "download_date": "2026-11-24",
     "status_tag": "Real",
     "url": "https://ourworldindata.org/co2-emissions"
   },
@@ -55,7 +55,7 @@
     "publisher": "EcoSense Research Framework",
     "used_for": "Rule-based screening of municipal drainage vulnerability in Kolkata monitoring zones",
     "licence": "Open Educational License (MIT)",
-    "download_date": "2026-11-21",
+    "download_date": "2026-11-24",
     "status_tag": "Proxy",
     "url": "https://github.com/Sangramjeet18/Panchtatva"
   },
@@ -65,7 +65,7 @@
     "publisher": "Central Electricity Authority (CEA) / IPCC",
     "used_for": "Household carbon footprint accounting across electricity, transport, aviation and diet",
     "licence": "Public Domain / CEA Technical Reports",
-    "download_date": "2026-11-21",
+    "download_date": "2026-11-24",
     "status_tag": "Assumption",
     "url": "https://cea.nic.in/cdm-co2-baseline-database"
   },
@@ -75,7 +75,7 @@
     "publisher": "Indian Council of Forestry Research and Education (ICFRE)",
     "used_for": "Rainfall-band matched species recommendations and 21 kg/tree annual absorption baseline",
     "licence": "Public Domain Forestry Reference",
-    "download_date": "2026-11-21",
+    "download_date": "2026-11-24",
     "status_tag": "Assumption",
     "url": "https://icfre.gov.in"
   }

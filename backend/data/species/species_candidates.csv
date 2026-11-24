@@ -1,0 +1,20 @@
+species_id,name,scientific_name,broad_zone_hint,min_rain_mm,max_rain_mm,note
+1,Sal,Shorea robusta,"West Bengal, Odisha, Assam",1000,2000,Dominant native deciduous keystone species with deep root systems.
+2,Teak,Tectona grandis,"Kerala, Odisha",1000,2000,High canopy deciduous tree suited to tropical moist forests.
+3,Neem,Azadirachta indica,"West Bengal, Odisha",400,1000,Hardy drought-tolerant evergreen that enriches degraded soil.
+4,Banyan,Ficus benghalensis,All Regions,,,Large canopy keystone tree supporting birds and soil moisture retention.
+5,Peepal,Ficus religiosa,All Regions,,,Dense foliage with high particulate matter filtration.
+6,Arjun,Terminalia arjuna,"West Bengal, Odisha",800,1800,Riparian riverbank tree that stabilizes banks and curbs water runoff.
+7,Mahua,Madhuca longifolia,"Odisha, West Bengal",600,1200,Drought-resilient deciduous tree critical to community forest economy.
+8,Assam Bamboo,Bambusa tulda,Assam,1800,3500,Rapid-growth clumping bamboo effective for slope soil stabilization.
+9,Indian Rosewood,Dalbergia latifolia,"Kerala, Odisha",1500,3000,Native nitrogen-fixing legume tree of moist evergreen tracts.
+10,Jamun,Syzygium cumini,All Regions,,,Waterlogging-tolerant fruit tree suited for floodplain fringes.
+11,Amla,Phyllanthus emblica,"West Bengal, Odisha",500,1200,Hardy deciduous tree suitable for dry hills and alkaline soils.
+12,Sundari,Heritiera fomes,West Bengal,1800,3200,Estuarine mangrove tree providing natural storm surge barriers.
+13,Jackfruit,Artocarpus heterophyllus,"Kerala, Assam",1500,3500,Evergreen tree thriving in humid tropical laterite soils.
+14,Karanj,Millettia pinnata,All Regions,,,Salinity and drought-tolerant nitrogen fixer for degraded lands.
+15,Palash,Butea monosperma,"Odisha, West Bengal",450,1100,"Flame of the forest, tolerant of waterlogging and heavy clay soils."
+16,Kadam,Neolamarckia cadamba,"Assam, West Bengal",1600,3000,Fast-growing broadleaf tree adapted to moist alluvial river banks.
+17,Champa,Magnolia champaca,"Assam, Kerala",1800,3500,Evergreen subtropical tree supporting pollinators and moisture.
+18,Semal,Bombax ceiba,All Regions,,,Tall buttressed pioneer tree providing wildlife nesting habitats.
+19,Baheda,Terminalia bellirica,"Odisha, West Bengal",900,1800,Deciduous canopy tree common in mixed forest associations.
