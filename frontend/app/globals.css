@@ -431,11 +431,12 @@ select:focus-visible {
   }
 }
 
-/* Rectangular Data Status Badges (Rule 6) */
+/* Rectangular Data Status Badges */
 .tag-badge-real,
 .tag-badge-modelled,
 .tag-badge-proxy,
-.tag-badge-assumption {
+.tag-badge-assumption,
+.tag-badge-unverified {
   display: inline-block;
   font-family: var(--font-sans);
   font-size: 11px;
@@ -476,6 +477,18 @@ select:focus-visible {
   background-color: rgba(217, 138, 99, 0.15);
   color: #E5B25D;
   border: 1px solid #E5B25D;
+}
+
+.tag-badge-unverified {
+  background-color: rgba(120, 115, 105, 0.12);
+  color: var(--muted);
+  border: 1px solid var(--line);
+}
+
+[data-theme="dark"] .tag-badge-unverified {
+  background-color: rgba(160, 155, 145, 0.15);
+  color: #B5AFA2;
+  border: 1px solid var(--line);
 }
 
 

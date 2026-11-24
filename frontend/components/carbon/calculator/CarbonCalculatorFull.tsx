@@ -252,7 +252,7 @@ export function CarbonCalculatorFull() {
               ({result.totalKgPerYear.toLocaleString()} kilograms of carbon dioxide equivalent)
             </div>
 
-            {/* Flat horizontal bar breakdown (Rule 1: flat solid color fills) */}
+            {/* Flat horizontal bar breakdown (flat solid color fills) */}
             <div style={{ marginBottom: '24px' }}>
               <div style={{ fontSize: '14px', fontWeight: 600, marginBottom: '8px' }}>
                 Proportional Breakdown Bar

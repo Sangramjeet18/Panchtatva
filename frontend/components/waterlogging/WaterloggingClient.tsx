@@ -46,7 +46,7 @@ const RISK_CONFIG = {
 };
 
 /**
- * Transparent screening rule (Data Truth Rule 3).
+ * Transparent screening rule (Data Truth Standard).
  * Evaluates drainage vulnerability deterministically:
  * - High: 3-day accumulated rainfall >= 70mm and elevation <= 5.0m
  * - Medium: 3-day accumulated rainfall >= 40mm, or >= 25mm with elevation <= 6.0m
@@ -118,7 +118,7 @@ export function WaterloggingClient() {
 
   return (
     <div>
-      {/* Data Truth Rule 3 Banner */}
+      {/* Data Truth Banner */}
       <div
         style={{
           padding: '16px 20px',
@@ -131,7 +131,7 @@ export function WaterloggingClient() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
           <span className="tag-badge-proxy">Proxy</span>
           <span style={{ fontWeight: 600, fontSize: '14px', color: 'var(--ink)' }}>
-            Data Truth Rule 3: Screening Index Specification
+            Deterministic Screening Index Specification
           </span>
         </div>
         <p style={{ fontSize: '14px', color: 'var(--muted)', margin: 0, lineHeight: 1.5 }}>

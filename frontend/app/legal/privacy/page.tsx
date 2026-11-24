@@ -2,7 +2,7 @@ import React from 'react';
 import { Section } from '@/components/ui/Section';
 
 export const metadata = {
-  title: 'Privacy Policy | EcoSense',
+  title: 'Privacy Policy',
   description: 'Privacy policy and data governance statement for the EcoSense environmental platform.',
 };
 

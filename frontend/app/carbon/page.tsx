@@ -8,7 +8,7 @@ import { AirModelledPanel } from '@/components/carbon/AirModelledPanel';
 import factorData from '@/data/serve/emission_factors.json';
 
 export const metadata = {
-  title: 'Carbon Footprint Tracker | EcoSense',
+  title: 'Carbon Footprint Tracker',
   description: 'Evaluate individual greenhouse gas emissions, inspect OWID per capita benchmarks, and review modelled CAMS air composition under Data Truth Rules.',
 };
 

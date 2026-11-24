@@ -1,0 +1,80 @@
+{
+  "bands": [
+    {
+      "key": "sparse",
+      "label": "Sparse",
+      "min_trees_per_ha": 0,
+      "max_trees_per_ha": 250,
+      "tag": "Assumption",
+      "description": "Widely spaced trees suitable for pastoral grazing, orchard fringes, or enrichment planting."
+    },
+    {
+      "key": "agroforestry",
+      "label": "Agroforestry",
+      "min_trees_per_ha": 250,
+      "max_trees_per_ha": 600,
+      "tag": "Assumption",
+      "description": "Integrated tree and crop density balancing canopy shade with understory cultivation."
+    },
+    {
+      "key": "standard",
+      "label": "Standard",
+      "min_trees_per_ha": 600,
+      "max_trees_per_ha": 1000,
+      "tag": "Assumption",
+      "description": "Conventional afforestation density for canopy formation and soil stabilization."
+    },
+    {
+      "key": "dense",
+      "label": "Dense",
+      "min_trees_per_ha": 1000,
+      "max_trees_per_ha": 2000,
+      "tag": "Assumption",
+      "description": "High density planting requiring subsequent thinning or suitable for protective shelterbelts."
+    },
+    {
+      "key": "very_dense",
+      "label": "Very Dense",
+      "min_trees_per_ha": 2000,
+      "max_trees_per_ha": 100000,
+      "tag": "Assumption",
+      "description": "Ultra-dense planting such as Miyawaki urban groves with high seedling competition."
+    }
+  ],
+  "unusual_density_thresholds": {
+    "min_standard": 50,
+    "warning_high": 1000,
+    "tag": "Assumption"
+  },
+  "rainfall_bands": [
+    {
+      "key": "all",
+      "label": "All Rainfall Bands",
+      "min_mm": 0,
+      "max_mm": 10000,
+      "summary": "All sourced native species candidates"
+    },
+    {
+      "key": "Low",
+      "label": "Low (under 1000 mm)",
+      "min_mm": 0,
+      "max_mm": 1000,
+      "summary": "Low under 1000 mm"
+    },
+    {
+      "key": "Moderate",
+      "label": "Moderate (1000 to 2000 mm)",
+      "min_mm": 1000,
+      "max_mm": 2000,
+      "summary": "Moderate 1000 to 2000 mm"
+    },
+    {
+      "key": "High",
+      "label": "High (over 2000 mm)",
+      "min_mm": 2000,
+      "max_mm": 10000,
+      "summary": "High over 2000 mm"
+    }
+  ],
+  "baseline_rate_provenance": "A common rule of thumb used here as an Assumption. Source to be confirmed."
+}

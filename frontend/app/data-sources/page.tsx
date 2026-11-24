@@ -3,7 +3,7 @@ import { Section } from '@/components/ui/Section';
 import dataSources from '@/data/data_sources.json';
 
 export const metadata = {
-  title: 'Data Sources and Truth Rules | EcoSense',
+  title: 'Data Sources and Truth Rules',
   description: 'Public records, government surveys, API attributions and six data truth rules governing the EcoSense platform.',
 };
 
@@ -132,13 +132,13 @@ export default function DataSourcesPage() {
             </div>
             <h2 style={{ fontSize: '28px', marginBottom: '12px' }}>The Six Data Truth Rules</h2>
             <p style={{ fontSize: '16px', color: 'var(--muted)', marginBottom: '28px', maxWidth: '72ch' }}>
-              To prevent scientific misrepresentation, every calculation, chart and visualization in EcoSense is bound by six non-negotiable data truth rules.
+              To prevent scientific misrepresentation, every calculation, chart and visualization in EcoSense is bound by six non-negotiable data truth standards.
             </p>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
               <div style={{ padding: '24px', border: '1px solid var(--line)', backgroundColor: 'var(--paper)' }}>
                 <div style={{ fontSize: '13px', fontWeight: 600, color: 'var(--forest)', textTransform: 'uppercase', marginBottom: '6px' }}>
-                  Rule 1: Forest Cover vs Loss
+                  Standard 1: Forest Cover vs Loss
                 </div>
                 <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>No Deforestation Regression on FSI</h3>
                 <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.6 }}>
@@ -148,7 +148,7 @@ export default function DataSourcesPage() {
 
               <div style={{ padding: '24px', border: '1px solid var(--line)', backgroundColor: 'var(--paper)' }}>
                 <div style={{ fontSize: '13px', fontWeight: 600, color: 'var(--forest)', textTransform: 'uppercase', marginBottom: '6px' }}>
-                  Rule 2: World Bank Independence
+                  Standard 2: World Bank Independence
                 </div>
                 <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Isolated National FAO Baseline</h3>
                 <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.6 }}>
@@ -158,7 +158,7 @@ export default function DataSourcesPage() {
 
               <div style={{ padding: '24px', border: '1px solid var(--line)', backgroundColor: 'var(--paper)' }}>
                 <div style={{ fontSize: '13px', fontWeight: 600, color: 'var(--smoke)', textTransform: 'uppercase', marginBottom: '6px' }}>
-                  Rule 3: Deterministic Proxy
+                  Standard 3: Deterministic Proxy
                 </div>
                 <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Screening Index, Not Trained ML</h3>
                 <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.6 }}>
@@ -168,7 +168,7 @@ export default function DataSourcesPage() {
 
               <div style={{ padding: '24px', border: '1px solid var(--line)', backgroundColor: 'var(--paper)' }}>
                 <div style={{ fontSize: '13px', fontWeight: 600, color: 'var(--river)', textTransform: 'uppercase', marginBottom: '6px' }}>
-                  Rule 4: Modelled Atmosphere
+                  Standard 4: Modelled Atmosphere
                 </div>
                 <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>CAMS Atmospheric Simulation</h3>
                 <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.6 }}>
@@ -178,7 +178,7 @@ export default function DataSourcesPage() {
 
               <div style={{ padding: '24px', border: '1px solid var(--line)', backgroundColor: 'var(--paper)' }}>
                 <div style={{ fontSize: '13px', fontWeight: 600, color: 'var(--clay)', textTransform: 'uppercase', marginBottom: '6px' }}>
-                  Rule 5: Transparent Assumptions
+                  Standard 5: Transparent Assumptions
                 </div>
                 <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Explicit Assumption Badges</h3>
                 <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.6 }}>
@@ -188,7 +188,7 @@ export default function DataSourcesPage() {
 
               <div style={{ padding: '24px', border: '1px solid var(--line)', backgroundColor: 'var(--paper)' }}>
                 <div style={{ fontSize: '13px', fontWeight: 600, color: 'var(--ink)', textTransform: 'uppercase', marginBottom: '6px' }}>
-                  Rule 6: Universal Tagging
+                  Standard 6: Universal Tagging
                 </div>
                 <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Visible Text Badges on Every Metric</h3>
                 <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.6 }}>

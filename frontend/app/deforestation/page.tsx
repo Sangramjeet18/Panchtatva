@@ -5,7 +5,7 @@ import { Section } from '@/components/ui/Section';
 import { DeforestationClient } from '@/components/deforestation/DeforestationClient';
 
 export const metadata = {
-  title: 'Forest Cover and National Trends | EcoSense',
+  title: 'Forest Cover and National Trends',
   description: 'National forest area trends (World Bank/FAO) and biennial state-level canopy assessments (Forest Survey of India) under Data Truth Rules.',
 };
 
@@ -41,7 +41,7 @@ export default function DeforestationPage() {
               </tr>
               <tr>
                 <td>Statistical model</td>
-                <td style={{ color: 'var(--ink)' }}>National linear regression with 3-year holdout MAE validation, clamped at zero. No state or district regressions (Rule 1).</td>
+                <td style={{ color: 'var(--ink)' }}>National linear regression with 3-year holdout MAE validation, clamped at zero. No state or district regressions.</td>
               </tr>
               <tr>
                 <td>Downstream impact</td>

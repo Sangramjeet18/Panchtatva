@@ -6,11 +6,11 @@ import { WaterloggingClient } from '@/components/waterlogging/WaterloggingClient
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Waterlogging Predictor | EcoSense',
+  title: 'Waterlogging Predictor',
   description:
     'Monitoring area 7-day flood risk screening index for Kolkata based on Open-Meteo rainfall forecasts and elevation data.',
   openGraph: {
-    title: 'Waterlogging Predictor | EcoSense',
+    title: 'Waterlogging Predictor',
     description: 'Screening index for Kolkata monitoring areas using rainfall and elevation.',
     images: [{ url: '/images/waterlogging.jpg', width: 1200, height: 630, alt: 'Flooded street in Kolkata' }],
   },

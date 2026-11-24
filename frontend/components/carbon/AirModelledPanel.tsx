@@ -36,7 +36,7 @@ export function AirModelledPanel() {
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
-          <span className="tag-badge-modelled">Rule 4 Disclosure</span>
+          <span className="tag-badge-modelled">Modelled Disclosure</span>
           <strong style={{ fontSize: '14px' }}>Atmospheric Simulation, Not In-Situ Physical Hardware</strong>
         </div>
         <p style={{ fontSize: '13px', color: 'var(--muted)', margin: 0, lineHeight: 1.5 }}>

@@ -46,13 +46,20 @@ class LocalJsonDbClient implements DbClient {
       let matchRegion = true;
       let matchRainfall = true;
 
+      const zone = (s.broad_zone_hint || s.region || '').toLowerCase();
       if (region && region !== 'all') {
-        matchRegion = s.region.toLowerCase().includes(region.toLowerCase()) || s.region.toLowerCase().includes('all');
+        matchRegion = zone.includes(region.toLowerCase()) || zone.includes('all');
       }
 
       if (rainfallBand && rainfallBand !== 'all') {
         const bandKey = rainfallBand.toLowerCase();
-        matchRainfall = s.rainfall_band.toLowerCase().includes(bandKey);
+        if (s.min_rain_mm != null && s.max_rain_mm != null) {
+          if (bandKey === 'low') matchRainfall = s.min_rain_mm < 1000;
+          else if (bandKey === 'moderate' || bandKey === 'medium') matchRainfall = s.min_rain_mm < 2000 && s.max_rain_mm > 1000;
+          else if (bandKey === 'high') matchRainfall = s.max_rain_mm > 2000;
+        } else {
+          matchRainfall = true;
+        }
       }
 
       return matchRegion && matchRainfall;

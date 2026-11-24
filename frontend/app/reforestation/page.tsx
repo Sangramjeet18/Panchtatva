@@ -5,7 +5,7 @@ import { Section } from '@/components/ui/Section';
 import { ReforestationClient } from '@/components/reforestation/ReforestationClient';
 
 export const metadata = {
-  title: 'Reforestation Planner | EcoSense',
+  title: 'Reforestation Planner',
   description: 'Targeted native species selection, CO2 absorption calculation and priority planting zones for Indian states.',
 };
 
@@ -21,7 +21,7 @@ export default function ReforestationPage() {
             Reforestation Planner
           </h1>
           <p style={{ fontSize: '20px', color: '#EDE7D9', lineHeight: 1.6, maxWidth: '58ch' }}>
-            Plan native tree planting targets, calculate total annual CO2 absorption, and deploy saplings to high-risk deforestation corridors.
+            Plan native tree planting targets, calculate annual CO2 absorption ranges, and identify districts with the largest forest cover decline.
           </p>
         </div>
       </PhotoBand>
@@ -33,29 +33,28 @@ export default function ReforestationPage() {
             <tbody>
               <tr>
                 <td>Planning units</td>
-                <td style={{ color: 'var(--ink)' }}>Target tree count (10 to 500,000 saplings) or land area in hectares (0.1 to 1,000 ha at 1,000 trees/ha)</td>
+                <td style={{ color: 'var(--ink)' }}>
+                  Independent tree count and land area (in hectares, acres, or square metres), density in trees per hectare, and average gap in metres.
+                </td>
               </tr>
               <tr>
                 <td>Absorption model</td>
                 <td style={{ color: 'var(--ink)' }}>
                   <span className="tag-badge-assumption" style={{ marginRight: '8px' }}>Assumption</span>
-                  21 kg CO2 absorbed per mature native tree annually (Forest Survey of India agro-climatic baseline)
+                  21 kg CO2 absorbed per mature native tree annually. A common rule of thumb used here as an Assumption. Source to be confirmed.
                 </td>
               </tr>
               <tr>
                 <td>Species matching</td>
                 <td style={{ color: 'var(--ink)' }}>
                   <span className="tag-badge-assumption" style={{ marginRight: '8px' }}>Assumption</span>
-                  Native Indian forestry database filtered by regional rainfall band (Low &lt;800mm, Moderate 800-1500mm, High &gt;1500mm)
+                  19 native candidate species filtered by regional rainfall band (Low under 1000 mm, Moderate 1000 to 2000 mm, High over 2000 mm).
                 </td>
               </tr>
               <tr>
-                <td>Priority corridors</td>
+                <td>Priority zones</td>
                 <td style={{ color: 'var(--muted)' }}>
-                  Target planting zones are imported directly from high-risk districts identified in the{' '}
-                  <Link href="/deforestation" style={{ color: 'var(--forest)', fontWeight: 600 }}>
-                    Deforestation Tracker
-                  </Link>.
+                  Districts with the largest forest cover decline relative to forest cover, evaluated from Forest Survey of India biennial assessments.
                 </td>
               </tr>
             </tbody>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Section } from '@/components/ui/Section';
 
 export const metadata = {
-  title: 'About and Method | EcoSense',
+  title: 'About and Method',
   description: 'Mission, methodology, data truth rules and project background for the EcoSense environmental platform.',
 };
 

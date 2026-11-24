@@ -25,7 +25,7 @@ export function DeforestationClient() {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const pageSize = 12;
 
-  // 1. National Series & Linear Regression Forecast (Data Truth Rule 2)
+  // 1. National Series & Linear Regression Forecast (Data Truth Standard)
   const nationalAnalysis = useMemo(() => {
     if (!nationalData || nationalData.length === 0) return null;
     const sorted = [...nationalData].sort((a, b) => a.year - b.year);
@@ -99,7 +99,7 @@ export function DeforestationClient() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '56px' }}>
-      {/* Callout: Rule 1 & Rule 2 Data Truth Note */}
+      {/* Callout: Data Truth Note */}
       <div
         style={{
           border: '1px solid var(--line)',

@@ -2,7 +2,7 @@ import React from 'react';
 import { Section } from '@/components/ui/Section';
 
 export const metadata = {
-  title: 'Terms of Service | EcoSense',
+  title: 'Terms of Service',
   description: 'Terms of service and informational disclaimer for the EcoSense environmental platform.',
 };
 

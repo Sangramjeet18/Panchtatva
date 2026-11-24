@@ -408,7 +408,7 @@ export default function HomePage() {
             </ul>
           </div>
 
-          {/* Skeleton Loader Demo showing Rule 21 compliance */}
+          {/* Skeleton Loader Demo */}
           <div
             style={{
               border: '1px solid var(--line)',
@@ -418,7 +418,7 @@ export default function HomePage() {
             }}
           >
             <div className="kicker" style={{ color: 'var(--muted)' }}>
-              Rule 21 Requirement Demo
+              Loading State Demo
             </div>
             <div style={{ fontSize: '16px', fontWeight: 600, marginBottom: '8px' }}>
               Skeleton Loader Layout Matching

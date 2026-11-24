@@ -3,6 +3,7 @@ import { Fraunces, Instrument_Sans } from 'next/font/google';
 import './globals.css';
 import { Nav } from '@/components/ui/Nav';
 import { Footer } from '@/components/ui/Footer';
+import { SITE_NAME, SITE_URL } from '@/lib/site';
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -18,32 +19,32 @@ const instrumentSans = Instrument_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'EcoSense: Environmental Prediction for India',
-    template: '%s | EcoSense',
+    default: `${SITE_NAME}: Environmental Prediction for India`,
+    template: `%s | ${SITE_NAME}`,
   },
   description:
-    'EcoSense tracks deforestation trends, reforestation suitability, carbon footprints, and waterlogging risk for Indian cities using public records and transparent models.',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ecosense.vercel.app'),
+    `${SITE_NAME} tracks deforestation trends, reforestation suitability, carbon footprints, and waterlogging risk for Indian cities using public records and transparent models.`,
+  metadataBase: new URL(SITE_URL),
   openGraph: {
     type: 'website',
-    siteName: 'EcoSense',
-    title: 'EcoSense: Environmental Prediction for India',
+    siteName: SITE_NAME,
+    title: `${SITE_NAME}: Environmental Prediction for India`,
     description:
       'Four environmental modules: Deforestation Tracker, Reforestation Planner, Carbon Footprint Calculator and Waterlogging Predictor.',
     images: [
       {
-        url: '/images/deforestation.jpg',
+        url: `${SITE_URL}/images/deforestation.jpg`,
         width: 1200,
         height: 630,
-        alt: 'Deforested hillside: EcoSense environmental prediction platform',
+        alt: `Deforested hillside: ${SITE_NAME} environmental prediction platform`,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'EcoSense: Environmental Prediction for India',
+    title: `${SITE_NAME}: Environmental Prediction for India`,
     description: 'Deforestation, Reforestation, Carbon and Waterlogging in one open platform.',
-    images: ['/images/deforestation.jpg'],
+    images: [`${SITE_URL}/images/deforestation.jpg`],
   },
   robots: { index: true, follow: true },
 };
