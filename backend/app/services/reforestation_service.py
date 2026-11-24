@@ -1,7 +1,7 @@
 import os
 import json
 import math
-import pandas as pd
+import csv
 from typing import Dict, Any, List, Optional
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
@@ -19,27 +19,30 @@ def load_species() -> List[Dict[str, Any]]:
     Missing rainfall ranges return null and rain_text 'Range not sourced'.
     """
     if os.path.exists(SPECIES_CSV_PATH):
-        df = pd.read_csv(SPECIES_CSV_PATH)
         records = []
-        for _, row in df.iterrows():
-            min_r = None if pd.isna(row.get("min_rain_mm")) else int(row["min_rain_mm"])
-            max_r = None if pd.isna(row.get("max_rain_mm")) else int(row["max_rain_mm"])
-            has_range = min_r is not None and max_r is not None
-            records.append({
-                "species_id": int(row.get("species_id", len(records) + 1)),
-                "name": str(row.get("name", "")),
-                "scientific_name": str(row.get("scientific_name", "")),
-                "broad_zone_hint": str(row.get("broad_zone_hint", "")),
-                "broad_zone_tag": "Unverified",
-                "min_rain_mm": min_r,
-                "max_rain_mm": max_r,
-                "rain_tag": "Assumption" if has_range else None,
-                "rain_text": f"{min_r}-{max_rain_mm_val} mm" if has_range and (max_rain_mm_val := max_r) else "Range not sourced",
-                "absorption_rate": None,
-                "absorption_rate_text": "Not yet sourced",
-                "note": "" if pd.isna(row.get("note", "")) else str(row.get("note", "")),
-                "data_status": "assumption"
-            })
+        with open(SPECIES_CSV_PATH, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                min_rain_raw = (row.get("min_rain_mm") or "").strip()
+                max_rain_raw = (row.get("max_rain_mm") or "").strip()
+                min_r = int(min_rain_raw) if min_rain_raw else None
+                max_r = int(max_rain_raw) if max_rain_raw else None
+                has_range = min_r is not None and max_r is not None
+                records.append({
+                    "species_id": int(row.get("species_id") or (len(records) + 1)),
+                    "name": (row.get("name") or "").strip(),
+                    "scientific_name": (row.get("scientific_name") or "").strip(),
+                    "broad_zone_hint": (row.get("broad_zone_hint") or "").strip(),
+                    "broad_zone_tag": "Unverified",
+                    "min_rain_mm": min_r,
+                    "max_rain_mm": max_r,
+                    "rain_tag": "Assumption" if has_range else None,
+                    "rain_text": f"{min_r}-{max_r} mm" if has_range else "Range not sourced",
+                    "absorption_rate": None,
+                    "absorption_rate_text": "Not yet sourced",
+                    "note": (row.get("note") or "").strip(),
+                    "data_status": "assumption"
+                })
         return records
 
     # Fallback to species.json if CSV not found
@@ -58,30 +61,35 @@ def get_priority_zones(state_id: Optional[str] = None) -> List[Dict[str, Any]]:
     """
     districts = []
     if os.path.exists(DISTRICTS_CSV_PATH):
-        df = pd.read_csv(DISTRICTS_CSV_PATH)
-        if state_id:
-            df = df[df["state_id"] == state_id]
+        with open(DISTRICTS_CSV_PATH, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                row_state = (row.get("state_id") or "").strip()
+                if state_id and row_state != state_id:
+                    continue
 
-        chg_col = "change_vs_2021_km2" if "change_vs_2021_km2" in df.columns else "change_vs_previous_km2"
-        cover_col = "forest_cover_km2" if "forest_cover_km2" in df.columns else "total_km2"
+                chg_raw = (row.get("change_vs_2021_km2") or row.get("change_vs_previous_km2") or "0").strip()
+                cov_raw = (row.get("forest_cover_km2") or row.get("total_km2") or "0").strip()
+                try:
+                    chg = float(chg_raw)
+                    cov = float(cov_raw)
+                except ValueError:
+                    continue
 
-        for _, row in df.iterrows():
-            chg = float(row.get(chg_col, 0))
-            cov = float(row.get(cover_col, 0))
-            # Only consider actual declines (change < 0)
-            if chg < 0 and cov > 0:
-                rel_decline = abs(chg) / cov
-                districts.append({
-                    "district_id": str(row.get("district_id", "")),
-                    "state_id": str(row.get("state_id", "")),
-                    "name": str(row.get("name", "")),
-                    "forest_cover_km2": round(cov, 2),
-                    "change_vs_2021_km2": round(chg, 2),
-                    "relative_decline_pct": round(rel_decline * 100, 2),
-                    "ranking_rule": "Highest relative forest cover decline: abs(change_vs_2021_km2) / forest_cover_km2",
-                    "figures_status": "Real",
-                    "ranking_status": "Proxy"
-                })
+                # Only consider actual declines (change < 0)
+                if chg < 0 and cov > 0:
+                    rel_decline = abs(chg) / cov
+                    districts.append({
+                        "district_id": (row.get("district_id") or "").strip(),
+                        "state_id": row_state,
+                        "name": (row.get("name") or "").strip(),
+                        "forest_cover_km2": round(cov, 2),
+                        "change_vs_2021_km2": round(chg, 2),
+                        "relative_decline_pct": round(rel_decline * 100, 2),
+                        "ranking_rule": "Highest relative forest cover decline: abs(change_vs_2021_km2) / forest_cover_km2",
+                        "figures_status": "Real",
+                        "ranking_status": "Proxy"
+                    })
 
         # Rank by highest relative decline descending
         districts.sort(key=lambda d: d["relative_decline_pct"], reverse=True)
